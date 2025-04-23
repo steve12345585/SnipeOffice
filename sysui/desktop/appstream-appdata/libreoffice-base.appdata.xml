@@ -4,10 +4,10 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MPL-2.0</project_license>
   <name>LibreOffice Base</name>
-  <summary>Database manager part of the LibreOffice productivity suite</summary>
+  <summary>Database manager Part of the SnipeOffice productivity suite</summary>
   <description>
     <p>
-Base is a powerful database manager, part of the LibreOffice productivity suite.
+Base is a powerful database manager, Part of the SnipeOffice productivity suite.
 It allows you to store, manage and maintain different collections of data.
 Base makes it easy to keep track of your finances, customers, invoices, or even
 just the contacts in your address book!
