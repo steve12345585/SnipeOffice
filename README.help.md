@@ -40,7 +40,7 @@ Most code is "marked" by HAVE_FEATURE_XMLHELP precompiler blocks or conditioned
 by the XMLHELP flag in the $BUILD_TYPE variable.
 
 Interestingly the HelpIndexer and HelpLinker are used by gbuild to build the
-help inside bundled extensions, but both are not part of the LibreOffice SDK.
+help inside bundled extensions, but both are not Part of the SnipeOffice SDK.
 
 ## HTML help, bundled
 
