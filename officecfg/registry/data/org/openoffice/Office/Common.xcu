@@ -337,40 +337,40 @@
       </node>
     </node>
     <prop oor:name="SendFeedbackURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/send-feedback/</value>
+      <value>https://hub.SnipeOffice.org/send-feedback/</value>
     </prop>
     <prop oor:name="QA_URL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/forum/</value>
+      <value>https://hub.SnipeOffice.org/forum/</value>
     </prop>
     <prop oor:name="DocumentationURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/documentation/</value>
+      <value>https://hub.SnipeOffice.org/documentation/</value>
     </prop>
     <prop oor:name="GetInvolvedURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/joinus/</value>
+      <value>https://hub.SnipeOffice.org/joinus/</value>
     </prop>
     <prop oor:name="DonationURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/donation/</value>
+      <value>https://hub.SnipeOffice.org/donation/</value>
     </prop>
     <prop oor:name="ReleaseNotesURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/ReleaseNotes/</value>
+      <value>https://hub.SnipeOffice.org/ReleaseNotes/</value>
     </prop>
     <prop oor:name="CreditsURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/credits/</value>
+      <value>https://hub.SnipeOffice.org/credits/</value>
     </prop>
     <prop oor:name="HyphenationMissingURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/HyphenationMissing/</value>
+      <value>https://hub.SnipeOffice.org/HyphenationMissing/</value>
     </prop>
     <prop oor:name="InstallJavaURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/InstallJava/</value>
+      <value>https://hub.SnipeOffice.org/InstallJava/</value>
     </prop>
     <prop oor:name="VolunteerURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/volunteersupport/</value>
+      <value>https://hub.SnipeOffice.org/volunteersupport/</value>
     </prop>
     <prop oor:name="PrivacyPolicyURL" oor:type="xs:string">
       <value>${PRIVACY_POLICY_URL}</value>
     </prop>
     <prop oor:name="ExtensionsURL" oor:type="xs:string">
-      <value>https://hub.libreoffice.org/extensions/</value>
+      <value>https://hub.SnipeOffice.org/extensions/</value>
     </prop>
   </node>
   <node oor:name="Forms">

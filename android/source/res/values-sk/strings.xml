@@ -13,7 +13,7 @@
     <string name="app_vendor">Dodávateľom tohto produktu je $VENDOR.</string>
     <string name="pref_category_general">Všeobecné</string>
     <string name="app_name_settings">Nastavenia LibreOffice Viewer</string>
-    <string name="app_version">Verzia: %1$s&lt;br&gt;ID zostavenia: &lt;a href=https://hub.libreoffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Verzia: %1$s&lt;br&gt;ID zostavenia: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="about_license">Zobraziť licenciu</string>
     <string name="title_browser">Všetky súbory</string>
     <string name="app_name">LibreOffice Viewer</string>

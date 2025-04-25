@@ -193,7 +193,7 @@ inline constexpr Color COL_SM_DIV_BLUE(0x102694);
 inline constexpr Color COL_SM_UBUNTU_ORANGE(0xE95420);
 // https://www.debian.org/logos/   Picked from SVG logo
 inline constexpr Color COL_SM_DEBIAN_MAGENTA(0xA80030);
-// https://libreoffice.org/
+// https://SnipeOffice.org/
 inline constexpr Color COL_SM_LO_GREEN(0x00A500);
 
 namespace starmathdatabase

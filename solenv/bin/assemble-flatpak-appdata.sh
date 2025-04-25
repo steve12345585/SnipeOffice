@@ -50,23 +50,23 @@ cat <<\EOF >"${1?}"org.libreoffice.LibreOffice.appdata.xml
  <url type="translate">https://wiki.documentfoundation.org/Translating_LibreOffice</url>
  <screenshots>
   <screenshot type="default">
-   <image>https://hub.libreoffice.org/screenshots/writer-01.png</image>
+   <image>https://hub.SnipeOffice.org/screenshots/writer-01.png</image>
    <caption>Sample Writer document</caption>
   </screenshot>
   <screenshot>
-   <image>https://hub.libreoffice.org/screenshots/calc-02.png</image>
+   <image>https://hub.SnipeOffice.org/screenshots/calc-02.png</image>
    <caption>Sample Calc document</caption>
   </screenshot>
   <screenshot>
-   <image>https://hub.libreoffice.org/screenshots/impress-01.png</image>
+   <image>https://hub.SnipeOffice.org/screenshots/impress-01.png</image>
    <caption>Sample Impress document</caption>
   </screenshot>
   <screenshot>
-   <image>https://hub.libreoffice.org/screenshots/draw-02.png</image>
+   <image>https://hub.SnipeOffice.org/screenshots/draw-02.png</image>
    <caption>Sample Draw document</caption>
   </screenshot>
   <screenshot>
-   <image>https://hub.libreoffice.org/screenshots/base-02.png</image>
+   <image>https://hub.SnipeOffice.org/screenshots/base-02.png</image>
    <caption>Sample Base document</caption>
   </screenshot>
  </screenshots>

@@ -77,7 +77,7 @@
 #define STR_QMSG_TEMPLATE_OVERWRITE             NC_("STR_QMSG_TEMPLATE_OVERWRITE", "A template named $1 already exists in $2. Do you want to overwrite it?")
 #define STR_QMSG_SEL_TEMPLATE_DELETE            NC_("STR_QMSG_SEL_TEMPLATE_DELETE", "Do you want to delete the selected templates?")
 
-#define STR_HELP_WINDOW_TITLE                   NC_("STR_HELP_WINDOW_TITLE", "%PRODUCTNAME Help")
+#define STR_HELP_WINDOW_TITLE                   NC_("STR_HELP_WINDOW_TITLE", "SnipeOffice Help")
 #define STR_HELP_BUTTON_INDEX_ON                NC_("STR_HELP_BUTTON_INDEX_ON", "Show Navigation Pane")
 #define STR_HELP_BUTTON_INDEX_OFF               NC_("STR_HELP_BUTTON_INDEX_OFF", "Hide Navigation Pane")
 #define STR_HELP_BUTTON_START                   NC_("STR_HELP_BUTTON_START", "First Page")
@@ -181,7 +181,7 @@
 #define STR_FILTER_NOT_INSTALLED                NC_("STR_FILTER_NOT_INSTALLED", "The selected filter $(FILTER) has not been installed.\nWould you like to do this now?")
 #define STR_FILTER_CONSULT_SERVICE              NC_("STR_FILTER_CONSULT_SERVICE", "The selected filter $(FILTER) is not included in your edition.\nYou can find information about orders on our homepage.")
 
-#define STR_WELCOME_LINE1                       NC_("STR_WELCOME_LINE1", "Welcome to %PRODUCTNAME.")
+#define STR_WELCOME_LINE1                       NC_("STR_WELCOME_LINE1", "Welcome to SnipeOffice.")
 #define STR_WELCOME_LINE2                       NC_("STR_WELCOME_LINE2", "Drop a document here or open an app to create one.")
 
 // Translators: Target types in Auto-redaction dialog

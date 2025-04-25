@@ -199,7 +199,7 @@ CPPUNIT_TEST_FIXTURE(Test, testMergedHyperlink)
     m_pDoc->InitDrawLayer(m_xDocShell.get());
 
     ScFieldEditEngine& pEE = m_pDoc->GetEditEngine();
-    pEE.SetTextCurrentDefaults(u"https://libreoffice.org/"_ustr);
+    pEE.SetTextCurrentDefaults(u"https://SnipeOffice.org/"_ustr);
     m_pDoc->SetEditText(ScAddress(1, 0, 0), pEE.CreateTextObject()); // B1
 
     m_pDoc->DoMergeContents(0, 0, 1, 0, 0); // A1:B1
@@ -207,7 +207,7 @@ CPPUNIT_TEST_FIXTURE(Test, testMergedHyperlink)
     CPPUNIT_ASSERT_EQUAL(CELLTYPE_EDIT, m_pDoc->GetCellType(ScAddress(0, 0, 0))); // A1
     const EditTextObject* pEditObj = m_pDoc->GetEditText(ScAddress(0, 0, 0)); // A1
     CPPUNIT_ASSERT(pEditObj);
-    CPPUNIT_ASSERT_EQUAL(u"https://libreoffice.org/"_ustr, pEditObj->GetText(0));
+    CPPUNIT_ASSERT_EQUAL(u"https://SnipeOffice.org/"_ustr, pEditObj->GetText(0));
 }
 
 CPPUNIT_TEST_FIXTURE(Test, testSharedStringPool)

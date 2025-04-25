@@ -14,7 +14,7 @@
     <string name="new_drawing">Nuovo disegno</string>
     <string name="default_document_name">senza titolo</string>
     <string name="select_file_to_open">Seleziona file da aprire</string>
-    <string name="app_version">Versione: %1$s&lt;br&gt;ID Build: &lt;a href=https://hub.libreoffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Versione: %1$s&lt;br&gt;ID Build: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="title_recents">File recenti</string>
     <string name="title_browser">Tutti i file</string>
     <string name="pref_category_general">Generale</string>

@@ -1,5 +1,5 @@
 # Configuration for Repo Lockdown - https://github.com/dessant/repo-lockdown
-# LibreOffice project uses gerrit as its patch management & review system
+# SnipeOffice project uses gerrit as its patch management & review system
 name: Repo Lockdown
 
 on:

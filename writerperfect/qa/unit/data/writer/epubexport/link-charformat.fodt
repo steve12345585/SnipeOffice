@@ -7,7 +7,7 @@
   </office:automatic-styles>
   <office:body>
     <office:text>
-      <text:p>Before <text:a xlink:type="simple" xlink:href="https://libreoffice.org/"><text:span text:style-name="T1">https://libreoffice.org/</text:span></text:a> after.</text:p>
+      <text:p>Before <text:a xlink:type="simple" xlink:href="https://SnipeOffice.org/"><text:span text:style-name="T1">https://SnipeOffice.org/</text:span></text:a> after.</text:p>
     </office:text>
   </office:body>
 </office:document>

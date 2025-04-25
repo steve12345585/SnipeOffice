@@ -129,7 +129,7 @@ void SAL_CALL JavaInteractionHandler::handle( const Reference< XInteractionReque
         {
            // No suitable JRE found
             OUString sPrimTex;
-            OUString urlLink(officecfg::Office::Common::Menus::InstallJavaURL::get() + // https://hub.libreoffice.org/InstallJava/
+            OUString urlLink(officecfg::Office::Common::Menus::InstallJavaURL::get() + // https://hub.SnipeOffice.org/InstallJava/
                 "?LOlocale=" + utl::ConfigManager::getUILocale());
             g_JavaEvents.bNotFoundHandled = true;
 #if defined(MACOSX)

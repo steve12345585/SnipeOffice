@@ -105,7 +105,7 @@
     <string name="enter_part_name">Wpisz nazwę części</string>
     <string name="calc_optimal_width">Optymalna szerokość</string>
     <string name="app_name_settings">Ustawienia LibreOffice Viewer</string>
-    <string name="app_version">Wersja: %1$s&lt;br&gt;Identyfikator kompilacji: &lt;a href=https://hub.libreoffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Wersja: %1$s&lt;br&gt;Identyfikator kompilacji: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="readonly_file">Ten plik jest tylko do odczytu.</string>
     <string name="default_document_name">Bez tytułu</string>
     <string name="search_find_next">Znajdź następne</string>

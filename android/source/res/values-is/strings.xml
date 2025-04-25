@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">LibreOffice-skoðari</string>
     <string name="app_name_settings">Stillingar LibreOffice-skoðara</string>
-    <string name="app_version">Útgáfa: %1$s&lt;br&gt;Byggingarauðkenni: &lt;a href=https://hub.libreoffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Útgáfa: %1$s&lt;br&gt;Byggingarauðkenni: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="about_privacy_policy">Meðferð persónuupplýsinga</string>
     <string name="create_file">Búa til nýja skrá</string>
     <string name="search_find_next">Finna næsta</string>

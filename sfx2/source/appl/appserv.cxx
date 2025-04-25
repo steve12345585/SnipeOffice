@@ -601,7 +601,7 @@ void SfxApplication::MiscExec_Impl( SfxRequest& rReq )
         case SID_SEND_FEEDBACK:
         {
             OUString module = SfxHelp::GetCurrentModuleIdentifier();
-            OUString sURL(officecfg::Office::Common::Menus::SendFeedbackURL::get() + //officecfg/registry/data/org/openoffice/Office/Common.xcu => https://hub.libreoffice.org/send-feedback/
+            OUString sURL(officecfg::Office::Common::Menus::SendFeedbackURL::get() + //officecfg/registry/data/org/openoffice/Office/Common.xcu => https://hub.SnipeOffice.org/send-feedback/
                 "?LOversion=" + utl::ConfigManager::getAboutBoxProductVersion() +
                 "&LOlocale=" + utl::ConfigManager::getUILocale() +
                 "&LOmodule=" + module.subView(module.lastIndexOf('.') + 1 )  );
@@ -614,7 +614,7 @@ void SfxApplication::MiscExec_Impl( SfxRequest& rReq )
             // Askbot has URL's normalized to languages, not locales
             // Get language from locale: ll or lll or ll-CC or lll-CC
 
-            OUString sURL(officecfg::Office::Common::Menus::QA_URL::get() + //https://hub.libreoffice.org/forum/
+            OUString sURL(officecfg::Office::Common::Menus::QA_URL::get() + //https://hub.SnipeOffice.org/forum/
                 "?LOlocale=" + utl::ConfigManager::getUILocale());
             sfx2::openUriExternally(sURL, false, rReq.GetFrameWeld());
             break;
@@ -622,7 +622,7 @@ void SfxApplication::MiscExec_Impl( SfxRequest& rReq )
         case SID_DOCUMENTATION:
         {
             // Open documentation page based on locales
-            OUString sURL(officecfg::Office::Common::Menus::DocumentationURL::get() + //https://hub.libreoffice.org/documentation/
+            OUString sURL(officecfg::Office::Common::Menus::DocumentationURL::get() + //https://hub.SnipeOffice.org/documentation/
                 "?LOlocale=" + utl::ConfigManager::getUILocale());
             sfx2::openUriExternally(sURL, false, rReq.GetFrameWeld());
             break;
@@ -631,7 +631,7 @@ void SfxApplication::MiscExec_Impl( SfxRequest& rReq )
         case SID_GETINVOLVED:
         {
             // Open get involved/join us page based on locales
-            OUString sURL(officecfg::Office::Common::Menus::GetInvolvedURL::get() + //https://hub.libreoffice.org/joinus/
+            OUString sURL(officecfg::Office::Common::Menus::GetInvolvedURL::get() + //https://hub.SnipeOffice.org/joinus/
                 "?LOlocale=" + utl::ConfigManager::getUILocale());
             sfx2::openUriExternally(sURL, false, rReq.GetFrameWeld());
             break;
@@ -641,7 +641,7 @@ void SfxApplication::MiscExec_Impl( SfxRequest& rReq )
             // Open donation page based on language + script (BCP47) with language as fall back.
             OUString aLang = LanguageTag(utl::ConfigManager::getUILocale()).getLanguage();
             OUString aBcp47 = LanguageTag(utl::ConfigManager::getUILocale()).getBcp47();
-            OUString sURL(officecfg::Office::Common::Menus::DonationURL::get() + //https://hub.libreoffice.org/donation/
+            OUString sURL(officecfg::Office::Common::Menus::DonationURL::get() + //https://hub.SnipeOffice.org/donation/
                 "?BCP47=" + aBcp47 + "&LOlang=" + aLang );
             sfx2::openUriExternally(sURL, false, rReq.GetFrameWeld());
             break;
@@ -649,7 +649,7 @@ void SfxApplication::MiscExec_Impl( SfxRequest& rReq )
         case SID_WHATSNEW:
         {
             // Open release notes depending on version and locale
-            OUString sURL(officecfg::Office::Common::Menus::ReleaseNotesURL::get() + //https://hub.libreoffice.org/ReleaseNotes/
+            OUString sURL(officecfg::Office::Common::Menus::ReleaseNotesURL::get() + //https://hub.SnipeOffice.org/ReleaseNotes/
                 "?LOvers=" + utl::ConfigManager::getProductVersion() +
                 "&LOlocale=" + LanguageTag(utl::ConfigManager::getUILocale()).getBcp47() );
             sfx2::openUriExternally(sURL, false, rReq.GetFrameWeld());
@@ -658,7 +658,7 @@ void SfxApplication::MiscExec_Impl( SfxRequest& rReq )
         case SID_HYPHENATIONMISSING:
         {
             // Open wiki page about hyphenation
-            OUString sURL(officecfg::Office::Common::Menus::HyphenationMissingURL::get() + //https://hub.libreoffice.org/HyphenationMissing/
+            OUString sURL(officecfg::Office::Common::Menus::HyphenationMissingURL::get() + //https://hub.SnipeOffice.org/HyphenationMissing/
                 "?LOlocale=" + utl::ConfigManager::getUILocale());
             sfx2::openUriExternally(sURL, false, rReq.GetFrameWeld());
             break;

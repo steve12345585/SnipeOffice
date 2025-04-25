@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Penampil LibreOffice</string>
     <string name="app_name_settings">Pengaturan Penampil LibreOffice</string>
-    <string name="app_version">Versi: %1$s&lt;br&gt;ID Build: &lt;a href=https://hub.libreoffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Versi: %1$s&lt;br&gt;ID Build: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="app_description">Penampil LibreOffice adalah suatu penampil dokumen yang berbasis LibreOffice.</string>
     <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="app_vendor">Rilis ini disediakan oleh $VENDOR.</string>

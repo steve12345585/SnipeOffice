@@ -631,7 +631,7 @@ DECLARE_OOXMLEXPORT_TEST(testShapeHyperlink, "hyperlinkshape.docx")
 {
     // Test import/export of hyperlink property on shapes
     auto xShape(getShape(1));
-    CPPUNIT_ASSERT_EQUAL(u"https://libreoffice.org/"_ustr, getProperty<OUString>(xShape, u"Hyperlink"_ustr));
+    CPPUNIT_ASSERT_EQUAL(u"https://SnipeOffice.org/"_ustr, getProperty<OUString>(xShape, u"Hyperlink"_ustr));
 }
 
 CPPUNIT_TEST_FIXTURE(Test, testTextframeHyperlink)
@@ -643,7 +643,7 @@ CPPUNIT_TEST_FIXTURE(Test, testTextframeHyperlink)
     CPPUNIT_ASSERT_EQUAL(sal_Int32(1), xIndexAccess->getCount());
 
     uno::Reference<beans::XPropertySet> xFrame(xIndexAccess->getByIndex(0), uno::UNO_QUERY);
-    CPPUNIT_ASSERT_EQUAL(u"https://libreoffice.org/"_ustr, getProperty<OUString>(xFrame, u"HyperLinkURL"_ustr));
+    CPPUNIT_ASSERT_EQUAL(u"https://SnipeOffice.org/"_ustr, getProperty<OUString>(xFrame, u"HyperLinkURL"_ustr));
 
     // FIXME: After save&reload, the text frame should still be a text frame, and the above test should still work.
     // (Currently the Writer text frame becomes a text box (shape based)). See tdf#140961
@@ -653,7 +653,7 @@ CPPUNIT_TEST_FIXTURE(Test, testTextframeHyperlink)
     // DML
     assertXPath(pXmlDoc, "//w:drawing/wp:anchor/wp:docPr/a:hlinkClick", 1);
     // VML
-    assertXPath(pXmlDoc, "//w:pict/v:rect", "href", u"https://libreoffice.org/");
+    assertXPath(pXmlDoc, "//w:pict/v:rect", "href", u"https://SnipeOffice.org/");
 }
 
 CPPUNIT_TEST_FIXTURE(Test, testTdf146171_invalid_change_date)

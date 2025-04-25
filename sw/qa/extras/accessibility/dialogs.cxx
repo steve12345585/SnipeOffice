@@ -104,7 +104,7 @@ CPPUNIT_TEST_FIXTURE(test::AccessibleTestBase, BasicTestHyperlinkDialog)
         // Focus the URL box (should be default, but make sure we're on it)
         CPPUNIT_ASSERT(dialog.tabTo(accessibility::AccessibleRole::COMBO_BOX, u"URL:"));
         // Fill in an address
-        dialog.postExtTextEventAsync(u"https://libreoffice.org/"_ustr);
+        dialog.postExtTextEventAsync(u"https://SnipeOffice.org/"_ustr);
         // Validate the whole dialog
         dialog.postKeyEventAsync(0, awt::Key::RETURN);
         Scheduler::ProcessEventsToIdle();
@@ -114,7 +114,7 @@ CPPUNIT_TEST_FIXTURE(test::AccessibleTestBase, BasicTestHyperlinkDialog)
     CPPUNIT_ASSERT(activateMenuItem(u"Insert", u"Hyperlink..."));
     CPPUNIT_ASSERT(dialogWaiter->waitEndDialog());
 
-    CPPUNIT_ASSERT_EQUAL(u"<PARAGRAPH>https://libreoffice.org/</PARAGRAPH>"_ustr, collectText());
+    CPPUNIT_ASSERT_EQUAL(u"<PARAGRAPH>https://SnipeOffice.org/</PARAGRAPH>"_ustr, collectText());
 }
 
 CPPUNIT_TEST_FIXTURE(test::AccessibleTestBase, BasicTestBookmarkDialog)

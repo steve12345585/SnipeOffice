@@ -99,7 +99,7 @@
     <string name="action_rename_slide">Dia hernoemen</string>
     <string name="automatic">Automatisch</string>
     <string name="action_UNO_commands">UNO-opdracht sturen</string>
-    <string name="app_version">Versie: %1$s&lt;br&gt;Build ID: &lt;a href=https://hub.libreoffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Versie: %1$s&lt;br&gt;Build ID: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="new_textdocument">Volgend tekstdocument</string>
     <string name="app_description">LibreOffice Viewer is een documentviewer gebaseerd op LibreOffice.</string>
     <string name="app_name">LibreOffice Viewer</string>

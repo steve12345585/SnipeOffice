@@ -28,16 +28,16 @@ to connect to virtually any other existing database engine as well.
   <url type="homepage">http://www.libreoffice.org/discover/base/</url>
   <url type="bugtracker">https://bugs.documentfoundation.org/</url>
   <url type="donation">https://donate.libreoffice.org/</url>
-  <url type="faq">https://hub.libreoffice.org/faq</url>
+  <url type="faq">https://hub.SnipeOffice.org/faq</url>
   <url type="help">http://www.libreoffice.org/get-help/documentation/</url>
-  <url type="translate">https://hub.libreoffice.org/translate</url>
+  <url type="translate">https://hub.SnipeOffice.org/translate</url>
   <screenshots>
     <screenshot type="default">
-      <image>https://hub.libreoffice.org/screenshots/base-01.png</image>
+      <image>https://hub.SnipeOffice.org/screenshots/base-01.png</image>
       <caption><!-- Describe this screenshot in less than ~10 words --></caption>
     </screenshot>
     <screenshot>
-      <image>https://hub.libreoffice.org/screenshots/base-02.png</image>
+      <image>https://hub.SnipeOffice.org/screenshots/base-02.png</image>
       <caption><!-- Describe this screenshot in less than ~10 words --></caption>
     </screenshot>
   </screenshots>

@@ -11,7 +11,7 @@ used to build sources and javadocs for the API and install or deploy
 the artifacts to Maven repository. `Maven` commands are invoked for
 that from within `Buck` driven build - so make sure you've maven
 installed, too. To be able to upload the API to Maven Central, access
-must be granted to LibreOffice project on OSSRH.
+must be granted to SnipeOffice project on OSSRH.
 
 
 == Buck

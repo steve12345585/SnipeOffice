@@ -165,6 +165,6 @@ For XML / .component:
 In published API header files, the following notice should be appended after the license header:
 
 /*
- * This file is part of LibreOffice project published API
+ * This file is part of SnipeOffice project published API
  */
 ...

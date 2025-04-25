@@ -574,8 +574,8 @@ CPPUNIT_TEST_FIXTURE(EPUBExportTest, testLink)
     createDoc(u"link.fodt", {});
 
     xmlDocUniquePtr mpXmlDoc = parseExport(u"OEBPS/sections/section0001.xhtml"_ustr);
-    assertXPathContent(mpXmlDoc, "//xhtml:p/xhtml:a/xhtml:span", u"https://libreoffice.org/");
-    assertXPath(mpXmlDoc, "//xhtml:p/xhtml:a", "href", u"https://libreoffice.org/");
+    assertXPathContent(mpXmlDoc, "//xhtml:p/xhtml:a/xhtml:span", u"https://SnipeOffice.org/");
+    assertXPath(mpXmlDoc, "//xhtml:p/xhtml:a", "href", u"https://SnipeOffice.org/");
 }
 
 CPPUNIT_TEST_FIXTURE(EPUBExportTest, testLinkInvalid)
@@ -593,8 +593,8 @@ CPPUNIT_TEST_FIXTURE(EPUBExportTest, testLinkCharFormat)
 
     xmlDocUniquePtr mpXmlDoc = parseExport(u"OEBPS/sections/section0001.xhtml"_ustr);
     // <span> was lost, link text having a char format was missing.
-    assertXPathContent(mpXmlDoc, "//xhtml:p/xhtml:a/xhtml:span", u"https://libreoffice.org/");
-    assertXPath(mpXmlDoc, "//xhtml:p/xhtml:a", "href", u"https://libreoffice.org/");
+    assertXPathContent(mpXmlDoc, "//xhtml:p/xhtml:a/xhtml:span", u"https://SnipeOffice.org/");
+    assertXPath(mpXmlDoc, "//xhtml:p/xhtml:a", "href", u"https://SnipeOffice.org/");
 }
 
 CPPUNIT_TEST_FIXTURE(EPUBExportTest, testLinkNamedCharFormat)

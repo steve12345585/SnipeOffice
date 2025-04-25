@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_version">Weergawe: %1$s&lt;br&gt;Build ID: &lt;a href=https://hub.libreoffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Weergawe: %1$s&lt;br&gt;Build ID: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="app_vendor">Hierdie weergawe is verskaf deur $VENDOR.</string>
     <string name="readonly_file">Hierdie lêer is lees-alleen.</string>

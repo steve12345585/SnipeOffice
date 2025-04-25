@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -8,7 +8,7 @@
 #
 
 # add-modelines, a simple script to add comments to
-# the beginning and end of source files for LibreOffice devs
+# the beginning and end of source files for SnipeOffice devs
 
 # Blame goes to Jesse Adelman (at least at first)
 # someone AT boldandbusted dotty-dot com

@@ -65,7 +65,7 @@ CPPUNIT_TEST_FIXTURE(Test, testTdf159897Broken_link)
         auto xPara(getParagraph(i));
         auto xRun = getRun(xPara, 0);
         OUString sURL = getProperty<OUString>(xRun, u"HyperLinkURL"_ustr);
-        CPPUNIT_ASSERT_EQUAL(u"https://libreoffice.org/"_ustr, sURL);
+        CPPUNIT_ASSERT_EQUAL(u"https://SnipeOffice.org/"_ustr, sURL);
 
         OUString sText;
         switch (i)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name_settings">Nastavitve Pregledovalnika LibreOffice</string>
-    <string name="app_version">Različica: %1$s&lt;br&gt;ID gradnje: &lt;a href=https://hub.libreoffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Različica: %1$s&lt;br&gt;ID gradnje: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="app_description">Pregledovalnik LibreOffice je pregledovalnik dokumentov, zasnovan na LibreOffice.</string>
     <string name="app_credits">https://sl.libreoffice.org</string>
     <string name="readonly_file">Ta datoteka je samo za branje.</string>
