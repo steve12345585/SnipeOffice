@@ -1,4 +1,4 @@
-# Default Settings for LibreOffice
+# Default Settings for SnipeOffice
 
 The schema and default settings for the LibreOffice configuration database.
 

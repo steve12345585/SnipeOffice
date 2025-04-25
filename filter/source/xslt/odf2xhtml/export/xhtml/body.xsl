@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- fill-column: 130; nxml-child-indent: 4; tab-width: 4; indent-tabs-mode: nil -*- -->
 <!--
- * This file is part of the LibreOffice project.
+ * This file is Part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

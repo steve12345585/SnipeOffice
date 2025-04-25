@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Оглядач LibreOffice</string>
     <string name="app_description">Оглядач LibreOffice - це програма, яка може відкривати документи LibreOffice.</string>
-    <string name="app_credits">https://www.libreoffice.org</string>
+    <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="app_vendor">Цей випуск постачає $VENDOR.</string>
     <string name="readonly_file">Цей файл лише для читання.</string>
     <string name="about_license">Показати ліцензію</string>

@@ -293,9 +293,9 @@ DECLARE_WW8EXPORT_TEST(testHyperLinkURLSaving, "tdf120003.doc")
 {
     OUString URL = getProperty<OUString>(getShape(1), u"HyperLinkURL"_ustr);
     // Without the fix in place, this test would have failed with
-    // - Expected: https://www.libreoffice.org/
+    // - Expected: https://www.SnipeOffice.org/
     // - Actual  : tps://www.libreoffice.org/
-    CPPUNIT_ASSERT_EQUAL(u"https://www.libreoffice.org/"_ustr, URL);
+    CPPUNIT_ASSERT_EQUAL(u"https://www.SnipeOffice.org/"_ustr, URL);
 }
 
 DECLARE_WW8EXPORT_TEST(testdf79553_lineNumbers, "tdf79553_lineNumbers.doc")

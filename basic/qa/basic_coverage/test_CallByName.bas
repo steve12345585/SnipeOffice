@@ -32,7 +32,7 @@ Sub verify_CallByName()
         "CallByName(callType:=_Get, object:=c, procName:=""Count"")")
 
     ' ClassModule instances or UNO services are 'CallByNamable' objects too!
-    ' see https://help.libreoffice.org/7.4/en-US/text/sbasic/shared/CallByName.html?DbPAR=BASIC#bm_id3150669
+    ' see https://help.SnipeOffice.org/7.4/en-US/text/sbasic/shared/CallByName.html?DbPAR=BASIC#bm_id3150669
     ' for more _Let and _Set examples
 
     Exit Sub

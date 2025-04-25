@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is Part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -187,7 +187,7 @@ public class UnoUrlTest  {
             UnoUrl url =
                 UnoUrl.parseUnoUrl(
                     "socket,host=localhost,horst=abc%c3%9c%c3%a4ABC%41%2c%2C,port=2002;urp;StarOffice.ServiceManager");
-            assertEquals("abcÜäABCA,,", url.getConnectionParameters().get("horst"));
+            assertEquals("abcï¿½ï¿½ABCA,,", url.getConnectionParameters().get("horst"));
             assertEquals(
                 "host=localhost,horst=abc%c3%9c%c3%a4ABC%41%2c%2C,port=2002",
                 url.getConnectionParametersAsString());

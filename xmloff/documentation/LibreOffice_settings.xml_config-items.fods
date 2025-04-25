@@ -694,7 +694,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>SO8 compat:</text:p><text:p>true: use leading as specified by font metrics</text:p><text:p>false: guess leading</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.openoffice.org/specs/writer/compatibility/external_leading.sxw" xlink:type="simple">http://www.openoffice.org/specs/writer/compatibility/external_leading.sxw</text:a></text:p><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Do_not_add_leading_.28extra_space.29_between_lines_of_text" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Do_not_add_leading_.28extra_space.29_between_lines_of_text</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.openoffice.org/specs/writer/compatibility/external_leading.sxw" xlink:type="simple">http://www.openoffice.org/specs/writer/compatibility/external_leading.sxw</text:a></text:p><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Do_not_add_leading_.28extra_space.29_between_lines_of_text" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Do_not_add_leading_.28extra_space.29_between_lines_of_text</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -736,7 +736,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>SO8 compat:</text:p><text:p>true: bottom spacing of paragraph that is at bottom of table cell is used</text:p><text:p>false: bottom spacing of paragraph that is at bottom of table cell is ignored</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.openoffice.org/specs/writer/compatibility/formatting-table-cells.sxw" xlink:type="simple">http://www.openoffice.org/specs/writer/compatibility/formatting-table-cells.sxw</text:a></text:p><text:p><text:a xlink:href="http://specs.openoffice.org/writer/tables/Consider_Paragraph_Spacing_on_Table_Borders.sxw" xlink:type="simple">http://specs.openoffice.org/writer/tables/Consider_Paragraph_Spacing_on_Table_Borders.sxw</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Add_paragraph_and_table_spacing_at_bottom_of_table_cells" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Add_paragraph_and_table_spacing_at_bottom_of_table_cells</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.openoffice.org/specs/writer/compatibility/formatting-table-cells.sxw" xlink:type="simple">http://www.openoffice.org/specs/writer/compatibility/formatting-table-cells.sxw</text:a></text:p><text:p><text:a xlink:href="http://specs.openoffice.org/writer/tables/Consider_Paragraph_Spacing_on_Table_Borders.sxw" xlink:type="simple">http://specs.openoffice.org/writer/tables/Consider_Paragraph_Spacing_on_Table_Borders.sxw</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Add_paragraph_and_table_spacing_at_bottom_of_table_cells" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Add_paragraph_and_table_spacing_at_bottom_of_table_cells</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -757,7 +757,7 @@
      <table:table-cell table:style-name="Default"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>Word compat:</text:p><text:p>true: spacing between paragraphs is sum of bottom margin of first and top margin of second</text:p><text:p>false: spacing between paragraphs is maximum of bottom margin of first and top margin of second</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a973e72a6708edcf6b76dfcf09248a71f" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a973e72a6708edcf6b76dfcf09248a71f</text:a></text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Add_spacing_between_paragraphs_and_tables_.28in_current_document.29" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Add_spacing_between_paragraphs_and_tables_.28in_current_document.29</text:a>  </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a973e72a6708edcf6b76dfcf09248a71f" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a973e72a6708edcf6b76dfcf09248a71f</text:a></text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Add_spacing_between_paragraphs_and_tables_.28in_current_document.29" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Add_spacing_between_paragraphs_and_tables_.28in_current_document.29</text:a>  </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -778,7 +778,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>SO6 compat:</text:p><text:p>true: some top spacing is used</text:p><text:p>false: some top spacing is ignored</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a8490730058f35cd43883b2ffe2499c58" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a8490730058f35cd43883b2ffe2499c58</text:a></text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Add_paragraph_and_table_spacing_at_tops_of_pages_.28in_current_document.29" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Add_paragraph_and_table_spacing_at_tops_of_pages_.28in_current_document.29</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a8490730058f35cd43883b2ffe2499c58" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a8490730058f35cd43883b2ffe2499c58</text:a></text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Add_paragraph_and_table_spacing_at_tops_of_pages_.28in_current_document.29" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Add_paragraph_and_table_spacing_at_tops_of_pages_.28in_current_document.29</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -819,7 +819,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>SO8 compat:</text:p><text:p>false: OOo 1.1 tab stop formatting</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a5bc4600489248fd8da0baa5901c32e8e" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a5bc4600489248fd8da0baa5901c32e8e</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_tab_stop_formatting" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_tab_stop_formatting</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a5bc4600489248fd8da0baa5901c32e8e" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a5bc4600489248fd8da0baa5901c32e8e</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_tab_stop_formatting" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_tab_stop_formatting</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -877,7 +877,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: write user data into meta.xml and text fields</text:p><text:p>false: don‘t (privacy)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_2#Apply_User_Data" xlink:type="simple">https://help.libreoffice.org/Common/General_2#Apply_User_Data</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_2#Apply_User_Data" xlink:type="simple">https://help.SnipeOffice.org/Common/General_2#Apply_User_Data</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -923,7 +923,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>CJK character spacing:</text:p><text:p>0 = NONE, 1 = COMPRESS_PUNCTUATION, 2 = COMPRESS_PUNCTUATION_KANA</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Character_spacing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Character_spacing</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Character_spacing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Character_spacing</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -942,7 +942,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>auto update charts embedded in document when data changes</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a10e36ee0d1c5cafe6e2fef6ece598e22" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a10e36ee0d1c5cafe6e2fef6ece598e22</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_8#Chart" xlink:type="simple">https://help.libreoffice.org/Common/General_8#Chart</text:a>  </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a10e36ee0d1c5cafe6e2fef6ece598e22" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a10e36ee0d1c5cafe6e2fef6ece598e22</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_8#Chart" xlink:type="simple">https://help.SnipeOffice.org/Common/General_8#Chart</text:a>  </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1054,7 +1054,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>Word compat:</text:p><text:p>true: Word compatible fly positioning depending on wrap style</text:p><text:p>false: OOo 1.1 fly positioning ignoring wrap style</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://specs.openoffice.org/writer/compatibility/obj-pos-without-wrapping.sxw" xlink:type="simple">http://specs.openoffice.org/writer/compatibility/obj-pos-without-wrapping.sxw</text:a></text:p><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#aa23887d145c41a9b32fe331ad877f966" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#aa23887d145c41a9b32fe331ad877f966</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Consider_wrapping_style_when_positioning_objects" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Consider_wrapping_style_when_positioning_objects</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://specs.openoffice.org/writer/compatibility/obj-pos-without-wrapping.sxw" xlink:type="simple">http://specs.openoffice.org/writer/compatibility/obj-pos-without-wrapping.sxw</text:a></text:p><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#aa23887d145c41a9b32fe331ad877f966" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#aa23887d145c41a9b32fe331ad877f966</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Consider_wrapping_style_when_positioning_objects" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Consider_wrapping_style_when_positioning_objects</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1071,7 +1071,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Edit → Exchange Database</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Writer/Exchange_Database" xlink:type="simple">https://help.libreoffice.org/Writer/Exchange_Database</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Writer/Exchange_Database" xlink:type="simple">https://help.SnipeOffice.org/Writer/Exchange_Database</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1152,7 +1152,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>SO8 compat:</text:p><text:p>true: line that ends in line break is never justified</text:p><text:p>false: line that ends in line break is justified as specified by formatting attributes</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://specs.openoffice.org/writer/compatibility/Compatability_Options.odt" xlink:type="simple">http://specs.openoffice.org/writer/compatibility/Compatability_Options.odt</text:a> </text:p><text:p><text:a xlink:href="https://bz.apache.org/ooo/show_bug.cgi?id=49277" xlink:type="simple">https://bz.apache.org/ooo/show_bug.cgi?id=49277</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Expand_word_space_on_lines_with_manual_line_breaks_in_justified_paragraphs" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Expand_word_space_on_lines_with_manual_line_breaks_in_justified_paragraphs</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://specs.openoffice.org/writer/compatibility/Compatability_Options.odt" xlink:type="simple">http://specs.openoffice.org/writer/compatibility/Compatability_Options.odt</text:a> </text:p><text:p><text:a xlink:href="https://bz.apache.org/ooo/show_bug.cgi?id=49277" xlink:type="simple">https://bz.apache.org/ooo/show_bug.cgi?id=49277</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Expand_word_space_on_lines_with_manual_line_breaks_in_justified_paragraphs" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Expand_word_space_on_lines_with_manual_line_breaks_in_justified_paragraphs</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1198,7 +1198,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: used fonts are embedded in package</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Embedding_Fonts" xlink:type="simple">https://help.libreoffice.org/Common/Embedding_Fonts</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Embedding_Fonts" xlink:type="simple">https://help.SnipeOffice.org/Common/Embedding_Fonts</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1257,7 +1257,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>auto update fields in document when data changes</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7526fffd2781a92132ca904d3c872d3b" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7526fffd2781a92132ca904d3c872d3b</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_8#Fields" xlink:type="simple">https://help.libreoffice.org/Common/General_8#Fields</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7526fffd2781a92132ca904d3c872d3b" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7526fffd2781a92132ca904d3c872d3b</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_8#Fields" xlink:type="simple">https://help.SnipeOffice.org/Common/General_8#Fields</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1388,7 +1388,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: kerning is applied to CJK punctuation</text:p><text:p>false: kerning is not applied to CJK punctuation</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Kerning" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Kerning</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Kerning" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Kerning</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1426,7 +1426,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>0 = NEVER, 1 = MANUAL, 2 = AUTO, 3 = GLOBAL_SETTING</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a145360e56bb06ae82d20edef5847256a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a145360e56bb06ae82d20edef5847256a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_8#Update_links_when_loading" xlink:type="simple">https://help.libreoffice.org/Common/General_8#Update_links_when_loading</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a145360e56bb06ae82d20edef5847256a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a145360e56bb06ae82d20edef5847256a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_8#Update_links_when_loading" xlink:type="simple">https://help.SnipeOffice.org/Common/General_8#Update_links_when_loading</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1447,7 +1447,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: document will be read-only after loading</text:p><text:p>false: document will be editable after loading</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Security" xlink:type="simple">https://help.libreoffice.org/Common/Security</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Security" xlink:type="simple">https://help.SnipeOffice.org/Common/Security</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1525,7 +1525,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>how comments are printed: 0 = NOT, 1 = ONLY, 2 = DOC_END, 3 = PAGE_END</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a2a207c0227903c887d84538d18bf9dd6" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a2a207c0227903c887d84538d18bf9dd6</text:a></text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Comments" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Comments</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a2a207c0227903c887d84538d18bf9dd6" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a2a207c0227903c887d84538d18bf9dd6</text:a></text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Comments" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Comments</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1544,7 +1544,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print all text with black color</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a9403baab265065cc53a99fc9137b6922" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a9403baab265065cc53a99fc9137b6922</text:a></text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Print_black" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Print_black</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a9403baab265065cc53a99fc9137b6922" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a9403baab265065cc53a99fc9137b6922</text:a></text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Print_black" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Print_black</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1562,7 +1562,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: form controls are printed</text:p><text:p>false: form controls are not printed</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a42f806ddb3d493952ca4a64cfb4ecddc" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a42f806ddb3d493952ca4a64cfb4ecddc</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Form_controls" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Form_controls</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a42f806ddb3d493952ca4a64cfb4ecddc" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a42f806ddb3d493952ca4a64cfb4ecddc</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Form_controls" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Form_controls</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1581,7 +1581,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: SdrObjects/drawing objects are printed</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a7b3e1e1534bafe88314a0a5e92a3a087" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a7b3e1e1534bafe88314a0a5e92a3a087</text:a></text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Pictures_and_objects" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Pictures_and_objects</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a7b3e1e1534bafe88314a0a5e92a3a087" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a7b3e1e1534bafe88314a0a5e92a3a087</text:a></text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Pictures_and_objects" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Pictures_and_objects</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1600,7 +1600,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: automatically inserted blank pages are printed</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a3501f9b95823f7e1e45e1c987868f762" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a3501f9b95823f7e1e45e1c987868f762</text:a></text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Print_automatically_inserted_blank_pages" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Print_automatically_inserted_blank_pages</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a3501f9b95823f7e1e45e1c987868f762" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a3501f9b95823f7e1e45e1c987868f762</text:a></text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Print_automatically_inserted_blank_pages" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Print_automatically_inserted_blank_pages</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1617,7 +1617,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Fax was reportedly a technology popular in 20th century</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#aa6a43f0c2dcaa1c1304167765d010fc3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#aa6a43f0c2dcaa1c1304167765d010fc3</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Fax" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Fax</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#aa6a43f0c2dcaa1c1304167765d010fc3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#aa6a43f0c2dcaa1c1304167765d010fc3</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Fax" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Fax</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1636,7 +1636,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: Sw graphic objects are printed</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a0c1c7bc0b836e2fa891109205385a6e6" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a0c1c7bc0b836e2fa891109205385a6e6</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Pictures_and_objects" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Pictures_and_objects</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a0c1c7bc0b836e2fa891109205385a6e6" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1view_1_1PrintSettings.html#a0c1c7bc0b836e2fa891109205385a6e6</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Pictures_and_objects" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Pictures_and_objects</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1655,7 +1655,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: text marked as hidden is printed</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Hidden_text" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Hidden_text</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Hidden_text" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Hidden_text</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1674,7 +1674,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: left pages are printed</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a579dbd9b5d4080359110c6db0b72345f" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a579dbd9b5d4080359110c6db0b72345f</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Left_pages_.28not_for_HTML_documents.29" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Left_pages_.28not_for_HTML_documents.29</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a579dbd9b5d4080359110c6db0b72345f" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a579dbd9b5d4080359110c6db0b72345f</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Left_pages_.28not_for_HTML_documents.29" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Left_pages_.28not_for_HTML_documents.29</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1693,7 +1693,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: page backgrounds are printed</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a83adeef13c6f818f2c85e59a4c3ec714" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a83adeef13c6f818f2c85e59a4c3ec714</text:a>  </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Page_background" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Page_background</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a83adeef13c6f818f2c85e59a4c3ec714" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a83adeef13c6f818f2c85e59a4c3ec714</text:a>  </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Page_background" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Page_background</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1711,7 +1711,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: paper tray is specified by system printer settings</text:p><text:p>false: paper tray is specified by page style</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#adce901778e15aad0101cdec78f691254" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#adce901778e15aad0101cdec78f691254</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Paper_tray_from_printer_settings" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Paper_tray_from_printer_settings</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#adce901778e15aad0101cdec78f691254" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#adce901778e15aad0101cdec78f691254</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Paper_tray_from_printer_settings" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Paper_tray_from_printer_settings</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1730,7 +1730,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print pages in brochure order</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a3501f9b95823f7e1e45e1c987868f762" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a3501f9b95823f7e1e45e1c987868f762</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Brochure" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Brochure</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a3501f9b95823f7e1e45e1c987868f762" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a3501f9b95823f7e1e45e1c987868f762</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Brochure" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Brochure</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1749,7 +1749,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print pages in brochure order (right-to-left)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Right_to_left" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Right_to_left</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Right_to_left" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Right_to_left</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1787,7 +1787,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: right pages are printed</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a9ebd5c82467d81d563e8a91850d65c37" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a9ebd5c82467d81d563e8a91850d65c37</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Right_pages_.28not_for_HTML_documents.29" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Right_pages_.28not_for_HTML_documents.29</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a9ebd5c82467d81d563e8a91850d65c37" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1PrintSettings.html#a9ebd5c82467d81d563e8a91850d65c37</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Right_pages_.28not_for_HTML_documents.29" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Right_pages_.28not_for_HTML_documents.29</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1841,7 +1841,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print text placeholder fields</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_1#Text_placeholder" xlink:type="simple">https://help.libreoffice.org/Common/Print_1#Text_placeholder</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_1#Text_placeholder" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_1#Text_placeholder</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1862,7 +1862,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>use printer-dependent metrics:</text:p><text:p>„enabled“ / „low-resolution“ = use printer-independent metrics (600dpi)</text:p><text:p>„high-resolution“ = use printer-independent metrics (4800dpi)</text:p><text:p>„disabled“ = use printer-metrics for layout</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Use_printer_metrics_for_document_formatting" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Use_printer_metrics_for_document_formatting</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_printer_metrics_for_document_formatting" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_printer_metrics_for_document_formatting</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1957,7 +1957,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Edit → Track Changes → Protect…</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Protecting_Content_in#Protecting_Revision_Marking" xlink:type="simple">https://help.libreoffice.org/Common/Protecting_Content_in#Protecting_Revision_Marking</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Protecting_Content_in#Protecting_Revision_Marking" xlink:type="simple">https://help.SnipeOffice.org/Common/Protecting_Content_in#Protecting_Revision_Marking</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2013,7 +2013,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: in a master/global text document, the content of linked sections is saved</text:p><text:p><text:span text:style-name="T6">false: in a master/global text document, the content of linked sections is not saved</text:span></text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a60f42890192063bf039ccc0331e276ca" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a60f42890192063bf039ccc0331e276ca</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Navigator_for_Master_Documents#Save_Contents_as_well" xlink:type="simple">https://help.libreoffice.org/Common/Navigator_for_Master_Documents#Save_Contents_as_well</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a60f42890192063bf039ccc0331e276ca" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a60f42890192063bf039ccc0331e276ca</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Navigator_for_Master_Documents#Save_Contents_as_well" xlink:type="simple">https://help.SnipeOffice.org/Common/Navigator_for_Master_Documents#Save_Contents_as_well</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2031,7 +2031,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: on File→Close→Save, a new Version will be saved into the package in VersionList.xml and Versions/</text:p><text:p>false: Save does not automatically create a new Version</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Versions#Always_save_version_when_closing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Versions#Always_save_version_when_closing</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Versions#Always_save_version_when_closing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Versions#Always_save_version_when_closing</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2310,7 +2310,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: update the document if its template (from meta.xml) changes</text:p><text:p>false: do not update the document if its template changes</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Open_1#Opening_Documents_With_Templates" xlink:type="simple">https://help.libreoffice.org/Common/Open_1#Opening_Documents_With_Templates</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Open_1#Opening_Documents_With_Templates" xlink:type="simple">https://help.SnipeOffice.org/Common/Open_1#Opening_Documents_With_Templates</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2333,7 +2333,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>SO8 compat:</text:p><text:p>true: line spacing like OOo 1.1: proportional spacing is applied both above and below line</text:p><text:p>false: line spacing like Word: proportional spacing is applied only below line</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.openoffice.org/specs/writer/compatibility/text_lines_and_prop_line_spacing.sxw" xlink:type="simple">http://www.openoffice.org/specs/writer/compatibility/text_lines_and_prop_line_spacing.sxw</text:a> </text:p><text:p><text:a xlink:href="https://bz.apache.org/ooo/show_bug.cgi?id=11859" xlink:type="simple">https://bz.apache.org/ooo/show_bug.cgi?id=11859</text:a> </text:p><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a7b393c34585ad69a35fc17bdb044eef6" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a7b393c34585ad69a35fc17bdb044eef6</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_line_spacing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_line_spacing</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.openoffice.org/specs/writer/compatibility/text_lines_and_prop_line_spacing.sxw" xlink:type="simple">http://www.openoffice.org/specs/writer/compatibility/text_lines_and_prop_line_spacing.sxw</text:a> </text:p><text:p><text:a xlink:href="https://bz.apache.org/ooo/show_bug.cgi?id=11859" xlink:type="simple">https://bz.apache.org/ooo/show_bug.cgi?id=11859</text:a> </text:p><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a7b393c34585ad69a35fc17bdb044eef6" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a7b393c34585ad69a35fc17bdb044eef6</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_line_spacing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_line_spacing</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2356,7 +2356,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>SO8 compat:</text:p><text:p>true: like OOo 1.1: paragraph and character anchored flys are vertically positioned from directly below the preceding paragraph, ignoring the preceding paragraph’s line spacing and paragraph spacing </text:p><text:p>false: like Word: paragraph and character anchored flys are vertically positioned from below the preceding paragraph plus its line spacing and paragraph spacing</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bz.apache.org/ooo/show_bug.cgi?id=11860" xlink:type="simple">https://bz.apache.org/ooo/show_bug.cgi?id=11860</text:a> </text:p><text:p><text:a xlink:href="http://specs.openoffice.org/writer/compatibility/adjust-object-positioning.sxw" xlink:type="simple">http://specs.openoffice.org/writer/compatibility/adjust-object-positioning.sxw</text:a> </text:p><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a72480b5cc4715c57e10f6df6da15b326" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a72480b5cc4715c57e10f6df6da15b326</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_object_positioning" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_object_positioning</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bz.apache.org/ooo/show_bug.cgi?id=11860" xlink:type="simple">https://bz.apache.org/ooo/show_bug.cgi?id=11860</text:a> </text:p><text:p><text:a xlink:href="http://specs.openoffice.org/writer/compatibility/adjust-object-positioning.sxw" xlink:type="simple">http://specs.openoffice.org/writer/compatibility/adjust-object-positioning.sxw</text:a> </text:p><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a72480b5cc4715c57e10f6df6da15b326" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1text_1_1DocumentSettings.html#a72480b5cc4715c57e10f6df6da15b326</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_object_positioning" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_object_positioning</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2379,7 +2379,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>SO8 compat:</text:p><text:p>true: like OOo 1.1: header/footer content wraps around flys, body content does not wrap around flys anchored in header/footer</text:p><text:p>false: like Word: header/footer content does not wrap around flys, body content does wrap around flys anchored in header/footer</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.openoffice.org/specs/writer/compatibility/adjust-text-wrapping.sxw" xlink:type="simple">http://www.openoffice.org/specs/writer/compatibility/adjust-text-wrapping.sxw</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_text_wrapping_around_objects" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_text_wrapping_around_objects</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.openoffice.org/specs/writer/compatibility/adjust-text-wrapping.sxw" xlink:type="simple">http://www.openoffice.org/specs/writer/compatibility/adjust-text-wrapping.sxw</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_text_wrapping_around_objects" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Compatibility#Use_OpenOffice.org_1.1_text_wrapping_around_objects</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3095,7 +3095,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: write user data into meta.xml and text fields</text:p><text:p>false: don‘t (privacy)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_2#Apply_User_Data" xlink:type="simple">https://help.libreoffice.org/Common/General_2#Apply_User_Data</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_2#Apply_User_Data" xlink:type="simple">https://help.SnipeOffice.org/Common/General_2#Apply_User_Data</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3113,7 +3113,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: calculate spreadsheet automatically</text:p><text:p>false: must press F9 to calculate spreadsheet</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#adb265753464543ee40b0efcc317da043" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#adb265753464543ee40b0efcc317da043</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Calc/AutoCalculate" xlink:type="simple">https://help.libreoffice.org/Calc/AutoCalculate</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#adb265753464543ee40b0efcc317da043" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#adb265753464543ee40b0efcc317da043</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Calc/AutoCalculate" xlink:type="simple">https://help.SnipeOffice.org/Calc/AutoCalculate</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3131,7 +3131,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>CJK character spacing:</text:p><text:p>0 = NONE, 1 = COMPRESS_PUNCTUATION, 2 = COMPRESS_PUNCTUATION_KANA</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Character_spacing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Character_spacing</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Character_spacing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Character_spacing</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3150,7 +3150,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: used fonts are embedded in package</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Embedding_Fonts" xlink:type="simple">https://help.libreoffice.org/Common/Embedding_Fonts</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Embedding_Fonts" xlink:type="simple">https://help.SnipeOffice.org/Common/Embedding_Fonts</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3172,7 +3172,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>color of spreadsheet cell grid</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a3cb3fa3bdfe8748e16f30827d26f5fa9" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a3cb3fa3bdfe8748e16f30827d26f5fa9</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/View_1#Color" xlink:type="simple">https://help.libreoffice.org/Common/View_1#Color</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a3cb3fa3bdfe8748e16f30827d26f5fa9" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a3cb3fa3bdfe8748e16f30827d26f5fa9</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/View_1#Color" xlink:type="simple">https://help.SnipeOffice.org/Common/View_1#Color</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3194,7 +3194,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: view displays column/row headers</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a8e1cad7cc78662ab6ac55e2bb846761e" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a8e1cad7cc78662ab6ac55e2bb846761e</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/View_1#Column.2FRow_headers" xlink:type="simple">https://help.libreoffice.org/Common/View_1#Column.2FRow_headers</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a8e1cad7cc78662ab6ac55e2bb846761e" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a8e1cad7cc78662ab6ac55e2bb846761e</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/View_1#Column.2FRow_headers" xlink:type="simple">https://help.SnipeOffice.org/Common/View_1#Column.2FRow_headers</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3216,7 +3216,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: view displays tabs for selecting sheets</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a5ef5bb2ecfc77703aaa1e09170fde2f6" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a5ef5bb2ecfc77703aaa1e09170fde2f6</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/View_1#Sheet_tabs" xlink:type="simple">https://help.libreoffice.org/Common/View_1#Sheet_tabs</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a5ef5bb2ecfc77703aaa1e09170fde2f6" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a5ef5bb2ecfc77703aaa1e09170fde2f6</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/View_1#Sheet_tabs" xlink:type="simple">https://help.SnipeOffice.org/Common/View_1#Sheet_tabs</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3235,7 +3235,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: document is shared for collaborative editing by multiple users</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Collaboration" xlink:type="simple">https://help.libreoffice.org/Common/Collaboration</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Collaboration" xlink:type="simple">https://help.SnipeOffice.org/Common/Collaboration</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3253,7 +3253,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: kerning is applied to CJK punctuation</text:p><text:p>false: kerning is not applied to CJK punctuation</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Kerning" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Kerning</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Kerning" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Kerning</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3274,7 +3274,7 @@
      <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: if there is an outline, display outline symbols at the border of the sheet</text:p><text:p>false: do not display outline symbols</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#af9f0d194dab5e3bdecc05efdb6924b49" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#af9f0d194dab5e3bdecc05efdb6924b49</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/View_1#Outline_symbols" xlink:type="simple">https://help.libreoffice.org/Common/View_1#Outline_symbols</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#af9f0d194dab5e3bdecc05efdb6924b49" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#af9f0d194dab5e3bdecc05efdb6924b49</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/View_1#Outline_symbols" xlink:type="simple">https://help.SnipeOffice.org/Common/View_1#Outline_symbols</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3293,7 +3293,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: keep resolution of X and Y axes of grid in sync</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a9a048ae900ac3faf12fa3f286c9595c4" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a9a048ae900ac3faf12fa3f286c9595c4</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Grid_1#Synchronize_axes" xlink:type="simple">https://help.libreoffice.org/Common/Grid_1#Synchronize_axes</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a9a048ae900ac3faf12fa3f286c9595c4" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a9a048ae900ac3faf12fa3f286c9595c4</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Grid_1#Synchronize_axes" xlink:type="simple">https://help.SnipeOffice.org/Common/Grid_1#Synchronize_axes</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3312,7 +3312,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: drawing objects are positioned on a raster grid</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a776ceb09d44a4775f39e56f76f88fb2f" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a776ceb09d44a4775f39e56f76f88fb2f</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Grid_1#Snap_to_grid" xlink:type="simple">https://help.libreoffice.org/Common/Grid_1#Snap_to_grid</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a776ceb09d44a4775f39e56f76f88fb2f" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a776ceb09d44a4775f39e56f76f88fb2f</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Grid_1#Snap_to_grid" xlink:type="simple">https://help.SnipeOffice.org/Common/Grid_1#Snap_to_grid</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3331,7 +3331,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>1 = NEVER, 2 = MANUAL, 0 = AUTO, 3 = GLOBAL_SETTING</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a145360e56bb06ae82d20edef5847256a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a145360e56bb06ae82d20edef5847256a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_8#Update_links_when_loading" xlink:type="simple">https://help.libreoffice.org/Common/General_8#Update_links_when_loading</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a145360e56bb06ae82d20edef5847256a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a145360e56bb06ae82d20edef5847256a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_8#Update_links_when_loading" xlink:type="simple">https://help.SnipeOffice.org/Common/General_8#Update_links_when_loading</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3352,7 +3352,7 @@
      <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: document will be read-only after loading</text:p><text:p>false: document will be editable after loading</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Security" xlink:type="simple">https://help.libreoffice.org/Common/Security</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Security" xlink:type="simple">https://help.SnipeOffice.org/Common/Security</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3403,7 +3403,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: display drawing object raster grid</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a316810e88627a70ea0251a9a21335d28" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a316810e88627a70ea0251a9a21335d28</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Grid_1#Visible_grid" xlink:type="simple">https://help.libreoffice.org/Common/Grid_1#Visible_grid</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a316810e88627a70ea0251a9a21335d28" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a316810e88627a70ea0251a9a21335d28</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Grid_1#Visible_grid" xlink:type="simple">https://help.SnipeOffice.org/Common/Grid_1#Visible_grid</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3421,7 +3421,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>drawing object raster grid horizontal resolution (100<text:span text:style-name="T3">th</text:span> mm)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#af735bc4a561dbaa1403e3cb58cb1d3b7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#af735bc4a561dbaa1403e3cb58cb1d3b7</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Grid_1#Horizontal" xlink:type="simple">https://help.libreoffice.org/Common/Grid_1#Horizontal</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#af735bc4a561dbaa1403e3cb58cb1d3b7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#af735bc4a561dbaa1403e3cb58cb1d3b7</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Grid_1#Horizontal" xlink:type="simple">https://help.SnipeOffice.org/Common/Grid_1#Horizontal</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3439,7 +3439,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>drawing object raster grid vertical resolution (100<text:span text:style-name="T3">th</text:span> mm)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a172a5c6ff9c7e20578d05ca35ee765e5" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a172a5c6ff9c7e20578d05ca35ee765e5</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Grid_1#Vertical" xlink:type="simple">https://help.libreoffice.org/Common/Grid_1#Vertical</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a172a5c6ff9c7e20578d05ca35ee765e5" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a172a5c6ff9c7e20578d05ca35ee765e5</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Grid_1#Vertical" xlink:type="simple">https://help.SnipeOffice.org/Common/Grid_1#Vertical</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3458,7 +3458,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>drawing object raster grid number of horizontal subdivisions</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#ad33c9d06605a759a08bb36c57bba7c1b" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#ad33c9d06605a759a08bb36c57bba7c1b</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Grid_1#Horizontal_2" xlink:type="simple">https://help.libreoffice.org/Common/Grid_1#Horizontal_2</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#ad33c9d06605a759a08bb36c57bba7c1b" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#ad33c9d06605a759a08bb36c57bba7c1b</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Grid_1#Horizontal_2" xlink:type="simple">https://help.SnipeOffice.org/Common/Grid_1#Horizontal_2</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3477,7 +3477,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>drawing object raster grid number of vertical subdivisions</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#abe744984a2218b85f169434f8a16ec12" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#abe744984a2218b85f169434f8a16ec12</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Grid_1#Vertical_2" xlink:type="simple">https://help.libreoffice.org/Common/Grid_1#Vertical_2</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#abe744984a2218b85f169434f8a16ec12" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#abe744984a2218b85f169434f8a16ec12</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Grid_1#Vertical_2" xlink:type="simple">https://help.SnipeOffice.org/Common/Grid_1#Vertical_2</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3495,7 +3495,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: on File→Close→Save, a new Version will be saved into the package in VersionList.xml and Versions/</text:p><text:p>false: Save does not automatically create a new Version</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Versions#Always_save_version_when_closing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Versions#Always_save_version_when_closing</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Versions#Always_save_version_when_closing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Versions#Always_save_version_when_closing</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3517,7 +3517,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: display spreadsheet cell grid</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a27565705169b64a89af7233ed03e0665" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a27565705169b64a89af7233ed03e0665</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/View_1#Grid_lines" xlink:type="simple">https://help.libreoffice.org/Common/View_1#Grid_lines</text:a>  </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a27565705169b64a89af7233ed03e0665" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a27565705169b64a89af7233ed03e0665</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/View_1#Grid_lines" xlink:type="simple">https://help.SnipeOffice.org/Common/View_1#Grid_lines</text:a>  </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3539,7 +3539,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: display a marker for notes in cells</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a66e80364832b9816d719a12157dc0b9b" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a66e80364832b9816d719a12157dc0b9b</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/View_1#Comment_indicator" xlink:type="simple">https://help.libreoffice.org/Common/View_1#Comment_indicator</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a66e80364832b9816d719a12157dc0b9b" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#a66e80364832b9816d719a12157dc0b9b</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/View_1#Comment_indicator" xlink:type="simple">https://help.SnipeOffice.org/Common/View_1#Comment_indicator</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3561,7 +3561,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: display page breaks</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#aea03d7f639bec1bc8f10b3ebc56fad5e" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#aea03d7f639bec1bc8f10b3ebc56fad5e</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/View_1#Page_breaks" xlink:type="simple">https://help.libreoffice.org/Common/View_1#Page_breaks</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#aea03d7f639bec1bc8f10b3ebc56fad5e" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#aea03d7f639bec1bc8f10b3ebc56fad5e</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/View_1#Page_breaks" xlink:type="simple">https://help.SnipeOffice.org/Common/View_1#Page_breaks</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3583,7 +3583,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: display zero-values</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#ac628c49b242310b773c80b686240872f" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#ac628c49b242310b773c80b686240872f</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/View_1#Zero_values" xlink:type="simple">https://help.libreoffice.org/Common/View_1#Zero_values</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#ac628c49b242310b773c80b686240872f" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sheet_1_1DocumentSettings.html#ac628c49b242310b773c80b686240872f</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/View_1#Zero_values" xlink:type="simple">https://help.SnipeOffice.org/Common/View_1#Zero_values</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3601,7 +3601,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: update the document if its template (from meta.xml) changes</text:p><text:p>false: do not update the document if its template changes</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Open_1#Opening_Documents_With_Templates" xlink:type="simple">https://help.libreoffice.org/Common/Open_1#Opening_Documents_With_Templates</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Open_1#Opening_Documents_With_Templates" xlink:type="simple">https://help.SnipeOffice.org/Common/Open_1#Opening_Documents_With_Templates</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4263,7 +4263,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: write user data into meta.xml and text fields</text:p><text:p>false: don‘t (privacy)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_2#Apply_User_Data" xlink:type="simple">https://help.libreoffice.org/Common/General_2#Apply_User_Data</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_2#Apply_User_Data" xlink:type="simple">https://help.SnipeOffice.org/Common/General_2#Apply_User_Data</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4300,7 +4300,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>CJK character spacing:</text:p><text:p>0 = NONE, 1 = COMPRESS_PUNCTUATION, 2 = COMPRESS_PUNCTUATION_KANA</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Character_spacing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Character_spacing</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Character_spacing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Character_spacing</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4356,7 +4356,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>tab stop distance (100<text:span text:style-name="T3">th</text:span> mm)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a2946452e89428393be8c22bccd9c4677" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a2946452e89428393be8c22bccd9c4677</text:a>  </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Tab_stops" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Tab_stops</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a2946452e89428393be8c22bccd9c4677" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a2946452e89428393be8c22bccd9c4677</text:a>  </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Tab_stops" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Tab_stops</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4375,7 +4375,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: used fonts are embedded in package</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Embedding_Fonts" xlink:type="simple">https://help.libreoffice.org/Common/Embedding_Fonts</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Embedding_Fonts" xlink:type="simple">https://help.SnipeOffice.org/Common/Embedding_Fonts</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4462,7 +4462,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: kerning is applied to CJK punctuation</text:p><text:p>false: kerning is not applied to CJK punctuation</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Kerning" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Kerning</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Kerning" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Kerning</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4481,7 +4481,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print pages in brochure order</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7fd83c6e1556eb2f7e7ce8044a4c9d8a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7fd83c6e1556eb2f7e7ce8044a4c9d8a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Brochure" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Brochure</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7fd83c6e1556eb2f7e7ce8044a4c9d8a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7fd83c6e1556eb2f7e7ce8044a4c9d8a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Brochure" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Brochure</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4500,7 +4500,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print the back pages of a brochure</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a035b1ddabd194ff52cc8aa6eb81047c9" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a035b1ddabd194ff52cc8aa6eb81047c9</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Back" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Back</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a035b1ddabd194ff52cc8aa6eb81047c9" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a035b1ddabd194ff52cc8aa6eb81047c9</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Back" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Back</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4519,7 +4519,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print the front pages of a brochure</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a5d339447b48f68e0d66cede59947dce3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a5d339447b48f68e0d66cede59947dce3</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Front" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Front</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a5d339447b48f68e0d66cede59947dce3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a5d339447b48f68e0d66cede59947dce3</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Front" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Front</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4538,7 +4538,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print current date</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9ea38ec16e8d67b890347bc62345540c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9ea38ec16e8d67b890347bc62345540c</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Date" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Date</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9ea38ec16e8d67b890347bc62345540c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9ea38ec16e8d67b890347bc62345540c</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Date" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Date</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4576,7 +4576,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: scale things down to fit on the page</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#ab8c48ca6b8cc12e8515ae8eb460e03e8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#ab8c48ca6b8cc12e8515ae8eb460e03e8</text:a>  </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Fit_to_page" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Fit_to_page</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#ab8c48ca6b8cc12e8515ae8eb460e03e8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#ab8c48ca6b8cc12e8515ae8eb460e03e8</text:a>  </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Fit_to_page" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Fit_to_page</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4614,7 +4614,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print hidden pages</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#abaf93282014bfb17ccfce12a5b38acf3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#abaf93282014bfb17ccfce12a5b38acf3</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Hidden_pages" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Hidden_pages</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#abaf93282014bfb17ccfce12a5b38acf3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#abaf93282014bfb17ccfce12a5b38acf3</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Hidden_pages" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Hidden_pages</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4671,7 +4671,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print page names</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9e4e93445e849399b3ed4b77e0d54494" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9e4e93445e849399b3ed4b77e0d54494</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Page_name" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Page_name</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9e4e93445e849399b3ed4b77e0d54494" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9e4e93445e849399b3ed4b77e0d54494</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Page_name" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Page_name</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4690,7 +4690,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print multiple slides per page, tiled</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a1e72194bbd2c94311c3b32390dd19925" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a1e72194bbd2c94311c3b32390dd19925</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Tile_pages" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Tile_pages</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a1e72194bbd2c94311c3b32390dd19925" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a1e72194bbd2c94311c3b32390dd19925</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Tile_pages" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Tile_pages</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4709,7 +4709,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print current time</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a6e3b6822f3bac471c9804e5d98905f42" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a6e3b6822f3bac471c9804e5d98905f42</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Time" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Time</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a6e3b6822f3bac471c9804e5d98905f42" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a6e3b6822f3bac471c9804e5d98905f42</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Time" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Time</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4746,7 +4746,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: document will be read-only after loading</text:p><text:p>false: document will be editable after loading</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Security" xlink:type="simple">https://help.libreoffice.org/Common/Security</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Security" xlink:type="simple">https://help.SnipeOffice.org/Common/Security</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4765,7 +4765,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>0 = UPPER_LETTER, 1 = LOWER_LETTER, 2 = ROMAN_UPPER, 3 = ROMAN_LOWER, 4 = ARABIC, 5 = NONE, 6 = SPECIAL, 7 = PAGE_STYLE</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a1d09f6d4d003b7623d62d7de17761586" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a1d09f6d4d003b7623d62d7de17761586</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Page#Format_2" xlink:type="simple">https://help.libreoffice.org/Common/Page#Format_2</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a1d09f6d4d003b7623d62d7de17761586" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a1d09f6d4d003b7623d62d7de17761586</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Page#Format_2" xlink:type="simple">https://help.SnipeOffice.org/Common/Page#Format_2</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4786,7 +4786,7 @@
      <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: spacing between paragraphs is sum of bottom margin of first and top margin of second</text:p><text:p>false: spacing between paragraphs is maximum of bottom margin of first and top margin of second</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a4d3702e6f98d1a6105a405d8e8771bc7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a4d3702e6f98d1a6105a405d8e8771bc7</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Add_spacing_between_paragraphs_in_the_current_document" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Add_spacing_between_paragraphs_in_the_current_document</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a4d3702e6f98d1a6105a405d8e8771bc7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#a4d3702e6f98d1a6105a405d8e8771bc7</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Add_spacing_between_paragraphs_in_the_current_document" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Add_spacing_between_paragraphs_in_the_current_document</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4805,7 +4805,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>0 = DEFAULT, 1 = GRAYSCALE, 2 = BLACK&amp;WHITE</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ada279ccb9571546ae8c1f2ea4511c1f7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ada279ccb9571546ae8c1f2ea4511c1f7</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Quality" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Quality</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ada279ccb9571546ae8c1f2ea4511c1f7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ada279ccb9571546ae8c1f2ea4511c1f7</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Quality" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Quality</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4823,7 +4823,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>use printer-dependent metrics:</text:p><text:p>„enabled“ / „low-resolution“ = use printer-independent metrics (600dpi)</text:p><text:p>„high-resolution“ = use printer-independent metrics (4800dpi)</text:p><text:p>„disabled“ = use printer-metrics for layout</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Use_printer_metrics_for_document_formatting" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Use_printer_metrics_for_document_formatting</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Use_printer_metrics_for_document_formatting" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Use_printer_metrics_for_document_formatting</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4873,7 +4873,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: on File→Close→Save, a new Version will be saved into the package in VersionList.xml and Versions/</text:p><text:p>false: Save does not automatically create a new Version</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Versions#Always_save_version_when_closing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Versions#Always_save_version_when_closing</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Versions#Always_save_version_when_closing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Versions#Always_save_version_when_closing</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4908,7 +4908,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: update the document if its template (from meta.xml) changes</text:p><text:p>false: do not update the document if its template changes</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Open_1#Opening_Documents_With_Templates" xlink:type="simple">https://help.libreoffice.org/Common/Open_1#Opening_Documents_With_Templates</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Open_1#Opening_Documents_With_Templates" xlink:type="simple">https://help.SnipeOffice.org/Common/Open_1#Opening_Documents_With_Templates</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5570,7 +5570,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: write user data into meta.xml and text fields</text:p><text:p>false: don‘t (privacy)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_2#Apply_User_Data" xlink:type="simple">https://help.libreoffice.org/Common/General_2#Apply_User_Data</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_2#Apply_User_Data" xlink:type="simple">https://help.SnipeOffice.org/Common/General_2#Apply_User_Data</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5607,7 +5607,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>CJK character spacing:</text:p><text:p>0 = NONE, 1 = COMPRESS_PUNCTUATION, 2 = COMPRESS_PUNCTUATION_KANA</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Character_spacing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Character_spacing</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ae9d21a24039c6746f502f44bdc40ceee</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Character_spacing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Character_spacing</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5663,7 +5663,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>tab stop distance (100<text:span text:style-name="T3">th</text:span> mm)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a2946452e89428393be8c22bccd9c4677" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a2946452e89428393be8c22bccd9c4677</text:a>  </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Tab_stops" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Tab_stops</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a2946452e89428393be8c22bccd9c4677" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a2946452e89428393be8c22bccd9c4677</text:a>  </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Tab_stops" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Tab_stops</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5682,7 +5682,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: used fonts are embedded in package</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Embedding_Fonts" xlink:type="simple">https://help.libreoffice.org/Common/Embedding_Fonts</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3e162610befbe35a42d0e48f07df5d93</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Embedding_Fonts" xlink:type="simple">https://help.SnipeOffice.org/Common/Embedding_Fonts</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5738,7 +5738,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: kerning is applied to CJK punctuation</text:p><text:p>false: kerning is not applied to CJK punctuation</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Kerning" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Asian_Layout_1#Kerning</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a69262e3abf1c3bb1a777559cf15bda9a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Kerning" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Asian_Layout_1#Kerning</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5757,7 +5757,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print pages in brochure order</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7fd83c6e1556eb2f7e7ce8044a4c9d8a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7fd83c6e1556eb2f7e7ce8044a4c9d8a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Brochure" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Brochure</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7fd83c6e1556eb2f7e7ce8044a4c9d8a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a7fd83c6e1556eb2f7e7ce8044a4c9d8a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Brochure" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Brochure</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5776,7 +5776,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print the back pages of a brochure</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a035b1ddabd194ff52cc8aa6eb81047c9" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a035b1ddabd194ff52cc8aa6eb81047c9</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Back" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Back</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a035b1ddabd194ff52cc8aa6eb81047c9" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a035b1ddabd194ff52cc8aa6eb81047c9</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Back" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Back</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5795,7 +5795,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print the front pages of a brochure</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a5d339447b48f68e0d66cede59947dce3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a5d339447b48f68e0d66cede59947dce3</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Front" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Front</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a5d339447b48f68e0d66cede59947dce3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a5d339447b48f68e0d66cede59947dce3</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Front" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Front</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5814,7 +5814,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print current date</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9ea38ec16e8d67b890347bc62345540c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9ea38ec16e8d67b890347bc62345540c</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Date" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Date</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9ea38ec16e8d67b890347bc62345540c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9ea38ec16e8d67b890347bc62345540c</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Date" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Date</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5833,7 +5833,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>true: scale things down to fit on the page</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#ab8c48ca6b8cc12e8515ae8eb460e03e8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#ab8c48ca6b8cc12e8515ae8eb460e03e8</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Fit_to_page" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Fit_to_page</text:a> </text:p>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#ab8c48ca6b8cc12e8515ae8eb460e03e8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#ab8c48ca6b8cc12e8515ae8eb460e03e8</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Fit_to_page" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Fit_to_page</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5852,7 +5852,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>true: print hidden pages</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#abaf93282014bfb17ccfce12a5b38acf3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#abaf93282014bfb17ccfce12a5b38acf3</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Hidden_pages" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Hidden_pages</text:a></text:p>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#abaf93282014bfb17ccfce12a5b38acf3" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1presentation_1_1DocumentSettings.html#abaf93282014bfb17ccfce12a5b38acf3</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Hidden_pages" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Hidden_pages</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5871,7 +5871,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print page names</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9e4e93445e849399b3ed4b77e0d54494" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9e4e93445e849399b3ed4b77e0d54494</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Page_name" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Page_name</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9e4e93445e849399b3ed4b77e0d54494" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a9e4e93445e849399b3ed4b77e0d54494</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Page_name" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Page_name</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5890,7 +5890,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print multiple slides per page, tiled</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a1e72194bbd2c94311c3b32390dd19925" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a1e72194bbd2c94311c3b32390dd19925</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Tile_pages" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Tile_pages</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a1e72194bbd2c94311c3b32390dd19925" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a1e72194bbd2c94311c3b32390dd19925</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Tile_pages" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Tile_pages</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5909,7 +5909,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>true: print current time</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a6e3b6822f3bac471c9804e5d98905f42" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a6e3b6822f3bac471c9804e5d98905f42</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Time" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Time</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a6e3b6822f3bac471c9804e5d98905f42" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1HeaderFooterSettings.html#a6e3b6822f3bac471c9804e5d98905f42</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Time" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Time</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5946,7 +5946,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: document will be read-only after loading</text:p><text:p>false: document will be editable after loading</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Security" xlink:type="simple">https://help.libreoffice.org/Common/Security</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Security" xlink:type="simple">https://help.SnipeOffice.org/Common/Security</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5965,7 +5965,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>default measure unit to generate text containing measures</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#aa82b10d6de4e7afa71c7c91a65ead01c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#aa82b10d6de4e7afa71c7c91a65ead01c</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Unit_of_measurement" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Unit_of_measurement</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#aa82b10d6de4e7afa71c7c91a65ead01c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#aa82b10d6de4e7afa71c7c91a65ead01c</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Unit_of_measurement" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Unit_of_measurement</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5984,7 +5984,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>0 = UPPER_LETTER, 1 = LOWER_LETTER, 2 = ROMAN_UPPER, 3 = ROMAN_LOWER, 4 = ARABIC, 5 = NONE, 6 = SPECIAL, 7 = PAGE_STYLE</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a1d09f6d4d003b7623d62d7de17761586" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a1d09f6d4d003b7623d62d7de17761586</text:a>  </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Page#Format_2" xlink:type="simple">https://help.libreoffice.org/Common/Page#Format_2</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a1d09f6d4d003b7623d62d7de17761586" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a1d09f6d4d003b7623d62d7de17761586</text:a>  </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Page#Format_2" xlink:type="simple">https://help.SnipeOffice.org/Common/Page#Format_2</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -6005,7 +6005,7 @@
      <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: spacing between paragraphs is sum of bottom margin of first and top margin of second</text:p><text:p>false: spacing between paragraphs is maximum of bottom margin of first and top margin of second</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a4d3702e6f98d1a6105a405d8e8771bc7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a4d3702e6f98d1a6105a405d8e8771bc7</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Add_spacing_between_paragraphs_in_the_current_document" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Add_spacing_between_paragraphs_in_the_current_document</text:a> </text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a4d3702e6f98d1a6105a405d8e8771bc7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a4d3702e6f98d1a6105a405d8e8771bc7</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Add_spacing_between_paragraphs_in_the_current_document" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Add_spacing_between_paragraphs_in_the_current_document</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -6024,7 +6024,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>0 = DEFAULT, 1 = GRAYSCALE, 2 = BLACK&amp;WHITE</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ada279ccb9571546ae8c1f2ea4511c1f7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ada279ccb9571546ae8c1f2ea4511c1f7</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Print_2#Quality" xlink:type="simple">https://help.libreoffice.org/Common/Print_2#Quality</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ada279ccb9571546ae8c1f2ea4511c1f7" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#ada279ccb9571546ae8c1f2ea4511c1f7</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Print_2#Quality" xlink:type="simple">https://help.SnipeOffice.org/Common/Print_2#Quality</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -6042,7 +6042,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>use printer-dependent metrics:</text:p><text:p>„enabled“ / „low-resolution“ = use printer-independent metrics (600dpi)</text:p><text:p>„high-resolution“ = use printer-independent metrics (4800dpi)</text:p><text:p>„disabled“ = use printer-metrics for layout</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Use_printer_metrics_for_document_formatting" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Use_printer_metrics_for_document_formatting</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a3ead2e662573924bb7205eba2163a9b4</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Use_printer_metrics_for_document_formatting" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Use_printer_metrics_for_document_formatting</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -6092,7 +6092,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: on File→Close→Save, a new Version will be saved into the package in VersionList.xml and Versions/</text:p><text:p>false: Save does not automatically create a new Version</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/5.3/Common/Versions#Always_save_version_when_closing" xlink:type="simple">https://help.libreoffice.org/5.3/Common/Versions#Always_save_version_when_closing</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a25e68a80e7eefc64623f1d06facb0ad8</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/5.3/Common/Versions#Always_save_version_when_closing" xlink:type="simple">https://help.SnipeOffice.org/5.3/Common/Versions#Always_save_version_when_closing</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -6111,7 +6111,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>scaling factor for sizes in UI</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#ac63f7aaef631245158f3e43b18cd452a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#ac63f7aaef631245158f3e43b18cd452a</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Drawing_scale" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Drawing_scale</text:a> </text:p>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#ac63f7aaef631245158f3e43b18cd452a" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#ac63f7aaef631245158f3e43b18cd452a</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Drawing_scale" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Drawing_scale</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -6130,7 +6130,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>scaling factor for sizes in UI</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a8dc7d60452b950ce135942e4322bb983" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a8dc7d60452b950ce135942e4322bb983</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/General_10#Drawing_scale" xlink:type="simple">https://help.libreoffice.org/Common/General_10#Drawing_scale</text:a> </text:p>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a8dc7d60452b950ce135942e4322bb983" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1drawing_1_1DocumentSettings.html#a8dc7d60452b950ce135942e4322bb983</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/General_10#Drawing_scale" xlink:type="simple">https://help.SnipeOffice.org/Common/General_10#Drawing_scale</text:a> </text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -6148,7 +6148,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: update the document if its template (from meta.xml) changes</text:p><text:p>false: do not update the document if its template changes</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c</text:a> </text:p><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Open_1#Opening_Documents_With_Templates" xlink:type="simple">https://help.libreoffice.org/Common/Open_1#Opening_Documents_With_Templates</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c" xlink:type="simple">http://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1Settings.html#a01b4d0e80a64fca61df7740e12cd058c</text:a> </text:p><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Open_1#Opening_Documents_With_Templates" xlink:type="simple">https://help.SnipeOffice.org/Common/Open_1#Opening_Documents_With_Templates</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -6833,7 +6833,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>true: document will be read-only after loading</text:p><text:p>false: document will be editable after loading</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.libreoffice.org/Common/Security" xlink:type="simple">https://help.libreoffice.org/Common/Security</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://help.SnipeOffice.org/Common/Security" xlink:type="simple">https://help.SnipeOffice.org/Common/Security</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>

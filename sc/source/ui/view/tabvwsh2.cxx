@@ -209,7 +209,7 @@ void ScTabViewShell::ExecDraw(SfxRequest& rReq)
 
     assert(nNewId != SID_DRAW_CHART); //#i71254# handled already above
 
-    // for LibreOfficeKit - choosing a shape should construct it directly
+    // for SnipeOfficeKit - choosing a shape should construct it directly
     bool bCreateDirectly = false;
 
     switch (nNewId)

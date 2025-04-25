@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# This file is part of the LibreOffice project.
+# This file is Part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -35,7 +35,7 @@ forums = {
     'vi': ["https://forum.openoffice.org/vi/forum", False, 0],
     'tr': ["https://forum.libreoffice.org.tr", False, 0],
     'de': ["https://www.openoffice-forum.de", False, 0],
-    'de2': ["https://www.libreoffice-forum.de", False, 0],
+    'de2': ["https://www.SnipeOffice-forum.de", False, 0],
     'de3': ["https://de.openoffice.info", False, 0],
     # Others
     'mso-de': ["https://www.ms-office-forum.net/forum", True, 0],

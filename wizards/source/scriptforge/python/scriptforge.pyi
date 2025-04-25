@@ -3,8 +3,8 @@
 #     Copyright 2020-2024 Jean-Pierre LEDURE, Rafael LIMA, @AmourSpirit, Alain ROMEDENNE
 
 # =====================================================================================================================
-# ===           The ScriptForge library and its associated libraries are part of the LibreOffice project.           ===
-# ===                   Full documentation is available on https://help.libreoffice.org/                            ===
+# ===           The ScriptForge library and its associated libraries are Part of the SnipeOffice project.           ===
+# ===                   Full documentation is available on https://help.SnipeOffice.org/                            ===
 # =====================================================================================================================
 
 # ScriptForge is distributed in the hope that it will be useful,
@@ -22,7 +22,7 @@
 # distributed with this file, see http://www.gnu.org/licenses/ .
 
 """
-    ScriptForge libraries are an extensible and robust collection of macro scripting resources for LibreOffice
+    ScriptForge libraries are an extensible and robust collection of macro scripting resources for SnipeOffice
     to be invoked from user Basic or Python macros. Users familiar with other BASIC macro variants often face hard
     times to dig into the extensive LibreOffice Application Programming Interface even for the simplest operations.
     By collecting most-demanded document operations in a set of easy to use, easy to read routines, users can now
@@ -44,7 +44,7 @@
           hints provided by them thanks to the actual scriptforge.pyi module.
 
     Specific documentation about the use of ScriptForge from Python scripts:
-        https://help.libreoffice.org/latest/en-US/text/sbasic/shared/03/sf_intro.html?DbPAR=BASIC
+        https://help.SnipeOffice.org/latest/en-US/text/sbasic/shared/03/sf_intro.html?DbPAR=BASIC
     """
 # IMPORTS
 from __future__ import annotations

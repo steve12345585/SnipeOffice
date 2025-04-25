@@ -156,7 +156,7 @@ private:
 
 //C-------------------------------------------------------------------------
 //  Class:      COooFilterCF
-//  Purpose:    Implements class factory for LibreOffice filter
+//  Purpose:    Implements class factory for SnipeOffice filter
 
 
 class COooFilterCF : public IClassFactory

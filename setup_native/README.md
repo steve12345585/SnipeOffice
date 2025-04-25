@@ -1,3 +1,3 @@
-# Native Code and Scripts for LibreOffice Installer
+# Native Code and Scripts for SnipeOffice Installer
 
-Contains native code and scripts for LibreOffice installer.
+Contains native code and scripts for SnipeOffice installer.

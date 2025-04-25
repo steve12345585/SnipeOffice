@@ -97,7 +97,7 @@ enum ColorConfigEntry : int
     SQLPARAMETER,
     SQLCOMMENT,
 
-    // colors for Libreoffice Theme (Application)
+    // colors for SnipeOffice Theme (Application)
     WINDOWCOLOR         ,
     WINDOWTEXTCOLOR     ,
     BASECOLOR           ,

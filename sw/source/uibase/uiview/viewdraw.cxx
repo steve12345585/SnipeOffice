@@ -230,7 +230,7 @@ void SwView::ExecDraw(const SfxRequest& rReq)
 
     std::unique_ptr<SwDrawBase> pFuncPtr;
 
-    // for LibreOfficeKit - choosing a shape should construct it directly
+    // for SnipeOfficeKit - choosing a shape should construct it directly
     bool bCreateDirectly = false;
 
     switch (nSlotId)

@@ -1729,7 +1729,7 @@ SdrEndTextEditKind SdrObjEditView::SdrEndTextEdit(bool bDontDeleteReally)
     }
 
     // if new mechanism was used, clean it up. At cleanup no need to check
-    // for LibreOfficeKit
+    // for SnipeOfficeKit
     if (mpTextEditOutlinerView)
     {
         mpTextEditOutlinerView->GetEditView().setEditViewCallbacks(nullptr);

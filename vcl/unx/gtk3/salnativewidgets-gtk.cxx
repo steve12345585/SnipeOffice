@@ -2943,7 +2943,7 @@ GtkSalGraphics::GtkSalGraphics( GtkSalFrame *pFrame, GtkWidget *pWindow )
     mpLinkButtonStyle = createStyleContext(GtkControlPart::LinkButton);
 #else
     getStyleContext(&mpButtonStyle, gtk_button_new());
-    getStyleContext(&mpLinkButtonStyle, gtk_link_button_new("https://www.libreoffice.org"));
+    getStyleContext(&mpLinkButtonStyle, gtk_link_button_new("https://www.SnipeOffice.org"));
 #endif
 
 #if !GTK_CHECK_VERSION(4, 0, 0)

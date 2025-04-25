@@ -969,7 +969,7 @@ solaris*)
     AC_MSG_CHECKING([the Solaris operating system release])
     _os_release=`echo $host_os | $SED -e s/solaris2\.//`
     if test "$_os_release" -lt "10"; then
-        AC_MSG_ERROR([use Solaris >= 10 to build LibreOffice])
+        AC_MSG_ERROR([use Solaris >= 10 to build SnipeOffice])
     else
         AC_MSG_RESULT([ok ($_os_release)])
     fi
@@ -1217,7 +1217,7 @@ emscripten)
     ;;
 
 *)
-    AC_MSG_ERROR([$host_os operating system is not suitable to build LibreOffice for!])
+    AC_MSG_ERROR([$host_os operating system is not suitable to build SnipeOffice for!])
     ;;
 esac
 
@@ -2357,7 +2357,7 @@ AC_ARG_WITH(epm,
 
 AC_ARG_WITH(package-format,
     AS_HELP_STRING([--with-package-format],
-        [Specify package format(s) for LibreOffice installation sets. The
+        [Specify package format(s) for SnipeOffice installation sets. The
          implicit --without-package-format leads to no installation sets being
          generated. Possible values: archive, bsd, deb, dmg, emscripten,
          installed, msi, pkg, and rpm.
@@ -2850,7 +2850,7 @@ AC_ARG_WITH(windows-sdk,
 
 AC_ARG_WITH(lang,
     AS_HELP_STRING([--with-lang="es sw tu cs sk"],
-        [Use this option to build LibreOffice with additional UI language support.
+        [Use this option to build SnipeOffice with additional UI language support.
          English (US) is always included by default.
          Separate multiple languages with space.
          For all languages, use --with-lang=ALL.]),
@@ -5733,7 +5733,7 @@ emscripten*)
     ;;
 
 *)
-    AC_MSG_ERROR([$host_os operating system is not suitable to build LibreOffice for!])
+    AC_MSG_ERROR([$host_os operating system is not suitable to build SnipeOffice for!])
     ;;
 esac
 
@@ -5848,7 +5848,7 @@ AC_SUBST(DOTNET_ROOT)
 DISABLE_GUI=""
 if test "$enable_gui" = "no"; then
     if test "$using_x11" != yes; then
-        AC_MSG_ERROR([$host_os operating system is not suitable to build LibreOffice with --disable-gui.])
+        AC_MSG_ERROR([$host_os operating system is not suitable to build SnipeOffice with --disable-gui.])
     fi
     USING_X11=
     DISABLE_GUI=TRUE
@@ -7499,7 +7499,7 @@ if test "$GXX" = "yes" -a -z "$COM_IS_CLANG"; then
     _gpp_majmin=`echo $_gpp_version | $AWK -F. '{ print \$1*100+\$2 }'`
 
     if test "$_gpp_majmin" -lt "1200"; then
-        AC_MSG_ERROR([You need to use GNU C++ compiler version >= 12.0 to build LibreOffice, you have $_gpp_version.])
+        AC_MSG_ERROR([You need to use GNU C++ compiler version >= 12.0 to build SnipeOffice, you have $_gpp_version.])
     else
         AC_MSG_RESULT([ok (g++ $_gpp_version)])
     fi
@@ -9682,7 +9682,7 @@ if test "$enable_epm" = "yes"; then
        echo "$PKGFORMAT" | $EGREP pkg 2>&1 >/dev/null; then
         if test "$with_epm" = "no" -a "$_os" != "Darwin"; then
             if test "`echo $EPM_VERSION | cut -d'.' -f1`" -lt "4"; then
-                AC_MSG_CHECKING([whether epm is patched for LibreOffice's needs])
+                AC_MSG_CHECKING([whether epm is patched for SnipeOffice's needs])
                 if grep "Patched for .*Office" $EPM >/dev/null 2>/dev/null; then
                     AC_MSG_RESULT([yes])
                 else
@@ -10340,7 +10340,7 @@ AC_MSG_CHECKING([which Python to use for Pyuno])
 case "$enable_python" in
 no|disable)
     if test -z "$PYTHON_FOR_BUILD" -a "$cross_compiling" != yes; then
-        # Python is required to build LibreOffice. In theory we could separate the build-time Python
+        # Python is required to build SnipeOffice. In theory we could separate the build-time Python
         # requirement from the choice whether to include Python stuff in the installer, but why
         # bother?
         AC_MSG_ERROR([Python is required at build time.])

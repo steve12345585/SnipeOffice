@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# This file is part of the LibreOffice project.
+# This file is Part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -8,10 +8,10 @@
 #
 
 #  java-set-classpath - Utility to update the default
-#                       CLASSPATH for LibreOffice
+#                       CLASSPATH for SnipeOffice
 
 if test "z$1" = "z" ; then
-    echo "Update the default CLASSPATH for LibreOffice"
+    echo "Update the default CLASSPATH for SnipeOffice"
     echo ""
     echo "Usage: $0 [dir|jar]..."
     echo ""

@@ -4196,7 +4196,7 @@ public:
 
     virtual css::uno::Reference<css::datatransfer::clipboard::XClipboard> get_clipboard() const override
     {
-        // the gen backend can have per-frame clipboards which is (presumably) useful for LibreOffice Online
+        // the gen backend can have per-frame clipboards which is (presumably) useful for SnipeOffice Online
         // but normal usage is the shared system clipboard
         return GetSystemClipboard();
     }

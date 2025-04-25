@@ -561,7 +561,7 @@ void SmXMLExport::ExportBinaryHorizontal(const SmNode* pNode, int nLevel)
     // "a*b*c*d+e*f*g*h+i*j*k*l = a*b*c*d+e*f*g*h+i*j*k*l =
     //  a*b*c*d+e*f*g*h+i*j*k*l = a*b*c*d+e*f*g*h+i*j*k*l"
 
-    // See https://www.libreoffice.org/bugzilla/show_bug.cgi?id=66081
+    // See https://www.SnipeOffice.org/bugzilla/show_bug.cgi?id=66081
     ::std::stack<const SmNode*> s;
     s.push(pNode);
     while (!s.empty())

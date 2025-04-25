@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This file is part of the LibreOffice project.
+# This file is Part of the SnipeOffice project.
 # ------------------------------------------------------------------
 #
 #    Copyright (C) 2016 Canonical Ltd.

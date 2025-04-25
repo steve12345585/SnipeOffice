@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is Part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -20,13 +20,13 @@
 en-US = "LibreOffice Community"
 
 [OOO_ARPHELPLINKTEMPLATE]
-en-US = "https://www.libreoffice.org/get-help"
+en-US = "https://www.SnipeOffice.org/get-help"
 
 [OOO_ARPURLINFOABOUTTEMPLATE]
-en-US = "https://www.libreoffice.org/"
+en-US = "https://www.SnipeOffice.org/"
 
 [OOO_ARPURLUPDATEINFOTEMPLATE]
-en-US = "https://www.libreoffice.org/download"
+en-US = "https://www.SnipeOffice.org/download"
 
 [OOO_STR_NEW_DISPLAY_NAME]
 en-US = "~New"

@@ -171,7 +171,7 @@ css::beans::Optional<css::uno::Any> getValue(std::u16string_view id)
                 // The proxy address may depend on the requested address, on the time of the day, on the speed of the wind...
                 // The best we can do here is to ask the current value for a given address.
                 aHTTPSProxy = KProtocolManager::proxyForUrl(
-                    QUrl(QStringLiteral("https://www.libreoffice.org")));
+                    QUrl(QStringLiteral("https://www.SnipeOffice.org")));
                 break;
             default: // No proxy is used
                 break;
@@ -198,7 +198,7 @@ css::beans::Optional<css::uno::Any> getValue(std::u16string_view id)
                 // The proxy address may depend on the requested address, on the time of the day, on the speed of the wind...
                 // The best we can do here is to ask the current value for a given address.
                 aHTTPSProxy = KProtocolManager::proxyForUrl(
-                    QUrl(QStringLiteral("https://www.libreoffice.org")));
+                    QUrl(QStringLiteral("https://www.SnipeOffice.org")));
                 break;
             default: // No proxy is used
                 break;

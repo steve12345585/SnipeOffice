@@ -1757,7 +1757,7 @@ void SwEditWin::KeyInput(const KeyEvent &rKEvt)
             {
                 // at the beginning of the table's cell a '=' ->
                 // call EditRow (F2-functionality)
-                // [Avoid this for LibreOfficeKit, as the separate input window
+                // [Avoid this for SnipeOfficeKit, as the separate input window
                 // steals the focus & things go wrong - the user never gets
                 // the focus back.]
                 rSh.Push();

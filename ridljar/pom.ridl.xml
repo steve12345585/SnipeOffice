@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <name>LibreOffice - Types for the Java Uno typesystem</name>
   <description>Types for the Java Uno typesystem</description>
-  <url>https://www.libreoffice.org</url>
+  <url>https://www.SnipeOffice.org</url>
 
   <dependencyManagement>
     <dependencies>

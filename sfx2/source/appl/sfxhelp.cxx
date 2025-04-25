@@ -644,7 +644,7 @@ bool SfxHelp::Start(const OUString& rURL, weld::Widget* pWidget)
     return bRet;
 }
 
-/// Redirect the vnd.sun.star.help:// urls to http://help.libreoffice.org
+/// Redirect the vnd.sun.star.help:// urls to http://help.SnipeOffice.org
 static bool impl_showOnlineHelp(const OUString& rURL, weld::Widget* pDialogParent)
 {
     static constexpr OUString aInternal(u"vnd.sun.star.help://"_ustr);
@@ -1063,7 +1063,7 @@ bool SfxHelp::Start_Impl(const OUString& rURL, const vcl::Window* pWindow)
         CFURLRef pBrowser = LSCopyDefaultApplicationURLForURL(
                                 CFURLCreateWithString(
                                     kCFAllocatorDefault,
-                                    static_cast<CFStringRef>(@"https://www.libreoffice.org"),
+                                    static_cast<CFStringRef>(@"https://www.SnipeOffice.org"),
                                     nullptr),
                                 kLSRolesAll, nullptr);
         if([static_cast<NSString*>(CFURLGetString(pBrowser)) hasSuffix:@"/Applications/Safari.app/"]) {
@@ -1249,7 +1249,7 @@ bool SfxHelp::Start_Impl(const OUString& rURL, weld::Widget* pWidget, const OUSt
         CFURLRef pBrowser = LSCopyDefaultApplicationURLForURL(
                                 CFURLCreateWithString(
                                     kCFAllocatorDefault,
-                                    static_cast<CFStringRef>(@"https://www.libreoffice.org"),
+                                    static_cast<CFStringRef>(@"https://www.SnipeOffice.org"),
                                     nullptr),
                                 kLSRolesAll, nullptr);
         if([static_cast<NSString*>(CFURLGetString(pBrowser)) hasSuffix:@"/Applications/Safari.app/"]) {

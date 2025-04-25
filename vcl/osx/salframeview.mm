@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is Part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -360,7 +360,7 @@ static void updateWindowCollectionBehavior( const SalFrameStyleFlags nStyle, con
     [pNSWindow setRestorable: NO];
 
     // tdf#137468: Restrict to 24-bit RGB as that is all that we can
-    // handle anyway. HDR is far off in the future for LibreOffice.
+    // handle anyway. HDR is far off in the future for SnipeOffice.
     [pNSWindow setDynamicDepthLimit: NO];
     [pNSWindow setDepthLimit: NSWindowDepthTwentyfourBitRGB];
 

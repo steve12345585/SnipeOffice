@@ -4,7 +4,7 @@
     <string name="pref_experimental_editing_summary">Galluogi’r modd golygu arbrofol. Gall fod peryglon.</string>
     <string name="app_name_settings">Gosodiadau LibreOffice Viewer</string>
     <string name="app_description">Mae LibreOffice Viewer yn ddarllenydd dogfennau yn seiliedig ar LibreOffice.</string>
-    <string name="app_credits">https://www.libreoffice.org</string>
+    <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="app_vendor">Darparwyd y fersiwn yma gan $VENDOR.</string>
     <string name="readonly_file">Darllen yn unig yw\'r ffeil.</string>
     <string name="about_license">Dangos y Drwydded</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- * This file is part of the LibreOffice project.
+ * This file is Part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -3462,7 +3462,7 @@
           <desc>Specifies the root URL to the Office help pages. Blank disables
           Help buttons on dialogs in LibreOffice Online.</desc>
         </info>
-        <value>https://help.libreoffice.org/help.html?</value>
+        <value>https://help.SnipeOffice.org/help.html?</value>
       </prop>
       <group oor:name="StartCenter">
         <info>
@@ -5458,7 +5458,7 @@
       </prop>
       <prop oor:name="SelectedOpenCLDeviceIdentifier" oor:type="xs:string" oor:nillable="false">
         <info>
-          <desc>A string identifying the OpenCL device that was successfully selected and passed the OpenCL calculation tests. The syntax of this value is purposely not documented. For LibreOffice internal use only, do not inspect this value or try to modify it from any level of user code.</desc>
+          <desc>A string identifying the OpenCL device that was successfully selected and passed the OpenCL calculation tests. The syntax of this value is purposely not documented. for SnipeOffice internal use only, do not inspect this value or try to modify it from any level of user code.</desc>
         </info>
         <value>none</value>
       </prop>

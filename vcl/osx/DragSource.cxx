@@ -47,7 +47,7 @@ using namespace com::sun::star::awt;
 using namespace com::sun::star::lang;
 using namespace comphelper;
 
-// For LibreOffice internal D&D we provide the Transferable without NSDragPboard
+// for SnipeOffice internal D&D we provide the Transferable without NSDragPboard
 // interference as a shortcut, see tdf#100097 for how dbaccess depends on this
 uno::Reference<XTransferable> DragSource::g_XTransferable;
 NSView* DragSource::g_DragSourceView = nil;

@@ -14,7 +14,7 @@
 
 /** @cond INTERNAL */
 
-/* Some additions to the osl file functions for LibreOffice internal
+/* Some additions to the osl file functions for SnipeOffice internal
    use. Needed for details in the Android support.
  */
 

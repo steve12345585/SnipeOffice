@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <name>LibreOffice - Java UNO helper</name>
   <description>Java UNO helper</description>
-  <url>https://www.libreoffice.org</url>
+  <url>https://www.SnipeOffice.org</url>
 
   <dependencyManagement>
     <dependencies>

@@ -1,5 +1,5 @@
 '
-' This file is part of the LibreOffice project.
+' This file is Part of the SnipeOffice project.
 '
 ' This Source Code Form is subject to the terms of the Mozilla Public
 ' License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -18,7 +18,7 @@ End Function
 Sub verify_testError()
     On Error GoTo errorHandler
 
-    ' https://help.libreoffice.org/Basic/Error_Sub_Runtime
+    ' https://help.SnipeOffice.org/Basic/Error_Sub_Runtime
     TestUtil.AssertEqual(Error(11), "Division by zero.", "Error(11)")
 
     Exit Sub

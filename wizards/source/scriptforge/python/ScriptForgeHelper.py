@@ -3,8 +3,8 @@
 # Copyright 2019-2022 Jean-Pierre LEDURE, Rafael LIMA, Alain ROMEDENNE
 
 # ======================================================================================================================
-# ===           The ScriptForge library and its associated libraries are part of the LibreOffice project.            ===
-# ===                   Full documentation is available on https://help.libreoffice.org/                             ===
+# ===           The ScriptForge library and its associated libraries are Part of the SnipeOffice project.            ===
+# ===                   Full documentation is available on https://help.SnipeOffice.org/                             ===
 # ======================================================================================================================
 
 #    ScriptForge is distributed in the hope that it will be useful,

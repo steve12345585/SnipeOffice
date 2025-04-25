@@ -1,3 +1,3 @@
-# Linear Solver for LibreOffice Calc
+# Linear Solver for SnipeOffice Calc
 
-The (linear) solver for LibreOffice Calc.
+The (linear) solver for SnipeOffice Calc.

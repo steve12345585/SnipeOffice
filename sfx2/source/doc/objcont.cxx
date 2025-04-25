@@ -599,7 +599,7 @@ bool SfxObjectShell::IsHelpDocument() const
 
 void SfxObjectShell::ResetFromTemplate( const OUString& rTemplateName, std::u16string_view rFileName )
 {
-    // only care about resetting this data for LibreOffice formats otherwise
+    // only care about resetting this data for SnipeOffice formats otherwise
     if ( !IsOwnStorageFormat( *GetMedium())  )
         return;
 

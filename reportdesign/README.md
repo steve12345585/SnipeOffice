@@ -1,3 +1,3 @@
 # Legacy Reports
 
-Legacy Reports for LibreOffice Base
+Legacy Reports for SnipeOffice Base

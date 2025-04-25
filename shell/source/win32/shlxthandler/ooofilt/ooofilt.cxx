@@ -826,7 +826,7 @@ HRESULT STDMETHODCALLTYPE COooFilterCF::LockServer(BOOL fLock)
 }
 //+-------------------------------------------------------------------------
 //  DLL:        ooofilt.dll
-//  Summary:    Implements Dynamic Link Library functions for LibreOffice filter
+//  Summary:    Implements Dynamic Link Library functions for SnipeOffice filter
 
 //F-------------------------------------------------------------------------
 //  Function:   DllMain

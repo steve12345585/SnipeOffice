@@ -767,7 +767,7 @@
      <table:table-cell table:style-name="ce17"/>
      <table:table-cell table:number-columns-repeated="9"/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://help.libreoffice.org/Calc/EASTERSUNDAY</text:p>
+      <text:p>https://help.SnipeOffice.org/Calc/EASTERSUNDAY</text:p>
      </table:table-cell>
      <table:table-cell/>
     </table:table-row>

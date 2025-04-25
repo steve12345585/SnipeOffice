@@ -3,7 +3,7 @@
 #     Copyright 2012-2020 Jean-Pierre LEDURE
 
 # =====================================================================================================================
-# ===                   The Access2Base library is a part of the LibreOffice project.                               ===
+# ===                   The Access2Base library is a Part of the SnipeOffice project.                               ===
 # ===                   Full documentation is available on http://www.access2base.com                               ===
 # =====================================================================================================================
 

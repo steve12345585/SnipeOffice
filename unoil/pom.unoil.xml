@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <name>LibreOffice - Maps IDL into java classes definitions</name>
   <description>Maps IDL into java classes definitions</description>
-  <url>https://www.libreoffice.org</url>
+  <url>https://www.SnipeOffice.org</url>
 
   <dependencyManagement>
     <dependencies>

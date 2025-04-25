@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name_settings">LibreOffice Դիտակի կարգավորումներ</string>
     <string name="app_description">LibreOffice Viewer-ը LibreOffice-ի վրա հիմնված փաստաթղթերի դիտարկիչ է:</string>
-    <string name="app_credits">https://www.libreoffice.org</string>
+    <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="app_vendor">Այս թողարկումը տրամադրվել է $VENDOR -ի կողմից:</string>
     <string name="about_license">Ցույց տուր արտոնագիրը</string>
     <string name="about_notice">Ցույց տալ ծանուցումը</string>

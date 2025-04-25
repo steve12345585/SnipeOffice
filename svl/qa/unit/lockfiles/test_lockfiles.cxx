@@ -103,7 +103,7 @@ OUString LockfileTest::generateTestURL(std::u16string_view sFileName) const
 
 void LockfileTest::testLOLockFileURL()
 {
-    // Test the generated file name for LibreOffice lock files
+    // Test the generated file name for SnipeOffice lock files
     OUString aTestODT = generateTestURL(u"testLOLockFileURL.odt");
 
     svt::DocumentLockFile aLockFile(aTestODT);

@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is Part of the SnipeOffice project.
  *
  * Copyright (c) 2001-2004, The HSQL Development Group
  * All rights reserved.

@@ -17,7 +17,7 @@
     <string name="action_rename_slide">Endurnefna skyggnu</string>
     <string name="automatic">Sjálfvirkt</string>
     <string name="app_description">LibreOffice-skoðarinn er skjalaskoðari byggður á LibreOffice.</string>
-    <string name="app_credits">https://www.libreoffice.org</string>
+    <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="app_vendor">"Þessi útgáfa var gefin út af  $VENDOR."</string>
     <string name="readonly_file">Þessi skrá er aðeins lesanleg.</string>
     <string name="about_license">Birta notkunarleyfi</string>

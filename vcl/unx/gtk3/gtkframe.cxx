@@ -5144,7 +5144,7 @@ public:
 #endif
 };
 
-// For LibreOffice internal D&D we provide the Transferable without Gtk
+// for SnipeOffice internal D&D we provide the Transferable without Gtk
 // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
 GtkInstDragSource* GtkInstDragSource::g_ActiveDragSource;
 
@@ -5219,7 +5219,7 @@ gboolean GtkInstDropTarget::signalDragDrop(GtkDropTargetAsync* context, GdkDrop*
     if (!(mask & (GDK_CONTROL_MASK | GDK_SHIFT_MASK)))
         aEvent.DropAction |= css::datatransfer::dnd::DNDConstants::ACTION_DEFAULT;
 
-    // For LibreOffice internal D&D we provide the Transferable without Gtk
+    // for SnipeOffice internal D&D we provide the Transferable without Gtk
     // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
     if (GtkInstDragSource::g_ActiveDragSource)
         aEvent.Transferable = GtkInstDragSource::g_ActiveDragSource->GetTransferable();
@@ -5404,7 +5404,7 @@ GdkDragAction GtkInstDropTarget::signalDragMotion(GtkDropTargetAsync *context, G
     if (!m_bInDrag)
     {
         css::uno::Reference<css::datatransfer::XTransferable> xTransferable;
-        // For LibreOffice internal D&D we provide the Transferable without Gtk
+        // for SnipeOffice internal D&D we provide the Transferable without Gtk
         // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
         if (GtkInstDragSource::g_ActiveDragSource)
             xTransferable = GtkInstDragSource::g_ActiveDragSource->GetTransferable();
@@ -6155,7 +6155,7 @@ void GtkInstDragSource::set_datatransfer(const css::uno::Reference<css::datatran
 
 void GtkInstDragSource::setActiveDragSource()
 {
-   // For LibreOffice internal D&D we provide the Transferable without Gtk
+   // for SnipeOffice internal D&D we provide the Transferable without Gtk
    // intermediaries as a shortcut, see tdf#100097 for how dbaccess depends on this
    g_ActiveDragSource = this;
    g_DropSuccessSet = false;

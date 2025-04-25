@@ -718,7 +718,7 @@ void BackendImpl::PackageImpl::processPackage_(
 #if HAVE_FEATURE_EXTENSIONS
         if (!that->removeFromConfigmgrIni(m_isSchema, url, xCmdEnv) &&
             that->m_registeredPackages) {
-            // Obsolete package database handling - should be removed for LibreOffice 4.0
+            // Obsolete package database handling - should be removed for SnipeOffice 4.0
             t_string2string_map entries(
                 that->m_registeredPackages->getEntries());
             for (auto const& entry : entries)

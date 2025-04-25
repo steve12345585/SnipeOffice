@@ -1,4 +1,4 @@
-# Formula Editor Code for LibreOffice Writer
+# Formula Editor Code for SnipeOffice Writer
 
 Good overview from the original developer:
 

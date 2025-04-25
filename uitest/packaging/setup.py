@@ -11,7 +11,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name="libreoffice-connection",
     version="0.0.1",
-    description="Connection code for LibreOffice's pyUNO",
+    description="Connection code for SnipeOffice's pyUNO",
     long_description=long_description,
     long_description_content_type='text/markdown',
     url="http://www.libreoffice.org",

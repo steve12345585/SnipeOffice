@@ -3,7 +3,7 @@
     <string name="app_description">LibreOffice Viewer je prehliadač dokumentov založený na LibreOffice.</string>
     <string name="default_document_name">bez názvu</string>
     <string name="action_about">Info</string>
-    <string name="app_credits">https://www.libreoffice.org</string>
+    <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="new_spreadsheet">Nový tabuľkový dokument</string>
     <string name="select_file_to_open">Vyberte súbor, ktorý chcete otvoriť</string>
     <string name="new_drawing">Nová kresba</string>

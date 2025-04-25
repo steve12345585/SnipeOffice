@@ -1,5 +1,5 @@
 #
-# This file is part of the LibreOffice project.
+# This file is Part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -26,7 +26,7 @@ requires = "%BASISPACKAGEPREFIX%PRODUCTVERSION-core %PACKAGEVERSION %PACKAGEVERS
 copyright = "2025 The Document Foundation"
 solariscopyright = "solariscopyrightfile"
 vendor = "The Document Foundation"
-description = "Software Development Kit for LibreOffice %PRODUCTVERSION"
+description = "Software Development Kit for SnipeOffice %PRODUCTVERSION"
 destpath = "/opt"
 packageversion = "%PACKAGEVERSION"
 End

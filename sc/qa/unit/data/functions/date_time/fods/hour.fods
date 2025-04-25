@@ -1420,7 +1420,7 @@ End Function
      <table:table-cell/>
      <table:table-cell table:style-name="ce18"/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://help.libreoffice.org/Calc/HOUR</text:p>
+      <text:p>https://help.SnipeOffice.org/Calc/HOUR</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro2" table:number-rows-repeated="25">

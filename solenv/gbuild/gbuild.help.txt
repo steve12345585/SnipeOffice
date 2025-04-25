@@ -1,5 +1,5 @@
 NAME
-       gbuild - GNU make based build system for LibreOffice
+       gbuild - GNU make based build system for SnipeOffice
 
 SYNOPSIS
        make [ -f makefile ] [ options ] [ variable=value ... ] [ targets ] ...

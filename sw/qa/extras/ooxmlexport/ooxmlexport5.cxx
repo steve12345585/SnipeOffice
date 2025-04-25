@@ -208,7 +208,7 @@ CPPUNIT_TEST_FIXTURE(Test, testFDO77890 )
     /*
     Ensure that the page break is preserved i.e it should not be converted to a section break, in case
     if the different first page is set for the pages in the document.
-    For additional comments please refer to https://www.libreoffice.org/bugzilla/show_bug.cgi?id=77890#c2
+    For additional comments please refer to https://www.SnipeOffice.org/bugzilla/show_bug.cgi?id=77890#c2
     */
     xmlDocUniquePtr pXmlDoc = parseExport(u"word/document.xml"_ustr);
     assertXPath(pXmlDoc, "/w:document/w:body/w:p[2]/w:r[2]/w:br", "type", u"page");

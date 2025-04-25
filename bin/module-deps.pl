@@ -476,7 +476,7 @@ main()
 
 =head1 NAME
 
-module-deps - Generate module dependencies for LibreOffice build system
+module-deps - Generate module dependencies for SnipeOffice build system
 
 =head1 SYNOPSIS
 

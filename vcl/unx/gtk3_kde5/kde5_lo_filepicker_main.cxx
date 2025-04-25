@@ -37,7 +37,7 @@ int main(int argc, char** argv)
 
     QCommandLineParser parser;
     parser.setApplicationDescription(
-        QObject::tr("Helper executable for LibreOffice KDE/Plasma integration.\n"
+        QObject::tr("Helper executable for SnipeOffice KDE/Plasma integration.\n"
                     "Do not run this executable directly. Rather, use it indirectly via "
                     "the gtk3_kde5 VCL plugin (SAL_USE_VCLPLUGIN=gtk3_kde5)."));
     parser.addVersionOption();

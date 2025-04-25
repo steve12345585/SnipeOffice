@@ -400,7 +400,7 @@ Point FloatingWindow::ImplCalcPos(vcl::Window* pWindow,
             default: break;
         }
 
-        // no further adjustment for LibreOfficeKit
+        // no further adjustment for SnipeOfficeKit
         if (bLOKActive)
             break;
 

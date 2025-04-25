@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name_settings">Paramètre de l\'afficheur LibreOffice</string>
     <string name="app_name">LibreOffice Viewer</string>
-    <string name="app_credits">https://www.libreoffice.org</string>
+    <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="app_vendor">Cette version est fournie par $VENDOR.</string>
     <string name="readonly_file">Ce fichier est en lecture seule.</string>
     <string name="about_license">Afficher la licence</string>

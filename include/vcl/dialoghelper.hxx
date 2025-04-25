@@ -25,7 +25,7 @@ VCL_DLLPUBLIC void EndAllDialogs(vcl::Window const* pParent);
 */
 VCL_DLLPUBLIC bool IsInPopupMenuExecute();
 
-/* for LibreOffice kit */
+/* for SnipeOffice kit */
 VCL_DLLPUBLIC void EnableDialogInput(vcl::Window* pDialog);
 VCL_DLLPUBLIC void CloseTopLevel(vcl::Window* pDialog);
 /// Pre-loads all modules containing UI information

@@ -49,7 +49,7 @@ browser.
 
 ## HTML help, online
 
-This help is the external one, currently provided by help.libreoffice.org. It
+This help is the external one, currently provided by help.SnipeOffice.org. It
 differs from the bundled HTML help in three main aspects:
 
 * has a language chooser widget

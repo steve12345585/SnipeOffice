@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
 <script:module xmlns:script="http://openoffice.org/2000/script" script:name="SF_Register" script:language="StarBasic" script:moduleType="normal">REM =======================================================================================================================
-REM ===			The ScriptForge library and its associated libraries are part of the LibreOffice project.				===
+REM ===			The ScriptForge library and its associated libraries are Part of the SnipeOffice project.				===
 REM	===						The SFDialogs library is one of the associated libraries.									===
-REM ===					Full documentation is available on https://help.libreoffice.org/								===
+REM ===					Full documentation is available on https://help.SnipeOffice.org/								===
 REM =======================================================================================================================
 
 Option Compatible

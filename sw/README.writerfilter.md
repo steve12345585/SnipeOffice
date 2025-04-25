@@ -1,4 +1,4 @@
-# Import Filters for LibreOffice Writer
+# Import Filters for SnipeOffice Writer
 
 The writerfilter module contains import filters for Writer, using its UNO API.
 

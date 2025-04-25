@@ -613,7 +613,7 @@ void SwDocTest::testSwScanner()
         CPPUNIT_ASSERT_EQUAL(u"World"_ustr, rWorld);
     }
 
-    //See https://www.libreoffice.org/bugzilla/show_bug.cgi?id=45271
+    //See https://www.SnipeOffice.org/bugzilla/show_bug.cgi?id=45271
     {
         static constexpr OUString IDEOGRAPHICFULLSTOP_D = u"\u3002D"_ustr;
 

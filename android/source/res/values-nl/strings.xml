@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name_settings">LibreOffice Viewer-instellingen</string>
-    <string name="app_credits">https://www.libreoffice.org</string>
+    <string name="app_credits">https://www.SnipeOffice.org</string>
     <string name="app_vendor">Deze uitgave is geleverd door $VENDOR.</string>
     <string name="readonly_file">Dit bestand is alleen-lezen.</string>
     <string name="about_license">Licentie inzien</string>

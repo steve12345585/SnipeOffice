@@ -15,7 +15,7 @@ A quick overview of the LibreOffice code structure.
 
 ## Overview
 
-You can develop for LibreOffice in one of two ways, one
+You can develop for SnipeOffice in one of two ways, one
 recommended and one much less so. First the somewhat less recommended
 way: it is possible to use the SDK to develop an extension,
 for which you can read the [API docs](https://api.libreoffice.org/)
@@ -43,7 +43,7 @@ run and compile LibreOffice, also used by the TDF builds:
 * Linux:
     * Runtime: RHEL 8 or CentOS 8 and comparable
     * Build: either GCC 12; or Clang 12 with libstdc++ 10
-* iOS (only for LibreOfficeKit):
+* iOS (only for SnipeOfficeKit):
     * Runtime: 11.4 (only support for newer i devices == 64 bit)
     * Build: Xcode 9.3 and iPhone SDK 11.4
 * Android:

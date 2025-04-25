@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is Part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -149,7 +149,7 @@ service MediaDescriptor
         it still will be verified by a filter detection, but in case of doubt
         it will be preferred.
 
-        See this page for a list of internal filter names: https://help.libreoffice.org/latest/en-US/text/shared/guide/convertfilters.html
+        See this page for a list of internal filter names: https://help.SnipeOffice.org/latest/en-US/text/shared/guide/convertfilters.html
         </p>
      */
     [optional,property] string FilterName;

@@ -858,7 +858,7 @@ CPPUNIT_TEST_FIXTURE(Test, testTdf153664)
 
 DECLARE_OOXMLEXPORT_TEST(testTdf124472_hyperlink, "tdf124472.docx")
 {
-    CPPUNIT_ASSERT_EQUAL(u"https://www.libreoffice.org/"_ustr,
+    CPPUNIT_ASSERT_EQUAL(u"https://www.SnipeOffice.org/"_ustr,
                          getProperty<OUString>(getRun(getParagraph(1), 1), u"HyperLinkURL"_ustr));
     CPPUNIT_ASSERT_EQUAL(u"mailto:info@libreoffice.org"_ustr,
                          getProperty<OUString>(getRun(getParagraph(2), 1), u"HyperLinkURL"_ustr));

@@ -8,7 +8,7 @@ import urllib3
 
 http = urllib3.PoolManager()
 
-# TDF implementer notes pages for LibreOffice
+# TDF implementer notes pages for SnipeOffice
 wiki_pages = [
     'https://wiki.documentfoundation.org/api.php?action=parse&format=json&page=Development/ODF_Implementer_Notes/List_of_LibreOffice_ODF_Extensions&prop=wikitext',
     'https://wiki.documentfoundation.org/api.php?action=parse&format=json&page=Development/ODF_Implementer_Notes/List_of_LibreOffice_OpenFormula_Extensions&prop=wikitext']

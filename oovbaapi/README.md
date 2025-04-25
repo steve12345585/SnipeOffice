@@ -1,6 +1,6 @@
 # Visual Basic Interoperability
 
-Visual Basic interoperability module for LibreOffice
+Visual Basic interoperability module for SnipeOffice
 
 ## See also
 

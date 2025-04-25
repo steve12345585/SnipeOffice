@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
 <script:module xmlns:script="http://openoffice.org/2000/script" script:name="SF_Exception" script:language="StarBasic" script:moduleType="normal">REM =======================================================================================================================
-REM ===			The ScriptForge library and its associated libraries are part of the LibreOffice project.				===
-REM ===					Full documentation is available on https://help.libreoffice.org/								===
+REM ===			The ScriptForge library and its associated libraries are Part of the SnipeOffice project.				===
+REM ===					Full documentation is available on https://help.SnipeOffice.org/								===
 REM =======================================================================================================================
 
 Option Compatible
@@ -46,7 +46,7 @@ Option Explicit
 &apos;&apos;&apos;					exception.ReturnCodeDescription			&apos;	Long error description
 &apos;&apos;&apos;
 &apos;&apos;&apos;		Detailed user documentation:
-&apos;&apos;&apos;			https://help.libreoffice.org/latest/en-US/text/sbasic/shared/03/sf_exception.html?DbPAR=BASIC
+&apos;&apos;&apos;			https://help.SnipeOffice.org/latest/en-US/text/sbasic/shared/03/sf_exception.html?DbPAR=BASIC
 &apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;
 
 REM ================================================================== EXCEPTIONS
@@ -1344,7 +1344,7 @@ Private Sub _OpenHelpInBrowser(ByVal psService As String, ByVal psMethod As Stri
 &apos;&apos;&apos;	Open the help page and help anchor related to the given ScriptForge service and method
 
 Dim sUrl As String			&apos;	URL to open
-Const cstURL = &quot;https://help.libreoffice.org/latest/en-US/text/sbasic/shared/03/sf_%1.html?&amp;DbPAR=BASIC#%2&quot;
+Const cstURL = &quot;https://help.SnipeOffice.org/latest/en-US/text/sbasic/shared/03/sf_%1.html?&amp;DbPAR=BASIC#%2&quot;
 
 	On Local Error GoTo Finally		&apos;	No reason to risk abort here
 Try:

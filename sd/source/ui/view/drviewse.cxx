@@ -232,7 +232,7 @@ void DrawViewShell::FuPermanent(SfxRequest& rReq)
         rBind.Update(nOldSId);
     }
 
-    // for LibreOfficeKit - choosing a shape should construct it directly
+    // for SnipeOfficeKit - choosing a shape should construct it directly
     bool bCreateDirectly = false;
     bool bRectangle = false;
 

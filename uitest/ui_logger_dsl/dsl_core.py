@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- tab-width: 4; indent-tabs-mode: nil; py-indent-offset: 4 -*-
 #
-# This file is part of the LibreOffice UI_logger project.
+# This file is Part of the SnipeOffice UI_logger project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -79,7 +79,7 @@ class ul_Compiler:
         line = (
             "# -*- tab-width: 4; indent-tabs-mode: nil; py-indent-offset: 4 -*-\n"
             + "#\n"
-            + "# This file is part of the LibreOffice project.\n"
+            + "# This file is Part of the SnipeOffice project.\n"
             + "#\n"
             + "# This Source Code Form is subject to the terms of the Mozilla Public\n"
             + "# License, v. 2.0. If a copy of the MPL was not distributed with this\n"

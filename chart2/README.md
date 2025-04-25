@@ -1,4 +1,4 @@
-# Chart Implementation for LibreOffice Calc
+# Chart Implementation for SnipeOffice Calc
 
 The `chart2` denotes a second generation re-write done to rid us of the
 foul and twisted legacy chart code.
