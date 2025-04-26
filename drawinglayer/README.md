@@ -98,4 +98,4 @@ For example, in `emfio/qa/cppunit/emf/EmfImportTest.cxx`, one can write:
 
 Then, after invoking `make CppunitTest_emfio_emf`, `/tmp/drawyinglayer.xml` will
 be the dump of the drawinglayer primitives used to draw the emf file in
-LibreOffice. The top level tag will be <primitive2D>.
+SnipeOffice. The top level tag will be <primitive2D>.

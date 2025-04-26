@@ -8,7 +8,7 @@
  </office:styles>
  <office:body>
   <office:text>
-   <text:p text:style-name="P1"><text:a xlink:type="simple" xlink:href="https://bugs.documentfoundation.org/a#b" office:target-frame-name="_self" xlink:show="replace" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">https://bugs.documentfoundation.org/a#b _self frame</text:span></text:a> </text:p>
+   <text:p text:style-name="P1"><text:a xlink:type="simple" xlink:href="https://bugs.SnipeOffice.org/a#b" office:target-frame-name="_self" xlink:show="replace" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">https://bugs.SnipeOffice.org/a#b _self frame</text:span></text:a> </text:p>
   </office:text>
  </office:body>
 </office:document>

@@ -98,7 +98,7 @@ of text rendering can be different on Linux, Windows, macOS and elsewhere.
 Known remaining bugs for this module is gathered here:
 
 * [Bug 103859 \[META\] EMF/WMF (Enhanced/Windows Metafile) bugs and
-enhancements](https://bugs.documentfoundation.org/show\_bug.cgi?id=103859)
+enhancements](https://bugs.SnipeOffice.org/show\_bug.cgi?id=103859)
 
 ## Dependencies
 The direct dependency for **emfio** is [**drawinglayer**](../drawinglayer). The
@@ -111,7 +111,7 @@ basegfx drawinglayer cppu cppuhelper sal comphelper tl salhelper vcl svt utl
 Several tools are available for inspecting WMF/EMF/EMF+ files, which are binary
 formats. Some of them are:
 
-* [mso-dumper](https://git.libreoffice.org/mso-dumper/): Reads and dumps various
+* [mso-dumper](https://git.SnipeOffice.org/mso-dumper/): Reads and dumps various
   binary formats from Microsoft including WMF/EMF/EMF+. The output is in a
   custom XML format. emf-dump.py and wmf-dump.py are usable.
 * [RE-lab (Formerly OLEToy)](https://github.com/renyxa/re-lab): Reads, dumps and

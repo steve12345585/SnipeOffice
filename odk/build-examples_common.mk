@@ -14,7 +14,7 @@
 # built from upstream source and pass it into the toplevel make invocation as SHELL=... command line
 # argument (which is also needed when building external/firebird and needing to preserve a global
 # DYLD_LIBRARY_PATH, see comment 17 at
-# <https://bugs.documentfoundation.org/show_bug.cgi?id=101789#c17> "FIREBIRD 3 - fails to build on
+# <https://bugs.SnipeOffice.org/show_bug.cgi?id=101789#c17> "FIREBIRD 3 - fails to build on
 # OSX 10.11.6 with clang").  When building on macOS <= 10.14 and not passing SHELL=... on the
 # command line, MACOSX_SHELL_HACK will kick in and do the "use a copy of /bin/sh" workaround.  When
 # passing in a self-built SHELL=... (which is necessary now on macOS >= 10.15), the

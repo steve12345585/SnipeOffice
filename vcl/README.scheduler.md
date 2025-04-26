@@ -441,7 +441,7 @@ interactivity.
 ## See Also
 
 - [Solar Mutex](https://wiki.openoffice.org/wiki/Terms/Solar_Mutex)
-- [LibreOffice Main Loop](https://wiki.documentfoundation.org/Development/LHM_LiMux/Main_Loop)
+- [SnipeOffice Main Loop](https://wiki.SnipeOffice.org/Development/LHM_LiMux/Main_Loop)
 - [AOO Advanced Threading-Architecture (proposal)](https://wiki.openoffice.org/wiki/Architecture/Proposal/Advanced_Threading-Architecture)
 - [Revise OOo Multi-Threading Efforts](https://wiki.openoffice.org/wiki/Effort/Revise_OOo_Multi-Threading)
 - [Multi-Threading Analysis](https://wiki.openoffice.org/wiki/Analysis/Multi-Threading)

@@ -11,7 +11,7 @@ from uitest.framework import UITestCase
 from libreoffice.uno.propertyvalue import mkPropertyValues
 from uitest.uihelper.common import get_state_as_dict, select_pos
 
-#https://bugs.documentfoundation.org/show_bug.cgi?id=128593
+#https://bugs.SnipeOffice.org/show_bug.cgi?id=128593
 #Bug 128593 - Writer table cell's background color is always black
 
 class tdf128593(UITestCase):

@@ -1,6 +1,6 @@
-# LibreOffice Licensing Blurb
+# SnipeOffice Licensing Blurb
 
-Contains the stock libreoffice licensing blurb, as distributed in the install
+Contains the stock SnipeOffice licensing blurb, as distributed in the install
 directory, and also potentially at run-time.
 
 ## Generating Licence Files
@@ -14,7 +14,7 @@ Output file formats are plain text and html.
 ## Conditional Text
 
 The contents of the license file depends on the build configuration. Several
-externals may or may not be shipped with LibreOffice. Therefore, we need to pass
+externals may or may not be shipped with SnipeOffice. Therefore, we need to pass
 information about build configuration to the XSLT processor.
 
 Variables used for conditional text:

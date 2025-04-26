@@ -43,8 +43,8 @@ logerrit() {
 case "$1" in
     help|--help|"")
         echo "Usage: ./logerrit subcommand [options]"
-        echo "simple and basic tool to interact with LibreOffice gerrit"
-        echo "see https://wiki.documentfoundation.org/Development/gerrit for details."
+        echo "simple and basic tool to interact with SnipeOffice gerrit"
+        echo "see https://wiki.SnipeOffice.org/Development/gerrit for details."
         echo
         echo "subcommands:"
         echo "             setup                   walking you though your gerrit setup"
@@ -70,7 +70,7 @@ case "$1" in
         echo "             <any other gerrit command>"
         echo
         echo "advanced users should consider using git review instead:"
-        echo "https://wiki.documentfoundation.org/Development/GitReview"
+        echo "https://wiki.SnipeOffice.org/Development/GitReview"
         exit
     ;;
     setup)
@@ -197,7 +197,7 @@ case "$1" in
     review)
         echo "'./logerrit review' has been removed as obsolete."
         echo "Please use either:"
-        echo " - git-review:              https://wiki.documentfoundation.org/Development/GitReview"
+        echo " - git-review:              https://wiki.SnipeOffice.org/Development/GitReview"
         echo " - or the web-UI directly:  https://gerrit.libreoffice.org/"
         echo "Both provide a better experience."
         exit 1;

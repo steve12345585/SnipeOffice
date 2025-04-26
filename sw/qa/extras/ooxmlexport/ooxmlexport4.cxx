@@ -859,7 +859,7 @@ CPPUNIT_TEST_FIXTURE(Test, testTdf104707_urlComment)
     // the hyperlink within the comment text
     auto xURLField = getProperty< uno::Reference<text::XTextField> >(xText, u"TextField"_ustr);
     auto aURL = getProperty< OUString >(xURLField, u"URL"_ustr);
-    CPPUNIT_ASSERT_EQUAL(u"https://bugs.documentfoundation.org/show_bug.cgi?id=104707"_ustr, aURL);
+    CPPUNIT_ASSERT_EQUAL(u"https://bugs.SnipeOffice.org/show_bug.cgi?id=104707"_ustr, aURL);
 }
 
 CPPUNIT_TEST_FIXTURE(Test, testOLEObjectinHeader)

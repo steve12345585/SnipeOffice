@@ -1500,7 +1500,7 @@ Public Function OpenTextFile(Optional ByVal FileName As Variant _
 &apos;&apos;&apos;	Returns:
 &apos;&apos;&apos;		An instance of the SF_TextStream class representing the opened file or a Null object if an error occurred
 &apos;&apos;&apos;		The method does not check if the file is really a text file
-&apos;&apos;&apos;		It doesn&apos;t check either if the given encoding is implemented in LibreOffice nor if it is the right one
+&apos;&apos;&apos;		It doesn&apos;t check either if the given encoding is implemented in SnipeOffice nor if it is the right one
 &apos;&apos;&apos;	Exceptions:
 &apos;&apos;&apos;		UNKNOWNFILEERROR		File does not exist
 &apos;&apos;&apos;	Example:

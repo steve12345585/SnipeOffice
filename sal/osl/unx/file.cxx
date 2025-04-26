@@ -790,7 +790,7 @@ static void osl_file_adjustLockFlags(const OString& path, int *flags, sal_uInt32
         // during backup creation at save time (even though this is a
         // write lock and not a read lock).
         // Fixes the following bug:
-        // https://bugs.documentfoundation.org/show_bug.cgi?id=55004
+        // https://bugs.SnipeOffice.org/show_bug.cgi?id=55004
         switch (aFileStatFs.f_type) {
         case SMB_SUPER_MAGIC:
         case CIFS_SUPER_MAGIC:

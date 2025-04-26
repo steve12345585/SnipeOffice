@@ -1,26 +1,26 @@
 # Support for Emscripten Cross Build
 
-This subdirectory provides support for building LibreOffice as WASM, with the Emscripten toolchain.
+This subdirectory provides support for building SnipeOffice as WASM, with the Emscripten toolchain.
 
-You can build LibreOffice for WASM for two separate purposes: 1)
-Either to produce a WASM binary of LibreOffice as such, using Qt5 for
-its GUI, or 2) just compiling LibreOffice core ("LibreOffice
+You can build SnipeOffice for WASM for two separate purposes: 1)
+Either to produce a WASM binary of SnipeOffice as such, using Qt5 for
+its GUI, or 2) just compiling SnipeOffice core ("SnipeOffice
 Technology") to WASM without any UI for use in other software that
 provides the UI, like Collabora Online built as WASM.
 
 The first purpose was the original reason for the WASM port and this
 document was originally written with that in mind. For the second
 purpose, look towards the end of the document for the section
-"Building headless LibreOffice as WASM for use in another product".
+"Building headless SnipeOffice as WASM for use in another product".
 
-## Status of LibreOffice as WASM with Qt
+## Status of SnipeOffice as WASM with Qt
 
-Configure `--with-package-format=emscripten` to have `workdir/installation/LibreOffice/emscripten`
+Configure `--with-package-format=emscripten` to have `workdir/installation/SnipeOffice/emscripten`
 populated with just the relevant files from `instdir`.
 
 The build generates a Writer-only LO build. You should be able to run either
 
-    $ emrun --hostname 127.0.0.1 --serve_after_close workdir/installation/LibreOffice/emscripten/qt_soffice.html
+    $ emrun --hostname 127.0.0.1 --serve_after_close workdir/installation/SnipeOffice/emscripten/qt_soffice.html
     $ emrun --hostname 127.0.0.1 --serve_after_close workdir/LinkTarget/Executable/qt_vcldemo.html
 
 REMINDER: Always start new tabs in the browser, reload might fail / cache!
@@ -43,7 +43,7 @@ using another version often causes arbitrary problems.
 
 Example `bashrc` scriptlet:
 
-    EMSDK_ENV=$HOME/Development/libreoffice/git_emsdk/emsdk_env.sh
+    EMSDK_ENV=$HOME/Development/SnipeOffice/git_emsdk/emsdk_env.sh
     [ -f "$EMSDK_ENV" ] && \. "$EMSDK_ENV" 1>/dev/null 2>&1
 
 ### Setup Qt
@@ -126,7 +126,7 @@ final result is not depending on the build system at all.
 Recommended configure setup is thusly:
 
 * grab defaults
-    `--with-distro=LibreOfficeWASM32`
+    `--with-distro=SnipeOfficeWASM32`
 
 * local config
     `QT5DIR=/dir/of/qt5/install/prefix`
@@ -137,7 +137,7 @@ Recommended configure setup is thusly:
 --enable-ccache
 ```
 
-FWIW: it's also possible to build an almost static Linux LibreOffice by just using
+FWIW: it's also possible to build an almost static Linux SnipeOffice by just using
 --disable-dynloading --enable-customtarget-components. System externals are still
 linked dynamically, but everything else is static.
 
@@ -176,7 +176,7 @@ easy to replicate across different machines - consider the docker
 images we're providing.
 
 Config/setup file see
-<https://git.libreoffice.org/lode/+/ccb36979563635b51215477455953252c99ec013>
+<https://git.SnipeOffice.org/lode/+/ccb36979563635b51215477455953252c99ec013>
 
 Run
 
@@ -265,7 +265,7 @@ into the console of the browser's main thread.
 
 Alternatively, you can do the following:  Put an example into some file like `example.js` that you
 put next to the `qt_soffice.html` that you serve to the browser (i.e., in
-`workdir/installation/LibreOffice/emscripten/`).  Create another small JS snippet file like
+`workdir/installation/SnipeOffice/emscripten/`).  Create another small JS snippet file like
 `include.js` (which is only needed during the build) containing
 ```
 Module.uno_scripts = ['./example.js'];
@@ -356,11 +356,11 @@ There is a wasm64, but that still uses 32bit pointers!
 
 Old outdated docs:
 
-- <https://wiki.documentfoundation.org/Development/Emscripten>
+- <https://wiki.SnipeOffice.org/Development/Emscripten>
 
 Reverted patch:
 
-- <https://cgit.freedesktop.org/libreoffice/core/commit/?id=0e21f6619c72f1e17a7b0a52b6317810973d8a3e>
+- <https://cgit.freedesktop.org/SnipeOffice/core/commit/?id=0e21f6619c72f1e17a7b0a52b6317810973d8a3e>
 
 Generally <https://emscripten.org/docs/porting>:
 
@@ -421,7 +421,7 @@ solve all of the above issues.  But Qt5 just doesn't appear to be prepared to ru
 the JS main thread; e.g., it tries to access the global JS `window` object in various places, which
 is available on the JS main thread but not in a JS Worker.)
 
-## Building headless LibreOffice as WASM for use in another product
+## Building headless SnipeOffice as WASM for use in another product
 
 ### Set up Emscripten
 
@@ -430,7 +430,7 @@ Follow the instructions in the first part of this document.
 ### No Qt needed.
 
 You don't need any dependencies other than those that normally are
-downloaded and compiled when building LibreOffice.
+downloaded and compiled when building SnipeOffice.
 
 ### Set up LO
 
@@ -456,6 +456,6 @@ After all, in this case you are building LO core headless for it to be used by o
 
 Note that a soffice.wasm will be built, but that is just because of
 how the makefilery has been set up. We do need the soffice.data file
-that contains the in-memory file system needed by the LibreOffice
+that contains the in-memory file system needed by the SnipeOffice
 Technology core code during run-time, though. That is at the moment
 built as a side-effect when building soffice.wasm.

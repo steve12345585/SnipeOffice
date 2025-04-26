@@ -40,7 +40,7 @@ def get_files_list(directory, extension):
 def linkFormat(name):
     bugId = re.search(r'\d{5,6}', name)
     if bugId:
-        return "[https://bugs.documentfoundation.org/show_bug.cgi?id={} {}]"\
+        return "[https://bugs.SnipeOffice.org/show_bug.cgi?id={} {}]"\
                 .format(bugId.group(), name)
     else:
         return name

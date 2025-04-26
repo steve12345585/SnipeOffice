@@ -153,7 +153,7 @@ OUString AboutDialog::GetVersionString() {
   OUString sVersion = CuiResId(TranslateId(nullptr, "%ABOUTBOXPRODUCTVERSION%ABOUTBOXPRODUCTVERSIONSUFFIX")) + " (" + arch + ")";
 
 #if HAVE_FEATURE_COMMUNITY_FLAVOR
-  sVersion += " / LibreOffice Community";
+  sVersion += " / SnipeOffice Community";
 #endif
 
   return sVersion;

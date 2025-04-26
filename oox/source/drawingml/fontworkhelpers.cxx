@@ -1247,7 +1247,7 @@ ColorMapType lcl_createColorMapFromShapeProps(
     }
 
     // If a gradient has only two stops, MS Office renders it with a non-linear method which looks
-    // different than gradient in LibreOffice (see tdf#128795). For more than two stops rendering is
+    // different than gradient in SnipeOffice (see tdf#128795). For more than two stops rendering is
     // the same as in LibreOffice, even if two stops are identical.
     if (aColorMap.size() == 2)
     {
@@ -1363,7 +1363,7 @@ void FontworkHelpers::createCharInteropGrabBagUpdatesFromShapeProps(
             }
             else
             {
-                // Same rendering as in LibreOffice is not possible:
+                // Same rendering as in SnipeOffice is not possible:
                 // (1) The gradient type 'path' in Word has no rotation.
                 // (2) To get the same size of gradient area, the element 'tileRect' is needed, but
                 // that is not available for <w14:textFill> element.

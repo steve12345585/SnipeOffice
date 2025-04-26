@@ -21,7 +21,7 @@ Option Explicit
 &apos;&apos;&apos;		Some methods are generic for all types of documents: they are combined in the SF_Document module.
 &apos;&apos;&apos;		Specific properties and methods are implemented in the concerned subclass(es) SF_Calc, SF_Base, ...
 &apos;&apos;&apos;
-&apos;&apos;&apos;		To workaround the absence of class inheritance in LibreOffice Basic, some redundancy is necessary
+&apos;&apos;&apos;		To workaround the absence of class inheritance in SnipeOffice Basic, some redundancy is necessary
 &apos;&apos;&apos;		Each subclass MUST implement also the generic methods and properties, even if they only call
 &apos;&apos;&apos;		the parent methods and properties.
 &apos;&apos;&apos;		They should also duplicate some generic private members as a subset of their own set of members
@@ -2291,7 +2291,7 @@ Public Function ImportFromCSVFile(Optional ByVal FileName As Variant _
 &apos;&apos;&apos;		DestinationCell: the destination of the copied range of cells, as a string
 &apos;&apos;&apos;			If given as range, the destination will be reduced to its top-left cell
 &apos;&apos;&apos;		FilterOptions: The arguments of the CSV input filter.
-&apos;&apos;&apos;			Read https://wiki.documentfoundation.org/Documentation/DevGuide/Spreadsheet_Documents#Filter_Options_for_the_CSV_Filter
+&apos;&apos;&apos;			Read https://wiki.SnipeOffice.org/Documentation/DevGuide/Spreadsheet_Documents#Filter_Options_for_the_CSV_Filter
 &apos;&apos;&apos;			Default:	input file encoding is UTF8
 &apos;&apos;&apos;						separator = comma, semi-colon or tabulation
 &apos;&apos;&apos;						string delimiter = double quote

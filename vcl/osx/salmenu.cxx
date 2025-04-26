@@ -414,9 +414,9 @@ void AquaSalMenu::setMainMenu()
                 NSMenuItem* pItem = maItems[i]->mpMenuItem;
                 [mpMenu insertItem: pItem atIndex: i+1];
 
-                // tdf#165448 Allow macOS to add menu items in LibreOffice windows menu
+                // tdf#165448 Allow macOS to add menu items in SnipeOffice windows menu
                 // macOS will automatically insert menu items in NSApp's
-                // windows menu so set that menu to LibreOffice's windows menu.
+                // windows menu so set that menu to SnipeOffice's windows menu.
                 if( maItems[i]->mpVCLMenu && maItems[i]->mpVCLMenu->GetItemCommand( maItems[i]->mnId ) == u".uno:WindowList"_ustr )
                 {
                     // Avoid macOS inserting duplicate menu items in the

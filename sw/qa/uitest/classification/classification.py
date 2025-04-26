@@ -21,7 +21,7 @@ from libreoffice.uno.propertyvalue import mkPropertyValues
 # want to use in this case.
 
 #[Bug 122491] Classification: dialog (Paragraph) Classification doesn't show previously chosen classification
-#https://wiki.documentfoundation.org/TSCP-classification
+#https://wiki.SnipeOffice.org/TSCP-classification
 
         #new file; open Doc classification dialog
         #add classification Confidential, save

@@ -116,7 +116,7 @@ xmlDocPtr HelpCompiler::getSourceDocument(const fs::path &filePath)
     xmlDocPtr res;
     if (bExtensionMode)
     {
-        // this is the mode when used within LibreOffice for importing help
+        // this is the mode when used within SnipeOffice for importing help
         // bundled with an extension
         res = xmlParseFile(filePath.native_file_string().c_str());
     }

@@ -38,7 +38,7 @@ $(if $(UNOAPI_REFERENCE), \
 	&& { $(gb_UnoApiTarget_UNOIDLCHECKCOMMAND) $(UNOAPI_REFERENCE) -- \
 			$(foreach rdb,$(UNOAPI_DEPRDBS),$(call gb_UnoApiTarget_get_target,$(rdb))) \
 			$(1) \
-		|| { printf 'ERROR: Published UNO API must not be changed incompatibly!\n(If published UNO API shall be changed incompatibly after all, see\n<https://wiki.documentfoundation.org/Development/Incompatible_UNO_API_Changes>.)\n'; \
+		|| { printf 'ERROR: Published UNO API must not be changed incompatibly!\n(If published UNO API shall be changed incompatibly after all, see\n<https://wiki.SnipeOffice.org/Development/Incompatible_UNO_API_Changes>.)\n'; \
 		     false; } })
 endef
 

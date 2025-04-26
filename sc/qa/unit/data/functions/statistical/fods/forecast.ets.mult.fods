@@ -3325,7 +3325,7 @@
       <text:p>=FORECAST.ETS.MULT(6, N1:N5, M1:M5)</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=94635" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=94635</text:a></text:p>
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=94635" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=94635</text:a></text:p>
      </table:table-cell>
      <table:table-cell/>
      <table:table-cell table:style-name="high_20_fixed_20_point"/>

@@ -228,7 +228,7 @@ class ScriptForge(object, metaclass = _Singleton):
                 The execution is done with the invoke() method applied on the created object
             Implicit scope: Either
                 "application"            a shared library                    (BASIC)
-                "share"                  a module within LibreOffice Macros  (PYTHON)
+                "share"                  a module within SnipeOffice Macros  (PYTHON)
             :param script: Either
                     [@][scope#][library.]module.method - Must not be a class module or method
                         [@] means that the targeted method accepts ParamArray arguments (Basic only)
@@ -277,7 +277,7 @@ class ScriptForge(object, metaclass = _Singleton):
             fullscript = script
             paramarray = True
         # Parse the 'script' argument and build the URI specification described in
-        # https://wiki.documentfoundation.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
+        # https://wiki.SnipeOffice.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
         elif len(script) > 0:
             paramarray, fullscript, xscript = ParseScript(script)
         else:  # Should not happen
@@ -1535,7 +1535,7 @@ class SFScriptForge:
         SCRIPTISAPPLICATION = 'application'  # in any shared library (Basic)
         SCRIPTISPERSONAL = 'user'  # in My Macros (Python)
         SCRIPTISPERSOXT = 'user:uno_packages'  # in an extension installed for the current user (Python)
-        SCRIPTISSHARED = 'share'  # in LibreOffice macros (Python)
+        SCRIPTISSHARED = 'share'  # in SnipeOffice macros (Python)
         SCRIPTISSHAROXT = 'share:uno_packages'  # in an extension installed for all users (Python)
         SCRIPTISOXT = 'uno_packages'  # in an extension but the installation parameters are unknown (Python)
 
@@ -2751,7 +2751,7 @@ class SFDocuments:
     # #########################################################################
     class SF_Form(SFServices):
         """
-            Management of forms defined in LibreOffice documents. Supported types are Base, Calc and Writer documents.
+            Management of forms defined in SnipeOffice documents. Supported types are Base, Calc and Writer documents.
             It includes the management of subforms
             Each instance of the current class represents a single form or a single subform
             A form may optionally be (understand "is often") linked to a data source manageable with

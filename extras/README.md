@@ -29,8 +29,8 @@ Contains templates, clipart galleries, palettes, symbol font, autocorrections, a
 	+ add short category name in TEMPLATE_SHORT_NAMES_ARY in sfx2/source/doc/doctemplates.cxx
 
 + How-to add a new template to an existing category
-	+ clean-up template file as indicated on wiki <https://wiki.documentfoundation.org/Documentation/HowTo/Impress/Make_template_language_independent>
-	+ recommendation for settings.xml are given on wiki <https://wiki.documentfoundation.org/Documentation/CompatibilityFlags#Settings_to_include_in_a_new_template>
+	+ clean-up template file as indicated on wiki <https://wiki.SnipeOffice.org/Documentation/HowTo/Impress/Make_template_language_independent>
+	+ recommendation for settings.xml are given on wiki <https://wiki.SnipeOffice.org/Documentation/CompatibilityFlags#Settings_to_include_in_a_new_template>
 	+ add `<dc:title>Foo</dc:title>` in `meta.xml` to make presentation name translatable
 	+ choose a template category `<Category>`
 	+ unzip `Foo.ot?` (? = p, t, s or g) in `extras/source/templates/<Category>/Foo` (no space allowed in any file names)

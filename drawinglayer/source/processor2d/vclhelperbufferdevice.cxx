@@ -512,7 +512,7 @@ void impBufferDevice::paint(double fTrans)
             // I added 'doSpeedCompare' above which can be activated by defining
             // SPEED_COMPARE at the top of this file.
             // I added the used Testdoc: blurplay3.odg as
-            //     https://bugs.documentfoundation.org/attachment.cgi?id=182463
+            //     https://bugs.SnipeOffice.org/attachment.cgi?id=182463
             // I did measure on
             //
             // Linux Dbg:

@@ -1238,7 +1238,7 @@ void DocxSdrExport::startDMLAnchorInline(const SwFrameFormat* pFrameFormat, cons
     // ToDo: Exclude cases where LibreOffice wrap without contour is different
     // from Word XML_wrapSquare or where direct use of distances not possible and workaround
     // will be done using wrapPolygon.
-    // ToDo: handle case Writer frame, where contour can be set in LibreOffice but is not rendered.
+    // ToDo: handle case Writer frame, where contour can be set in SnipeOffice but is not rendered.
 
     // This case needs no wrapPolygon
     if (!rSurround.IsContour())

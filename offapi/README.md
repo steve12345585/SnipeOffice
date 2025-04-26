@@ -1,8 +1,8 @@
-# LibreOffice API IDL Files Except UDK API
+# SnipeOffice API IDL Files Except UDK API
 
 Contains all of the IDL files except those in `udkapi`.
 
-i.e. the interfaces that are specific to the LibreOffice application.
+i.e. the interfaces that are specific to the SnipeOffice application.
 An artificial (?) separation.
 
 The reference `offapi/type_reference/offapi.idl` and

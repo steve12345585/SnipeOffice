@@ -448,7 +448,7 @@ void TestBreakIterator::testLineBreaking()
         }
     }
 
-    //See https://bugs.documentfoundation.org/show_bug.cgi?id=96197
+    //See https://bugs.SnipeOffice.org/show_bug.cgi?id=96197
     {
         static constexpr OUString aTest = u"\uc560\uad6D\uac00\uc758 \uac00"
                                        "\uc0ac\ub294"_ustr;

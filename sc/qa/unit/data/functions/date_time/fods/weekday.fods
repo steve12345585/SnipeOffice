@@ -788,7 +788,7 @@
      <table:table-cell table:style-name="ce15" table:formula="of:=FORMULA([.A13])" office:value-type="string" office:string-value="=WEEKDAY(K10;K1:K2)" calcext:value-type="string">
       <text:p>=WEEKDAY(K10;K1:K2)</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="8"><text:p>TODO https://bugs.documentfoundation.org/show_bug.cgi?id=100396#c1 Also, Excel2010 added additional type parameters, see https://support.office.com/en-US/article/WEEKDAY-function-60E44483-2ED1-439F-8BD0-E404C190949A</text:p><text:p>https://lists.oasis-open.org/archives/office-comment/201606/msg00000.html</text:p><text:p/>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="8"><text:p>TODO https://bugs.SnipeOffice.org/show_bug.cgi?id=100396#c1 Also, Excel2010 added additional type parameters, see https://support.office.com/en-US/article/WEEKDAY-function-60E44483-2ED1-439F-8BD0-E404C190949A</text:p><text:p>https://lists.oasis-open.org/archives/office-comment/201606/msg00000.html</text:p><text:p/>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="9"/>
     </table:table-row>

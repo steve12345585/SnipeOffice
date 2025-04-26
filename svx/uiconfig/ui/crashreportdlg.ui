@@ -143,7 +143,7 @@ You can help us to fix this issue by sending an anonymous crash report to the %P
                 <property name="can-focus">False</property>
                 <property name="no-show-all">True</property>
                 <property name="hexpand">True</property>
-                <property name="label" translatable="yes" context="crashreportdlg|ed_bugreport">Please check the report and if no bug report is connected to the crash report yet, open a new bug report at bugs.documentfoundation.org.
+                <property name="label" translatable="yes" context="crashreportdlg|ed_bugreport">Please check the report and if no bug report is connected to the crash report yet, open a new bug report at bugs.SnipeOffice.org.
 
 Add detailed instructions on how to reproduce the crash and the shown crash ID into the crash report field.
 

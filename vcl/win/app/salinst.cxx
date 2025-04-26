@@ -330,7 +330,7 @@ VCLPLUG_WIN_PUBLIC SalInstance* create_SalInstance()
 
     pSalData->mnAppThreadId = GetCurrentThreadId();
 
-    static bool bSetAllowDarkMode = OSSupportsDarkMode(); // too early to additionally check LibreOffice's config
+    static bool bSetAllowDarkMode = OSSupportsDarkMode(); // too early to additionally check SnipeOffice's config
     if (bSetAllowDarkMode)
     {
         typedef PreferredAppMode(WINAPI* SetPreferredAppMode_t)(PreferredAppMode);

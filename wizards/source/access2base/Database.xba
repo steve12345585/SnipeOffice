@@ -1642,8 +1642,8 @@ Private Function _OutputToCalc(poData As Object _
 								, ByVal psFilter As String _
 								, Optional ByVal plEncoding As Long _
 								) As Boolean
-&apos;	https://wiki.documentfoundation.org/Documentation/DevGuide/Spreadsheet_Documents#Database_Import
-&apos;	https://wiki.documentfoundation.org/Documentation/DevGuide/Spreadsheet_Documents#Filter_Options
+&apos;	https://wiki.SnipeOffice.org/Documentation/DevGuide/Spreadsheet_Documents#Database_Import
+&apos;	https://wiki.SnipeOffice.org/Documentation/DevGuide/Spreadsheet_Documents#Filter_Options
 
 Dim oCalcDoc As Object, oSheet As Object, vWin As Variant
 Dim vImportDesc() As Variant, iSource As Integer

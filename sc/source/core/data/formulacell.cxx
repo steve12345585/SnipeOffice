@@ -4434,7 +4434,7 @@ struct ScDependantsCalculator
     }
 
     // Because Lookup will extend the Result Vector under certain circumstances listed at:
-    // https://wiki.documentfoundation.org/Documentation/Calc_Functions/LOOKUP
+    // https://wiki.SnipeOffice.org/Documentation/Calc_Functions/LOOKUP
     // then if the Lookup has a Result Vector only accept the Lookup for parallelization
     // of the Result Vector has the same dimensions as the Search Vector.
     bool LookupResultVectorMismatch(sal_Int32 nTokenIdx)

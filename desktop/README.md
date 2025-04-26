@@ -1,12 +1,12 @@
-# LibreOffice Binary
+# SnipeOffice Binary
 
-Code for the LibreOffice main binary (`soffice`) resides here. The `soffice_main`
+Code for the SnipeOffice main binary (`soffice`) resides here. The `soffice_main`
 function for the `soffice` binary can be found here.
 
 
 ## Stable Interface
 
-Some of the artifacts built here are part of a LibreOffice installation set's
+Some of the artifacts built here are part of a SnipeOffice installation set's
 stable interface, which (programmatic) clients can depend on.  Among them are:
 
 ### soffice
@@ -38,14 +38,14 @@ separated from each other by two-byte `NUL` code units.
 ## Other Binaries
 
 ### oosplash
-Splash screen for the LibreOffice `soffice` binary.
+Splash screen for the SnipeOffice `soffice` binary.
 
 
 ## Extensions
 
 The directory `test/deployment` contains some extensions to be used for testing:
 
-* `test/deployment/crashextension`: C++ extension to make LibreOffice crash. Useful for testing Crashreporter.
+* `test/deployment/crashextension`: C++ extension to make SnipeOffice crash. Useful for testing Crashreporter.
   * Build with `Extension_test-crashextension`.
   * Extension can be found in `workdir/Extension/test-crashextension.oxt`
 * `test/deployment/passive`: C++, Java and Python extension samples with passive registration.

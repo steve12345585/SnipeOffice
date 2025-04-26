@@ -1,8 +1,8 @@
-# LibreOfficeKit tilebench joining tests
+# SnipeOfficeKit tilebench joining tests
 
 This folder contain documents to run through `tilebench --join` to detect problems. To run the tests, simply invoke:
 
-    bin/run tilebench $PWD/instdir/program libreofficekit/qa/data/join/<filename> --join
+    bin/run tilebench $PWD/instdir/program SnipeOfficekit/qa/data/join/<filename> --join
 
 After the tests are complete, you may see an output like this:
 

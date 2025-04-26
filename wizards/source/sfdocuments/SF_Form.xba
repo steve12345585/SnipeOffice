@@ -14,7 +14,7 @@ Option Explicit
 &apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;
 &apos;&apos;&apos;	SF_Form
 &apos;&apos;&apos;	=======
-&apos;&apos;&apos;		Management of forms defined in LibreOffice documents. Supported types are Base, Calc and Writer documents.
+&apos;&apos;&apos;		Management of forms defined in SnipeOffice documents. Supported types are Base, Calc and Writer documents.
 &apos;&apos;&apos;		It includes the management of subforms
 &apos;&apos;&apos;		Each instance of the current class represents a single form or a single subform
 &apos;&apos;&apos;

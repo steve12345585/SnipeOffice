@@ -4,7 +4,7 @@ The Perl code (`generatePresetsData.pl` and `generatePresetsPPTXs.pl`) is used
 to generate the custom shape presets.
 
 The `generate.sh` script which invokes the above Perl files, should be invoked
-from the libreoffice core top-level source folder:
+from the SnipeOffice core top-level source folder:
 ```
 oox/source/drawingml/customshapes/generate.sh
 ```

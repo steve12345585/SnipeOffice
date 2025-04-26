@@ -2407,7 +2407,7 @@ namespace comphelper
         }
 
         // Information about the configuration and the role/purpose of directories in
-        // the UserConfiguration is taken from: https://wiki.documentfoundation.org/UserProfile
+        // the UserConfiguration is taken from: https://wiki.SnipeOffice.org/UserProfile
 
         // fill dir and file info list to work with dependent on work mode
         switch (mnMode)

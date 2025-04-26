@@ -3,7 +3,7 @@
 
 /* src/shared/CLucene/clucene-config.h.
 *  Normally generated automatically at end of cmake,
-*  but here in LibreOffice this actually is a copy of
+*  but here in SnipeOffice this actually is a copy of
 *  clucene/configs/clucene-config-GCC-atomic.h.
 */
 

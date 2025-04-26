@@ -8,4 +8,4 @@ Specifically for locale data documentation please see `i18npool/source/localedat
 
 ## See Also
 
-<http://wiki.documentfoundation.org/Category:I18n>
+<http://wiki.SnipeOffice.org/Category:I18n>

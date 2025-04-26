@@ -160,7 +160,7 @@ public:
     void                    ChildWindowExecute(SfxRequest&);
     SAL_DLLPRIVATE void     ChildWindowState(SfxItemSet&);
 
-    /** Append a new InfoBar (see https://wiki.documentfoundation.org/Design/Whiteboards/Infobar).
+    /** Append a new InfoBar (see https://wiki.SnipeOffice.org/Design/Whiteboards/Infobar).
 
         The buttons will be added from Right to Left at the right of the info bar. The parent, size
         and position of each button will be changed: only the width will remain unchanged.

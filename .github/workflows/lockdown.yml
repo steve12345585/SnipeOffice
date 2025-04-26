@@ -15,12 +15,12 @@ jobs:
       - uses: dessant/repo-lockdown@v3
         with:
           issue-comment: >
-            Thank you for your report. We use GitHub as a read-only mirror, so please submit your report into our own bug tracker: https://wiki.documentfoundation.org/QA/BugReport
+            Thank you for your report. We use GitHub as a read-only mirror, so please submit your report into our own bug tracker: https://wiki.SnipeOffice.org/QA/BugReport
           skip-closed-issue-comment: true
           close-issue: true
           lock-issue: false
           pr-comment: >
-            Thank you for your contribution. We use GitHub as a read-only mirror, so please submit your patch into our own code review system: https://wiki.documentfoundation.org/Development/GetInvolved
+            Thank you for your contribution. We use GitHub as a read-only mirror, so please submit your patch into our own code review system: https://wiki.SnipeOffice.org/Development/GetInvolved
           skip-closed-pr-comment: true
           close-pr: true
           lock-pr: false

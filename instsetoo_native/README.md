@@ -3,7 +3,7 @@
 This is where you will find your natively packaged builds after the
 build has completed. On Windows these would live in:
 
-    workdir/*/installation/LibreOffice_Dev/native/install/en-US/*.msi
+    workdir/*/installation/SnipeOffice_Dev/native/install/en-US/*.msi
 
 for example (nothing like a few long directory names before breakfast).
 

@@ -347,7 +347,7 @@ void FontworkAlignmentWindow::implSetAlignment( int nSurface, bool bEnabled )
     mxCenter->set_sensitive(bEnabled);
     mxRight->set_active(nSurface == 2 && bEnabled);
     mxRight->set_sensitive(bEnabled);
-    //Refer https://bugs.documentfoundation.org/show_bug.cgi?id=145092 for why following lines are commented
+    //Refer https://bugs.SnipeOffice.org/show_bug.cgi?id=145092 for why following lines are commented
     //mxWord->set_active(nSurface == 3 && bEnabled);
     //mxWord->set_sensitive(bEnabled);
     mxStretch->set_active(nSurface == 4 && bEnabled);
@@ -384,7 +384,7 @@ IMPL_LINK(FontworkAlignmentWindow, SelectHdl, weld::Toggleable&, rButton, void)
         nAlignment = 1;
     else if (mxRight->get_active())
         nAlignment = 2;
-    //Refer https://bugs.documentfoundation.org/show_bug.cgi?id=145092 for why following lines are commented
+    //Refer https://bugs.SnipeOffice.org/show_bug.cgi?id=145092 for why following lines are commented
     //else if (mxWord->get_active())
     //    nAlignment = 3;
     else

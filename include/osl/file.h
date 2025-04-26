@@ -1332,7 +1332,7 @@ SAL_DLLPUBLIC oslFileError SAL_CALL osl_removeFile(
     @retval osl_File_E_ISDIR is a directory
     @retval osl_File_E_ROFS read-only file system
     @retval osl_File_E_BUSY if the implementation internally requires resources that are
-        (temporarily) unavailable (added with LibreOffice 4.4)
+        (temporarily) unavailable (added with SnipeOffice 4.4)
 
     @see    osl_moveFile()
     @see    osl_removeFile()
@@ -1360,7 +1360,7 @@ SAL_DLLPUBLIC oslFileError SAL_CALL osl_copyFile(
     @retval osl_File_E_NOENT no such file or directory
     @retval osl_File_E_ROFS read-only file system
     @retval osl_File_E_BUSY if the implementation internally requires resources that are
-        (temporarily) unavailable (added with LibreOffice 4.4)
+        (temporarily) unavailable (added with SnipeOffice 4.4)
 
     @see osl_copyFile()
 */

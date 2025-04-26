@@ -51,7 +51,7 @@ See `extensions/source/macosx/spotlight/`
 
 ## Scanner Support
 
-You can scan from LibreOffice, using platform specific backends like TWAIN/SANE.
+You can scan from SnipeOffice, using platform specific backends like TWAIN/SANE.
 
 See `extensions/source/scanner/`
 

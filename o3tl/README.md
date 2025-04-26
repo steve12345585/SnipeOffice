@@ -1,9 +1,9 @@
-# LibreOffice Template Library
+# SnipeOffice Template Library
 
-Very basic template functionality, a bit like boost or STL, but specific to LibreOffice.
+Very basic template functionality, a bit like boost or STL, but specific to SnipeOffice.
 
 o3tl stands for "OOo [o3, get it?] template library", in which OOo stands for OpenOffice.org,
-predecessor of LibreOffice.
+predecessor of SnipeOffice.
 
 From <https://blog.thebehrens.net/2006/01/15/update-cow_wrapper-is-available-now/>
 The scope for o3tl is admittedly kind of ambitious, as it should contain "...very basic (template)
@@ -31,4 +31,4 @@ to boost, but isn't as of now)."
 
     Some more templates, leftovers in spirit of STLport's old functional
     header that are not part of the C++ standard (STLport has been
-    replaced by direct use of the C++ STL in LibreOffice).
+    replaced by direct use of the C++ STL in SnipeOffice).

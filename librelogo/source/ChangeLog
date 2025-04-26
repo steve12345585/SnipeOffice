@@ -58,7 +58,7 @@
 
 2013-08-29 László Németh:
     * fix bad selection of invisible turtle after HIDETURTLE CLEARSCREEN
-    * fix SVG cropping in LibreOffice 4.1
+    * fix SVG cropping in SnipeOffice 4.1
     * fix vertical positions of labels in SVG export using RectangleShape
     * fix double stroke-width attributes in SVG export
     * LABEL supports relative positioning vector [X, Y, 'text'], where X, Y

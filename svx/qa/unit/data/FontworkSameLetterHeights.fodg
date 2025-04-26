@@ -379,7 +379,7 @@
   <office:drawing>
    <draw:page draw:name="page1" draw:style-name="dp2" draw:master-page-name="Default">
     <draw:custom-shape draw:name="MyFinalFirstFontwork" draw:style-name="gr1" draw:text-style-name="P2" draw:layer="layout" svg:width="6cm" svg:height="3cm" svg:x="3.082cm" svg:y="6.625cm">
-     <text:p text:style-name="P1"><text:span text:style-name="T1">LibreOffice Community</text:span></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1">SnipeOffice Community</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 60 30" draw:text-path="true" draw:text-path-scale="path" draw:type="non-primitive" draw:enhanced-path="M 0 15 C 30 60 30 -30 60 15 M -10 30 L 70 40 N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:name="Predefined" draw:style-name="gr2" draw:text-style-name="P4" draw:layer="layout" svg:width="5.022cm" svg:height="2.511cm" svg:x="12.828cm" svg:y="4.402cm">

@@ -23,7 +23,7 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
 forums = {
-    # https://wiki.documentfoundation.org/Website/Web_Sites_services#Unofficial_and_Related_Pages
+    # https://wiki.SnipeOffice.org/Website/Web_Sites_services#Unofficial_and_Related_Pages
     'en': ["https://forum.openoffice.org/en/forum", False, 0],
     'es': ["https://forum.openoffice.org/es/forum", False, 0],
     'fr': ["https://forum.openoffice.org/fr/forum", False, 0],

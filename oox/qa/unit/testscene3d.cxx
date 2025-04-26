@@ -419,7 +419,7 @@ CPPUNIT_TEST_FIXTURE(TestScene3d, test_lightRig_default)
 {
     // The scene uses the modern camera 'isometricOffAxis1Top' and the lightRig 'harsh'. Here the
     // unrotated lightRig is tested. Since rig 'harsh' has only two lights and the direction of the
-    // second light is against view direction, the colors are same in LibreOffice and MS Office.
+    // second light is against view direction, the colors are same in SnipeOffice and MS Office.
     // The test assumes rendering with ShadeMode_FLAT.
     loadFromFile(u"Scene3d_lightRig_default.pptx");
     BitmapEx aBMP;

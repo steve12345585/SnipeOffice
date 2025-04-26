@@ -101,7 +101,7 @@ void TestHash::testSHA512_NoSaltNoSpin()
 }
 
 // Password, salt, hash and spin count taken from OOXML sheetProtection of
-// tdf#104250 https://bugs.documentfoundation.org/attachment.cgi?id=129104
+// tdf#104250 https://bugs.SnipeOffice.org/attachment.cgi?id=129104
 void TestHash::testSHA512_saltspin()
 {
     const OUString aHash = comphelper::DocPasswordHelper::GetOoxHashAsBase64( u"pwd"_ustr, u"876MLoKTq42+/DLp415iZQ==", 100000,

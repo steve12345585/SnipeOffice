@@ -235,7 +235,7 @@ BitmapBuffer* SkiaSalBitmap::AcquireBuffer(BitmapAccessMode nMode)
             // Note: also handle pending scaling if SAL_FORCE_HIDPI_SCALING is
             // set otherwise exporting the following animated .png image will
             // fail:
-            //   https://bugs.documentfoundation.org/attachment.cgi?id=188792
+            //   https://bugs.SnipeOffice.org/attachment.cgi?id=188792
             static const bool bForceHiDPIScaling = getenv("SAL_FORCE_HIDPI_SCALING") != nullptr;
             if (mImage && !mImageImmutable && mBitCount == 8 && mPalette.IsGreyPalette8Bit()
                 && (mPixelsSize != mSize || bForceHiDPIScaling))

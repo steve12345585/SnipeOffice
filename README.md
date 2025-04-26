@@ -1,29 +1,29 @@
-# LibreOffice
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/211/badge.svg)](https://scan.coverity.com/projects/211) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/307/badge)](https://bestpractices.coreinfrastructure.org/projects/307) [![Translation status](https://weblate.documentfoundation.org/widgets/libo_ui-master/-/svg-badge.svg)](https://weblate.documentfoundation.org/engage/libo_ui-master/?utm_source=widget)
+# SnipeOffice
+[![Coverity Scan Build Status](https://scan.coverity.com/projects/211/badge.svg)](https://scan.coverity.com/projects/211) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/307/badge)](https://bestpractices.coreinfrastructure.org/projects/307) [![Translation status](https://weblate.SnipeOffice.org/widgets/libo_ui-master/-/svg-badge.svg)](https://weblate.SnipeOffice.org/engage/libo_ui-master/?utm_source=widget)
 
 <img align="right" width="150" src="https://opensource.org/wp-content/uploads/2009/06/OSIApproved.svg">
 
-LibreOffice is an integrated office suite based on copyleft licenses
-and compatible with most document formats and standards. Libreoffice
+SnipeOffice is an integrated office suite based on copyleft licenses
+and compatible with most document formats and standards. SnipeOffice
 is backed by The Document Foundation, which represents a large
 independent community of enterprises, developers and other volunteers
 moved by the common goal of bringing to the market the best software
-for personal productivity. LibreOffice is open source, and free to
+for personal productivity. SnipeOffice is open source, and free to
 download, use and distribute.
 
-A quick overview of the LibreOffice code structure.
+A quick overview of the SnipeOffice code structure.
 
 ## Overview
 
 You can develop for SnipeOffice in one of two ways, one
 recommended and one much less so. First the somewhat less recommended
 way: it is possible to use the SDK to develop an extension,
-for which you can read the [API docs](https://api.libreoffice.org/)
-and [Developers Guide](https://wiki.documentfoundation.org/Documentation/DevGuide).
+for which you can read the [API docs](https://api.SnipeOffice.org/)
+and [Developers Guide](https://wiki.SnipeOffice.org/Documentation/DevGuide).
 This re-uses the (extremely generic) UNO APIs that are also used by
 macro scripting in StarBasic.
 
-The best way to add a generally useful feature to LibreOffice
+The best way to add a generally useful feature to SnipeOffice
 is to work on the code base however. Overall this way makes it easier
 to compile and build your code, it avoids any arbitrary limitations of
 our scripting APIs, and in general is far more simple and intuitive -
@@ -32,7 +32,7 @@ if you are a reasonably able C++ programmer.
 ## The Build Chain and Runtime Baselines
 
 These are the current minimal operating system and compiler versions to
-run and compile LibreOffice, also used by the TDF builds:
+run and compile SnipeOffice, also used by the TDF builds:
 
 * Windows:
     * Runtime: Windows 10
@@ -53,8 +53,8 @@ run and compile LibreOffice, also used by the TDF builds:
     * Build: Qt 5.15 with Qt supported Emscripten 1.39.8
     * See [README.wasm](static/README.wasm.md)
 
-Java is required for building many parts of LibreOffice. In TDF Wiki article
-[Development/Java](https://wiki.documentfoundation.org/Development/Java), the
+Java is required for building many parts of SnipeOffice. In TDF Wiki article
+[Development/Java](https://wiki.SnipeOffice.org/Development/Java), the
 exact modules that depend on Java are listed.
 
 The baseline for Java is Java Development Kit (JDK) Version 17 or later.
@@ -63,18 +63,18 @@ The baseline for Python is version 3.11. It follows the version available
 in SUSE Linux Enterprise Desktop and the Maintenance Support version of
 Red Hat Enterprise Linux.
 
-If you want to use Clang with the LibreOffice compiler plugins, the minimal
+If you want to use Clang with the SnipeOffice compiler plugins, the minimal
 version of Clang is 12.0.1. Since Xcode doesn't provide the compiler plugin
 headers, you have to compile your own Clang to use them on macOS.
 
 You can find the TDF configure switches in the `distro-configs/` directory.
 
 To setup your initial build environment on Windows and macOS, we provide
-the LibreOffice Development Environment
-([LODE](https://wiki.documentfoundation.org/Development/lode)) scripts.
+the SnipeOffice Development Environment
+([LODE](https://wiki.SnipeOffice.org/Development/lode)) scripts.
 
 For more information see the build instructions for your platform in the
-[TDF wiki](https://wiki.documentfoundation.org/Development/How_to_build).
+[TDF wiki](https://wiki.SnipeOffice.org/Development/How_to_build).
 
 ## The Important Bits of Code
 
@@ -82,7 +82,7 @@ Each module should have a `README.md` file inside it which has some
 degree of documentation for that module; patches are most welcome to
 improve those. We have those turned into a web page here:
 
-<https://docs.libreoffice.org/>
+<https://snipeoffice.org/docs/>
 
 However, there are two hundred modules, many of them of only
 peripheral interest for a specialist audience. So - where is the
@@ -121,7 +121,7 @@ Module    | Description
 Use the `"..."` form if and only if the included file is found next to the
 including file. Otherwise, use the `<...>` form. (For further details, see the
 mail [Re: C[++]: Normalizing include syntax ("" vs
-<>)](https://lists.freedesktop.org/archives/libreoffice/2017-November/078778.html).)
+<>)](https://lists.freedesktop.org/archives/SnipeOffice/2017-November/078778.html).)
 
 The UNO API include files should consistently use double quotes, for the
 benefit of external users of this API.
@@ -132,8 +132,8 @@ benefit of external users of this API.
 ## Finding Out More
 
 Beyond this, you can read the `README.md` files, send us patches, ask
-on the mailing list libreoffice@lists.freedesktop.org (no subscription
-required) or poke people on IRC `#libreoffice-dev` on irc.libera.chat -
+on the mailing list SnipeOffice@lists.freedesktop.org (no subscription
+required) or poke people on IRC `#SnipeOffice-dev` on irc.libera.chat -
 we're a friendly and generally helpful mob. We know the code can be
 hard to get into at first, and so there are no silly questions.
 

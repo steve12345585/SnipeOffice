@@ -420,10 +420,10 @@ bool AquaSalInfoPrinter::StartJob( const OUString* i_pFileName,
             if( nAllPages > 0 )
             {
                 // Related: tdf#159995 use filtered page sizes so that
-                // printing multiple pages per sheet in LibreOffice's
+                // printing multiple pages per sheet in SnipeOffice's
                 // non-native print dialog uses the correct paper size.
-                // Note: to use LibreOffice's non-native print dialog,
-                // set "UseSystemPrintDialog" to "false" in LibreOffice's
+                // Note: to use SnipeOffice's non-native print dialog,
+                // set "UseSystemPrintDialog" to "false" in SnipeOffice's
                 // Expert Configuration dialog and restart.
                 GDIMetaFile aPageFile;
                 mnCurPageRangeCount = 1;
@@ -677,7 +677,7 @@ const PaperInfo* AquaSalInfoPrinter::matchPaper( tools::Long i_nWidth, tools::Lo
         {
             // Related: tdf#163126 expand match range to 1/10th of an inch
             // The A4 page size in Apple's "no printer installed" printer
-            // can differ from LibreOffice's A4 page size by more than a
+            // can differ from SnipeOffice's A4 page size by more than a
             // millimeter so increase the match range to 1/10th of an inch
             // since an A4 match would fail when using the previous 0.5
             // millimeter match range.

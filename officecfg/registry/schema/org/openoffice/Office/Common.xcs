@@ -3460,7 +3460,7 @@
       <prop oor:name="HelpRootURL" oor:type="xs:string" oor:nillable="false">
         <info>
           <desc>Specifies the root URL to the Office help pages. Blank disables
-          Help buttons on dialogs in LibreOffice Online.</desc>
+          Help buttons on dialogs in SnipeOffice Online.</desc>
         </info>
         <value>https://help.SnipeOffice.org/help.html?</value>
       </prop>
@@ -3530,7 +3530,7 @@
         <info>
           <desc>Specifies the number of pixels that you want to combine as a
           single pixel when creating a vector graphic.
-          This setting is supposed to be saved, see https://bugs.documentfoundation.org/show_bug.cgi?id=158305</desc>
+          This setting is supposed to be saved, see https://bugs.SnipeOffice.org/show_bug.cgi?id=158305</desc>
           <label>Point reduction</label>
         </info>
         <constraints>
@@ -3563,7 +3563,7 @@
         <info>
           <desc>Specifies the extent of background tiles that are used for
           vectorizing [UNIT=pixel].
-          This setting is supposed to be saved, see https://bugs.documentfoundation.org/show_bug.cgi?id=158305</desc>
+          This setting is supposed to be saved, see https://bugs.SnipeOffice.org/show_bug.cgi?id=158305</desc>
           <label>Tile extent</label>
         </info>
         <constraints>
@@ -5315,7 +5315,7 @@
           <desc>Determines if temp files are placed next to the local file when a file is saved.
           If this is false, the temp file will be placed in the default temp directory.
           Placing the temp file next to the local file will increase performance, but it might lead
-          to permission issues such as described in this bug: https://bugs.documentfoundation.org/show_bug.cgi?id=158975</desc>
+          to permission issues such as described in this bug: https://bugs.SnipeOffice.org/show_bug.cgi?id=158975</desc>
         </info>
         <value>true</value>
       </prop>

@@ -7,7 +7,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Use this script to update
-# https://wiki.documentfoundation.org/MissingUnitTests
+# https://wiki.SnipeOffice.org/MissingUnitTests
 
 import os
 import datetime
@@ -196,7 +196,7 @@ def main(ignoredBugs):
     fixList = []
     #Split the list into different chunks for the requests, otherwise it fails
     for chunk in splitList(listOfBugIdsWithoutTest, 50):
-        urlGet = 'https://bugs.documentfoundation.org/rest/bug?id=' + ','.join(chunk)
+        urlGet = 'https://bugs.SnipeOffice.org/rest/bug?id=' + ','.join(chunk)
         rGet = requests.get(urlGet)
         rawData = json.loads(rGet.text)
         rGet.close()

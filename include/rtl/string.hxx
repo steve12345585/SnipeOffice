@@ -83,7 +83,7 @@ namespace rtl
 /**
 A wrapper dressing a string literal as a static-refcount rtl_String.
 
-This class is not part of public API and is meant to be used only in LibreOffice code.
+This class is not part of public API and is meant to be used only in SnipeOffice code.
 @since LibreOffice 4.0
 */
 template<std::size_t N> class SAL_WARN_UNUSED OStringLiteral {

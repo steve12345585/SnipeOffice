@@ -41,7 +41,7 @@
 #       => *.po
 #    => XcsTarget (schema)
 
-# The main LibreOffice registry (cf. officecfg/Configuration_officecfg.mk):
+# The main SnipeOffice registry (cf. officecfg/Configuration_officecfg.mk):
 gb_Configuration_PRIMARY_REGISTRY_NAME := registry
 gb_Configuration_PRIMARY_REGISTRY_SCHEMA_ROOT = \
     $(SRCDIR)/officecfg/registry/schema

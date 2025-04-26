@@ -130,7 +130,7 @@ namespace sw {
 /// API can do so.
 ///
 /// See
-/// <https://wiki.documentfoundation.org/Documentation/DevGuide/Office_Development#Annotated_text_range>
+/// <https://wiki.SnipeOffice.org/Documentation/DevGuide/Office_Development#Annotated_text_range>
 /// for more details.
 class Meta
     : public ::sfx2::Metadatable

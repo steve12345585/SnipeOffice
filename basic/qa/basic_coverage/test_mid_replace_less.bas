@@ -6,7 +6,7 @@
 ' file, You can obtain one at http://mozilla.org/MPL/2.0/.
 '
 
-' cf. <https://bugs.documentfoundation.org/show_bug.cgi?id=62090> "Mid statement doesn't work as
+' cf. <https://bugs.SnipeOffice.org/show_bug.cgi?id=62090> "Mid statement doesn't work as
 ' expected":
 Function doUnitTest as String
     s = "The lightbrown fox"

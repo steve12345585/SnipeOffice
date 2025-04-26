@@ -323,7 +323,7 @@ void Test::testLocalizedProperty() {
     auto const access = css::configuration::ReadOnlyAccess::create(
         comphelper::getProcessComponentContext(), u"*"_ustr);
     {
-        // See <https://bugs.documentfoundation.org/show_bug.cgi?id=33638> "Pagination extension
+        // See <https://bugs.SnipeOffice.org/show_bug.cgi?id=33638> "Pagination extension
         // not localized in LibreOffice", which wants to retrieve the non-canonical xml:lang="pt-PT"
         // value for the passed-in "pt" locale:
         OUString v;

@@ -99,7 +99,7 @@ public:
     // tdf#164428 force flush after drawing a progress bar
     bool                            mbForceFlushProgressBar;
 
-    // Is window in LibreOffice full screen mode
+    // Is window in SnipeOffice full screen mode
     bool                            mbInternalFullScreen;
     // Window size to restore to when exiting LibreOffice full screen mode
     NSRect                          maInternalFullScreenRestoreRect;

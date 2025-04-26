@@ -56,7 +56,7 @@ const std::tuple<TranslateId, OUString, OUString, tipModule> TIPOFTHEDAY_STRINGA
      { NC_("RID_CUI_TIPOFTHEDAY", "To print the notes of your slides go to File ▸ Print ▸ %PRODUCTNAME Impress tab and select Notes under Document ▸ Type."), "", "printnote.png", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "To start temporarily with a fresh user profile, or to restore a non-working %PRODUCTNAME, use Help ▸ Restart in Safe Mode."), "svx/ui/safemodedialog/SafeModeDialog", "", soffice}, //https://help.SnipeOffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/shared/01/profile_safe_mode.html
      { NC_("RID_CUI_TIPOFTHEDAY", "Writing a book? %PRODUCTNAME master document lets you manage large documents as a container for individual %PRODUCTNAME Writer files."), "https://help.SnipeOffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/swriter/guide/globaldoc.html", "", swriter}, //local help missing
-     { NC_("RID_CUI_TIPOFTHEDAY", "You can create editable Hybrid PDFs with %PRODUCTNAME."), "https://wiki.documentfoundation.org/Documentation/HowTo/CreateAHybridPDF", "hybrid_pdf.png", soffice},
+     { NC_("RID_CUI_TIPOFTHEDAY", "You can create editable Hybrid PDFs with %PRODUCTNAME."), "https://wiki.SnipeOffice.org/Documentation/HowTo/CreateAHybridPDF", "hybrid_pdf.png", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "Explore the ten different functions in the status bar (at the bottom of the document window). Place the cursor over each field for an explanation. If not visible, use View ▸ Status Bar."), "", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Want to sum a cell through several sheets? Refer to the range of sheets e.g. =SUM(Sheet1.A1:Sheet2.A3)."), "", "sum_sheets.png", scalc},
      { NC_("RID_CUI_TIPOFTHEDAY", "You can create fillable form documents (even PDFs) with %PRODUCTNAME."), "https://www.techrepublic.com/article/how-to-create-interactive-pdfs-with-libreoffice", "formdocuments.png", soffice},
@@ -94,7 +94,7 @@ const std::tuple<TranslateId, OUString, OUString, tipModule> TIPOFTHEDAY_STRINGA
      { NC_("RID_CUI_TIPOFTHEDAY", "Insert images and photos into shapes in Draw and Impress. Right-click on a shape, choose Area ▸ Image ▸ Add / Import, and use Options to adjust appearance."), "", "", sdraw},
      { NC_("RID_CUI_TIPOFTHEDAY", "Need to insert the date in a spreadsheet cell? Type %MOD1+; or Shift+%MOD1+; to insert the time."), "", "", scalc},
      { NC_("RID_CUI_TIPOFTHEDAY", "Insert your metadata in your document with Insert ▸ Fields ▸ More Fields… ▸ Document or DocInformation."), "", "", swriter},
-     { NC_("RID_CUI_TIPOFTHEDAY", "Get help from the community via the Ask portal."), "https://ask.libreoffice.org", "", soffice},
+     { NC_("RID_CUI_TIPOFTHEDAY", "Get help from the community via the Ask portal."), "https://SnipeOffice.org/ask", "", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "Use Shift+Space to select the current row and %MOD1+Space to select the current column."), "", "", scalc},
      { NC_("RID_CUI_TIPOFTHEDAY", "You can move an object to another layer by holding it until its edges flash, then drag it to the tab of the layer you want to move it to."), "", "", sdraw},
      { NC_("RID_CUI_TIPOFTHEDAY", "Data ▸ Validity allows you to create drop-down lists where the user selects a value instead of typing."), "https://help.SnipeOffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/scalc/guide/validity.html", "", scalc}, //local help missing
@@ -106,7 +106,7 @@ const std::tuple<TranslateId, OUString, OUString, tipModule> TIPOFTHEDAY_STRINGA
      { NC_("RID_CUI_TIPOFTHEDAY", "Writer includes LibreLogo: simple Logo-like programming environment with turtle vector graphics, DTP and graphic design."), "https://help.SnipeOffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/swriter/librelogo/LibreLogo.html", "", swriter}, //local help missing
 #endif
      { NC_("RID_CUI_TIPOFTHEDAY", "Construct your own 2D shapes in Draw. Select two or more objects, and explore possibilities with Shape ▸ Combine, Shape ▸ Merge, Shape ▸ Subtract, and Shape ▸ Intersect."), "https://help.SnipeOffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/sdraw/guide/combine_etc.html", "", sdraw},
-     { NC_("RID_CUI_TIPOFTHEDAY", "Do you plan to change your computer and want to recover your customizations? See:"), "https://wiki.documentfoundation.org/UserProfile", "", soffice},
+     { NC_("RID_CUI_TIPOFTHEDAY", "Do you plan to change your computer and want to recover your customizations? See:"), "https://wiki.SnipeOffice.org/UserProfile", "", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "You can toggle between the field names and the actual value with View ▸ Fields Names (or %MOD1+F9)."), "", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Show or hide comments in Writer by clicking the comment toggle button in the ruler."), "", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "To enable macro recording, check Tools ▸ Options ▸ %PRODUCTNAME ▸ Advanced ▸ Enable macro recording."), "", "", soffice},
@@ -134,14 +134,14 @@ const std::tuple<TranslateId, OUString, OUString, tipModule> TIPOFTHEDAY_STRINGA
      { NC_("RID_CUI_TIPOFTHEDAY", "You can change the look of %PRODUCTNAME via View ▸ User Interface."), "", "", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "In %PRODUCTNAME Impress, use Insert ▸ Media ▸ Photo Album to create a slideshow from a series of pictures with the “Photo Album” feature."), "", "", simpress},
      { NC_("RID_CUI_TIPOFTHEDAY", "You can show formulas instead of results with View ▸ Show Formulas (or Tools ▸ Options ▸ %PRODUCTNAME Calc ▸ View ▸ Display ▸ Formulas)."), "", "", scalc},
-     { NC_("RID_CUI_TIPOFTHEDAY", "%PRODUCTNAME is developed by a friendly community, made up of hundreds of contributors around the world. Join us with your skills beyond coding."), "https://www.SnipeOffice.org/community/get-involved/", "", soffice},
+     { NC_("RID_CUI_TIPOFTHEDAY", "SnipeOfficeCC is developed by a friendly community, made up of hundreds of contributors around the world. Join us with your skills beyond coding."), "https://www.SnipeOffice.org/community/get-involved/", "", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "Left-handed? Enable Tools ▸ Options ▸ Languages and Locales ▸ General ▸ Asian and check Tools ▸ Options ▸ %PRODUCTNAME Writer ▸ View ▸ Ruler ▸ Right-aligned, which displays the scrollbar to the left."), "", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Want headings to always begin a page? Edit the paragraph style applied to the headings. Check “Insert” on the “Text Flow” tab, with Type “Page” and Position “Before”."), "cui/ui/textflowpage/checkInsert", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Date/time value is just a number of days since a chosen day zero; in the number, integer part represents date, and fractional part is time (elapsed part of a day), with 0.5 representing noon."), "", "", scalc},
      { NC_("RID_CUI_TIPOFTHEDAY", "Shift+%MOD1+Del deletes from cursor to the end of the current sentence."), "", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Use column or row labels in formulas. For example, if you have two columns, “Time” and “KM”, use =Time/KM to get minutes per kilometer."), "", "", scalc},
      { NC_("RID_CUI_TIPOFTHEDAY", "Annoyed by the “marching ants” around cells in Calc? Press escape to stop them; the copied content will remain available for pasting."), "", "marchingants.gif", scalc},
-     { NC_("RID_CUI_TIPOFTHEDAY", "Want to become a %PRODUCTNAME Ambassador? There are certifications for developers, admins, and trainers."), "https://www.documentfoundation.org/certification/program/", "", soffice},
+     { NC_("RID_CUI_TIPOFTHEDAY", "Want to become a %PRODUCTNAME Ambassador? There are certifications for developers, admins, and trainers."), "https://www.SnipeOffice.org/certification/program/", "", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "Mix portrait and landscape orientations in a Calc spreadsheet by applying different page styles on sheets."), "", "", scalc},
      { NC_("RID_CUI_TIPOFTHEDAY", "Click on the special character icon in the toolbar to get quick access to favorite and recent characters to insert."), "", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Choose “Hierarchical View” in the Styles sidebar to see the relation between styles."), "", "", swriter},
@@ -158,7 +158,7 @@ const std::tuple<TranslateId, OUString, OUString, tipModule> TIPOFTHEDAY_STRINGA
      { NC_("RID_CUI_TIPOFTHEDAY", "%PRODUCTNAME has a portable version which gives you mobility. Even without administrator rights on your computer you can install %PRODUCTNAME Portable to your hard drive too."), "https://www.SnipeOffice.org/download/portable-versions/", "", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "Writer lets you number your footnotes per page, chapter, document: Tools ▸ Footnote/Endnote Settings ▸ Footnotes tab ▸ Counting."), ".uno:FootnoteDialog", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Your Writer document does not reopen with the text cursor at the same editing position it was when you saved it? Add First or Last name in Tools ▸ Options ▸ %PRODUCTNAME ▸ User Data ▸ First/last name."), "", "", swriter},
-     { NC_("RID_CUI_TIPOFTHEDAY", "Need to do citation? You can use third-party citation managers such as Zotero."), "https://wiki.documentfoundation.org/Referencing_Systems_in_LibreOffice", "", swriter},
+     { NC_("RID_CUI_TIPOFTHEDAY", "Need to do citation? You can use third-party citation managers such as Zotero."), "https://wiki.SnipeOffice.org/Referencing_Systems_in_LibreOffice", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Want to insert a value in the same place on several sheets? Select the sheets: hold down %MOD1 key and click their tabs before entering."), "", "", scalc},
      { NC_("RID_CUI_TIPOFTHEDAY", "Want to hide some text in a document? Select the text. Insert ▸ Section, and select “Hide”."), "modules/swriter/ui/editsectiondialog/hide", "", swriter},  // online help is different https://help.SnipeOffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/swriter/guide/hidden_text.html#hd_id3148675
      { NC_("RID_CUI_TIPOFTHEDAY", "You can customize the middle mouse button by going to Tools ▸ Options ▸ %PRODUCTNAME ▸ View ▸ Mouse ▸ Middle button."), "", "", soffice},
@@ -247,7 +247,7 @@ const std::tuple<TranslateId, OUString, OUString, tipModule> TIPOFTHEDAY_STRINGA
      { NC_("RID_CUI_TIPOFTHEDAY", "You can create a chart based on a Writer table by clicking in the table and choosing Insert ▸ Chart."), "", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Select options in Tools ▸ Options ▸ %PRODUCTNAME Writer ▸ Formatting Aids ▸ Display Formatting to specify which non-printing characters are displayed."), "", "", swriter},
      { NC_("RID_CUI_TIPOFTHEDAY", "Want to jump to a particular page by its number? Click the left-most statusbar entry or use Edit ▸ Go To Page… or press %MOD1+G."), "", "", swriter},
-     { NC_("RID_CUI_TIPOFTHEDAY", "%PRODUCTNAME supports over 150 languages."), "https://wiki.documentfoundation.org/Language_support_of_LibreOffice", "", soffice},
+     { NC_("RID_CUI_TIPOFTHEDAY", "%PRODUCTNAME supports over 150 languages."), "https://wiki.SnipeOffice.org/Language_support_of_LibreOffice", "", soffice},
      { NC_("RID_CUI_TIPOFTHEDAY", "Uncheck Slide Show ▸ Settings ▸ Presentation always on top if you need another program displays its window to the front of your presentation."), "", "", simpress},
      { NC_("RID_CUI_TIPOFTHEDAY", "Want to find the words in bold in a Writer document? Edit ▸ Find and Replace ▸ Other options ▸ Attributes ▸ Font weight."), "https://help.SnipeOffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/swriter/guide/finding.html", "", swriter}, //local help missing
      { NC_("RID_CUI_TIPOFTHEDAY", "You can sort paragraphs or table rows alphabetically or numerically per Tools ▸ Sort."), "modules/swriter/ui/sortdialog/SortDialog", "", swriter}, //https://help.SnipeOffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/swriter/01/06100000.html

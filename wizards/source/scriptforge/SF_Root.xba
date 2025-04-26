@@ -363,7 +363,7 @@ Try:
 			.AddText(	Context := &quot;INTERNALERROR&quot; _
 						, MsgId := &quot;The ScriptForge library has crashed. The reason is unknown.\n&quot; _
 									&amp; &quot;Maybe a bug that could be reported on\n&quot; _
-									&amp; &quot;\thttps://bugs.documentfoundation.org/\n\n&quot; _
+									&amp; &quot;\thttps://bugs.SnipeOffice.org/\n\n&quot; _
 									&amp; &quot;More details : \n\n&quot; _
 						, Comment :=	&quot;SF_Exception.RaiseAbort error message&quot; _
 					)

@@ -1,3 +1,3 @@
-# LibreOffice for iOS
+# SnipeOffice for iOS
 
-LibreOffice for iOS
+SnipeOffice for iOS

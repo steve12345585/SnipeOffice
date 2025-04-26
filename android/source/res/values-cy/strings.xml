@@ -96,7 +96,7 @@
     <string name="action_rename_slide">Ailenwi Sleid</string>
     <string name="automatic">Awtomatig</string>
     <string name="new_presentation">Cyflwyniadau Newydd</string>
-    <string name="app_version">Fersiwn: %1$s&lt;br&gt;Build ID: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Fersiwn: %1$s&lt;br&gt;Build ID: &lt;a href=https://snipeoffice.org/hub/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="app_name">LibreOffice Viewer</string>
     <string name="pref_developer_mode_summary">Galluogi\'r modd datblygwr lle mae modd i chi anfon gorchmynion UNO o fewn yr ap. Gall fod peryglon.</string>
     <string name="file_icon_desc">eiconffeil</string>

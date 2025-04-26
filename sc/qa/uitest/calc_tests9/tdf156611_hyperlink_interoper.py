@@ -22,7 +22,7 @@ class tdf156611(UITestCase):
         with self.ui_test.load_file(get_url_for_data_file("tdf126541_GridOff.xlsx")) as document:
 
             # data that we will check against when hyperlink is inserted
-            urls =[["",""],["https://www.documentfoundation.org/",""]]
+            urls =[["",""],["https://www.SnipeOffice.org/",""]]
             texts =[["aaa bbb","bbb"],["cccc ddd","ddd"],["eeee","aaa cccc eeee"]]
 
             # 1. run, we want hyperlink insertion work like in MS excel (only 1 hyperlink/cell is allowed)
@@ -67,7 +67,7 @@ class tdf156611(UITestCase):
 
                     # Insert a sample hyperlink, and change text
                     xTarget.executeAction("TYPE", mkPropertyValues({"KEYCODE":"CTRL+A"}))
-                    xTarget.executeAction("TYPE", mkPropertyValues({"TEXT": "https://www.documentfoundation.org/"}))
+                    xTarget.executeAction("TYPE", mkPropertyValues({"TEXT": "https://www.SnipeOffice.org/"}))
                     xIndication.executeAction("TYPE", mkPropertyValues({"KEYCODE":"CTRL+A"}))
                     xIndication.executeAction("TYPE", mkPropertyValues({"TEXT": "cccc"}))
 
@@ -91,7 +91,7 @@ class tdf156611(UITestCase):
 
                     xTarget = xDialog2.getChild("target")
                     self.assertEqual(get_state_as_dict(xTarget)["Text"], urls[1][i])
-                    # 1. run: "https://www.documentfoundation.org/" the cell already have this url.
+                    # 1. run: "https://www.SnipeOffice.org/" the cell already have this url.
                     # 2. run: "" The selected text is not a hyperlink yet.
                     xIndication = xDialog2.getChild("indication")
                     self.assertEqual(get_state_as_dict(xIndication)["Text"], texts[1][i])
@@ -117,7 +117,7 @@ class tdf156611(UITestCase):
                 self.assertEqual(len(xTextFields), i+1)
                 self.assertEqual(xTextFields[i].URL, "https://aWrongLink/")
                 if (i==1):
-                    self.assertEqual(xTextFields[0].URL, "https://www.documentfoundation.org/")
+                    self.assertEqual(xTextFields[0].URL, "https://www.SnipeOffice.org/")
                 # 1. run: only the last inserted hyperlink will remain: "https://aWrongLink/"
                 # 2. run: both links will be in the cell
 

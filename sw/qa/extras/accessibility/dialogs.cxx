@@ -71,7 +71,7 @@ CPPUNIT_TEST_FIXTURE(test::AccessibleTestBase, TestSpecialCharactersDialogFocus)
         CPPUNIT_ASSERT(dialog.tabTo(accessibility::AccessibleRole::TABLE_CELL, u" "));
 
         /* as there is a bug that focusing the character table doesn't enable the Insert button
-         * (https://bugs.documentfoundation.org/show_bug.cgi?id=153806), we move to another cell
+         * (https://bugs.SnipeOffice.org/show_bug.cgi?id=153806), we move to another cell
          * so it works. */
 
         // tdf#153918: Check that '!' char has correct accessible name and insert it

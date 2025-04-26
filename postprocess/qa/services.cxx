@@ -141,7 +141,7 @@ void Test::test() {
     std::vector<OUString> denylist;
     denylist.emplace_back("com.sun.star.comp.report.OReportDefinition");
 
-    // <https://bugs.documentfoundation.org/show_bug.cgi?id=89343>
+    // <https://bugs.SnipeOffice.org/show_bug.cgi?id=89343>
     // "~SwXMailMerge() goes into endless SwCache::Check()":
     denylist.emplace_back("SwXMailMerge");
 

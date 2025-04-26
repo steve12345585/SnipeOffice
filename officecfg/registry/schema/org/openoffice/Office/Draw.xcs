@@ -350,7 +350,7 @@
       <group oor:name="CrossFading">
         <info>
           <desc>Contains a specification of how to morph between objects (e.g. how many steps and whether to regard the object's attributes).
-          These settings are supposed to be saved, see https://bugs.documentfoundation.org/show_bug.cgi?id=158304</desc>
+          These settings are supposed to be saved, see https://bugs.SnipeOffice.org/show_bug.cgi?id=158304</desc>
         </info>
         <prop oor:name="Steps" oor:type="xs:short" oor:nillable="false">
           <!-- UIHints: Select two objects =&gt; Edit  Cross-fade -->

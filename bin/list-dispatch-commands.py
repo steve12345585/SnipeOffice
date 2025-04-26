@@ -7,7 +7,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 """
-Script to generate https://wiki.documentfoundation.org/Development/DispatchCommands
+Script to generate https://wiki.SnipeOffice.org/Development/DispatchCommands
 3 types of source files are scanned to identify and describe a list of relevant UNO commands:
 - .hxx files: containing the symbolic and numeric id's, and the respective modes and groups
 - .xcu files; containing several english labels as they appear in menus or tooltips

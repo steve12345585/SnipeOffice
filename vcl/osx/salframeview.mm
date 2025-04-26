@@ -270,7 +270,7 @@ static void updateMenuBarVisibility( const AquaSalFrame *pFrame )
         [NSMenu setMenuBarVisible: YES];
     }
     // Hide the dock and the menubar if the key window or one of its
-    // parent windows are in LibreOffice full screen mode. Otherwise,
+    // parent windows are in SnipeOffice full screen mode. Otherwise,
     // show the dock and the menubar.
     else if( AquaSalFrame::isAlive( pFrame ) )
     {
@@ -291,7 +291,7 @@ static void updateMenuBarVisibility( const AquaSalFrame *pFrame )
                 pParentWindow = [pParentWindow parentWindow];
 
             // Related: tdf#161623 disable menubar visibility if no key window
-            // If a window is in LibreOffice's internal full screen mode
+            // If a window is in SnipeOffice's internal full screen mode
             // and not in native full screen mode and then the user switches
             // to a different application and back using the Command-Tab keys.
             // the menubar and Dock would unexpectedly appear.
@@ -996,7 +996,7 @@ static void updateWindowCollectionBehavior( const SalFrameStyleFlags nStyle, con
     // allow room for the menubar if the window is on the main screen. So,
     // force the return value to match the frame that LibreOffice expects.
     // Related: tdf#165448 skip fix for menu items inserted by macOS
-    // If the window is in LibreOffice's internal full screen mode and
+    // If the window is in SnipeOffice's internal full screen mode and
     // any of the menu items that macOS inserts into the windows menu
     // is selected, the frame size will be changed without calling
     // -[SalFrameWindow setFrame:display:]. So only use the fix for
@@ -1014,7 +1014,7 @@ static void updateWindowCollectionBehavior( const SalFrameStyleFlags nStyle, con
     SolarMutexGuard aGuard;
 
     // Related: tdf#161623 suppress animation when in internal full screen mode
-    // LibreOffice's internal full screen mode fills the screen with a
+    // SnipeOffice's internal full screen mode fills the screen with a
     // regular window so suppress animation when exiting native full
     // screen mode.
     if( AquaSalFrame::isAlive( mpFrame) && mpFrame->mbInternalFullScreen && !NSIsEmptyRect( mpFrame->maInternalFullScreenExpectedRect ) )
@@ -2368,7 +2368,7 @@ static void updateWindowCollectionBehavior( const SalFrameStyleFlags nStyle, con
     // tdf#163764 force pending timers to run after marked text changes
     // During native dictation, waiting for the next native event is
     // blocked while dictation runs in a loop within a native callback.
-    // Because of this, LibreOffice's painting timers won't fire until
+    // Because of this, SnipeOffice's painting timers won't fire until
     // dictation is cancelled or the user pauses speaking. So, force
     // any pending timers to fire after the marked text changes.
     if( bReschedule && ImplGetSVData()->mpWinData->mbIsWaitingForNativeEvent )

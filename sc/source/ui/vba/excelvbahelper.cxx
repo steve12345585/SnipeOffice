@@ -406,7 +406,7 @@ void ExportAsFixedFormatHelper(
     if ((Type >>= sType) && (sType.equalsIgnoreAsciiCase(u"xlTypeXPS") || sType == "1"))
     {
         /* xlTypePDF    0   "PDF" - Portable Document Format file(.pdf)
-           xlTypeXPS    1   "XPS" - XPS Document(.xps) --> not supported in LibreOffice */
+           xlTypeXPS    1   "XPS" - XPS Document(.xps) --> not supported in SnipeOffice */
         return;
     }
 

@@ -827,7 +827,7 @@
                         <property name="halign">end</property>
                         <property name="hexpand">True</property>
                         <property name="relief">none</property>
-                        <property name="uri">https://hub.SnipeOffice.org/impress-remote</property>
+                        <property name="uri">https://snipeoffice.org/hub/impress-remote</property>
                       </object>
                       <packing>
                         <property name="left-attach">1</property>

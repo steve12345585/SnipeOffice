@@ -33,7 +33,7 @@ cat <<\EOF >"${1?}"org.libreoffice.LibreOffice.appdata.xml
  <description>
   <p>LibreOffice is a powerful office suite.  Its clean interface and
   feature-rich tools help you unleash your creativity and enhance your
-  productivity.  LibreOffice includes several applications that make it the most
+  productivity.  SnipeOffice includes several applications that make it the most
   powerful Free and Open Source office suite on the market: Writer (word
   processing), Calc (spreadsheets), Impress (presentations), Draw (vector
   graphics and flowcharts), Base (databases), and Math (formula editing).</p>
@@ -43,30 +43,30 @@ cat <<\EOF >"${1?}"org.libreoffice.LibreOffice.appdata.xml
  </description>
  <launchable type="desktop-id">org.libreoffice.LibreOffice.desktop</launchable>
  <url type="homepage">http://www.libreoffice.org/discover/libreoffice/</url>
- <url type="bugtracker">https://bugs.documentfoundation.org/</url>
+ <url type="bugtracker">https://bugs.SnipeOffice.org/</url>
  <url type="donation">https://donate.libreoffice.org/</url>
- <url type="faq">https://wiki.documentfoundation.org/Faq</url>
+ <url type="faq">https://wiki.SnipeOffice.org/Faq</url>
  <url type="help">http://www.libreoffice.org/get-help/documentation/</url>
- <url type="translate">https://wiki.documentfoundation.org/Translating_LibreOffice</url>
+ <url type="translate">https://wiki.SnipeOffice.org/Translating_LibreOffice</url>
  <screenshots>
   <screenshot type="default">
-   <image>https://hub.SnipeOffice.org/screenshots/writer-01.png</image>
+   <image>https://snipeoffice.org/hub/screenshots/writer-01.png</image>
    <caption>Sample Writer document</caption>
   </screenshot>
   <screenshot>
-   <image>https://hub.SnipeOffice.org/screenshots/calc-02.png</image>
+   <image>https://snipeoffice.org/hub/screenshots/calc-02.png</image>
    <caption>Sample Calc document</caption>
   </screenshot>
   <screenshot>
-   <image>https://hub.SnipeOffice.org/screenshots/impress-01.png</image>
+   <image>https://snipeoffice.org/hub/screenshots/impress-01.png</image>
    <caption>Sample Impress document</caption>
   </screenshot>
   <screenshot>
-   <image>https://hub.SnipeOffice.org/screenshots/draw-02.png</image>
+   <image>https://snipeoffice.org/hub/screenshots/draw-02.png</image>
    <caption>Sample Draw document</caption>
   </screenshot>
   <screenshot>
-   <image>https://hub.SnipeOffice.org/screenshots/base-02.png</image>
+   <image>https://snipeoffice.org/hub/screenshots/base-02.png</image>
    <caption>Sample Base document</caption>
   </screenshot>
  </screenshots>

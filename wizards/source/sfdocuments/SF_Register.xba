@@ -294,7 +294,7 @@ Public Function _GetEventScriptCode(poObject As Object _
 &apos;&apos;&apos;		psName: the name of the object to be identified from the parent object
 &apos;&apos;&apos;	Returns:
 &apos;&apos;&apos;		The script to trigger when psEvent occurs
-&apos;&apos;&apos;		See Scripting Framework URI Specification : https://wiki.documentfoundation.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
+&apos;&apos;&apos;		See Scripting Framework URI Specification : https://wiki.SnipeOffice.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
 
 Dim vEvents As Variant			&apos;	List of available events in the parent object
 								&apos;	Array of com.sun.star.script.ScriptEventDescriptor
@@ -499,7 +499,7 @@ Public Function _RegisterEventScript(poObject As Object _
 &apos;&apos;&apos;		psEvent: the &quot;On...&quot; name of the event
 &apos;&apos;&apos;		psListener: the listener name corresponding with the event
 &apos;&apos;&apos;		psScriptCode: The script to trigger when psEvent occurs
-&apos;&apos;&apos;			See Scripting Framework URI Specification : https://wiki.documentfoundation.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
+&apos;&apos;&apos;			See Scripting Framework URI Specification : https://wiki.SnipeOffice.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
 &apos;&apos;&apos;		psName: the name of the object to associate with the event
 &apos;&apos;&apos;	Returns:
 &apos;&apos;&apos;		True when successful

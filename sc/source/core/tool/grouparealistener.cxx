@@ -246,7 +246,7 @@ void FormulaGroupAreaListener::collectFormulaCells(
         // erAck: 2016-11-09T18:30+01:00  XXX This doesn't occur anymore, at
         // least not in the original bug scenario (insert a column before H on
         // sheet w) of tdf#89957 with
-        // http://bugs.documentfoundation.org/attachment.cgi?id=114042
+        // http://bugs.SnipeOffice.org/attachment.cgi?id=114042
         // Apparently this was fixed in the meantime, let's assume and get the
         // assert bat out to hit us if it wasn't.
         assert(!"something is still messing up the formula group and block size length");

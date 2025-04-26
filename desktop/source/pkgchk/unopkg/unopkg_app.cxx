@@ -111,7 +111,7 @@ u"\n"
 "     <context>\n"
 "\n"
 "To learn more about extensions, see:\n"
-"https://wiki.documentfoundation.org/Documentation/DevGuide/Extensions\n\n";
+"https://wiki.SnipeOffice.org/Documentation/DevGuide/Extensions\n\n";
 
 
 const OptionInfo s_option_infos [] = {

@@ -421,7 +421,7 @@ T OResultSet::retrieveValue(const sal_Int32 nColumnIndex, const ISC_SHORT nType)
 template <>
 ORowSetValue OResultSet::retrieveValue(const sal_Int32 nColumnIndex, const ISC_SHORT /*nType*/)
 {
-    // See https://wiki.documentfoundation.org/Documentation/DevGuide/Database_Access#Using_the_getXXX_Methods
+    // See https://wiki.SnipeOffice.org/Documentation/DevGuide/Database_Access#Using_the_getXXX_Methods
     // (bottom of page) for a chart of possible conversions, we should allow all
     // of these -- Blob/Clob will probably need some specialist handling especially
     // w.r.t. to generating Strings for them.

@@ -879,7 +879,7 @@ javaPluginError jfw_plugin_existJRE(const JavaInfo *pInfo, bool *exist)
             else if(pInfo->sVersion!=aVendorInfo->getVersion())
             {
                 *exist = false;
-                JFW_TRACE2("Mismatch between version number in libreoffice settings and installed JRE:  " << pInfo->sVersion <<" != " << aVendorInfo->getVersion());
+                JFW_TRACE2("Mismatch between version number in SnipeOffice settings and installed JRE:  " << pInfo->sVersion <<" != " << aVendorInfo->getVersion());
             }
         }
         else if (::osl::File::E_NOENT == rc_itemRt)

@@ -1000,7 +1000,7 @@ void AquaSalFrame::doShowFullScreen( bool bFullScreen, sal_Int32 nDisplay )
             if( mbNativeFullScreen && !NSIsEmptyRect( maNativeFullScreenRestoreRect ) )
             {
                 // Related: tdf#128186 force window to unzoom
-                // If we exit LibreOffice's internal full screen mode while
+                // If we exit SnipeOffice's internal full screen mode while
                 // the window is in native full screen mode, the window will
                 // be zoomed after exiting native full screen mode.
                 [mpNSWindow setIsZoomed: NO];

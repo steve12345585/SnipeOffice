@@ -44,7 +44,7 @@
 		],
 		"C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
 		"C_Cpp.default.cppStandard": "c++20",
-		// point this to LibreOffice's version of clang-format 5.0.0,
+		// point this to SnipeOffice's version of clang-format 5.0.0,
 		// otherwise clang-format from the plugin is used, and that
 		// gives slightly different results
 		"C_Cpp.clang_format_path": "/opt/lo/bin/clang-format",
@@ -57,7 +57,7 @@
 		"gitlens.autolinks": [
 			{
 				"prefix": "tdf#",
-				"url": "https://bugs.documentfoundation.org/show_bug.cgi?id=<num>"
+				"url": "https://bugs.SnipeOffice.org/show_bug.cgi?id=<num>"
 			}
 		],
 		"terminal.integrated.profiles.windows": {
@@ -144,7 +144,7 @@
 					{
 						// added in disabled form for convenience/as an example
 						// (proper name is just SAL_LOG),
-						// see https://docs.libreoffice.org/sal/html/sal_log.html
+						// see https://snipeoffice.org/docs/sal/html/sal_log.html
 						"name": "SAL_LOG_DISABLED",
 						"value": "+INFO.ucb+WARN"
 					}

@@ -2733,7 +2733,7 @@ void DrawingML::WriteRunProperties( const Reference< XPropertySet >& rRun, bool 
 
                 WriteSolidFill(COL_WHITE);
             }
-            // tdf#104219 In LibreOffice and MS Office, there are two types of colors:
+            // tdf#104219 in SnipeOffice and MS Office, there are two types of colors:
             // Automatic and Fixed. OOXML is setting automatic color, by not providing color.
             else if( color != COL_AUTO )
             {

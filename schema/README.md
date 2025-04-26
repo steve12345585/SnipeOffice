@@ -7,9 +7,9 @@ subdirs:
 - `mathml2`: W3C MathML 2.0 XML Schema (needed for Math embedded objects)
 - `odf1.0`, `odf1.1`, `odf1.2`: official OASIS RelaxNG schemas
 - `odf1.3`: current OASIS draft ODF 1.3 RelaxNG schema
-- `libreoffice`: draft ODF schema, with additional LO extensions
+- `SnipeOffice`: draft ODF schema, with additional LO extensions
 
-The extension schema in `libreoffice/` is used by all unit tests if
+The extension schema in `SnipeOffice/` is used by all unit tests if
 `--with-export-validation` is given, which is the default.
 
 Notably this means that if you add a new feature to the ODF filters and you add
@@ -45,6 +45,6 @@ Unfortunately it turned out that there are a lot of extensions already for
 which no proposal exists [1], and in many cases not even an entry on the Wiki
 [2], so clearly something like this extension schema is needed.
 
-[1] `git grep TODO schema/libreoffice`
+[1] `git grep TODO schema/SnipeOffice`
 
-[2] <https://wiki.documentfoundation.org/Development/ODF_Implementer_Notes/List_of_LibreOffice_ODF_Extensions>
+[2] <https://wiki.SnipeOffice.org/Development/ODF_Implementer_Notes/List_of_SnipeOffice_ODF_Extensions>

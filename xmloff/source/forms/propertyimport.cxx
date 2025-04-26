@@ -265,7 +265,7 @@ Type PropertyConversion::xmlTypeToUnoType( const OUString& _rType )
     {
         { token::GetXMLToken( token::XML_BOOLEAN ) , cppu::UnoType<bool>::get()},
         // Not a copy paste error, quotation from:
-        // http://nabble.documentfoundation.org/Question-unoType-for-getXmlToken-dbaccess-reportdesign-module-tp4109071p4109116.html
+        // http://nabble.SnipeOffice.org/Question-unoType-for-getXmlToken-dbaccess-reportdesign-module-tp4109071p4109116.html
         // all numeric types (including the UNO double)
         // consistently map to XML_FLOAT, so taking the extra precision from the
         // C++ type "float" to "double" makes absolute sense

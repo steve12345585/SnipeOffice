@@ -1,7 +1,7 @@
 # Universal Content Broker (UCB)
 
 Universal Content Broker (has ucps) which do things like convert files
-to strings in content broker world, or connect LibreOffice with
+to strings in content broker world, or connect SnipeOffice with
 various DMS and fileshare systems like WebDAV, CMIS, or GIO.
 
 The UCPs implement the Universal Content Provider UNO interfaces in
@@ -19,11 +19,11 @@ well as TLS 1.2 or later.
 Our WebDAV `com.sun.star.ucb.ContentProvider` service implementation
 registers the `vnd.sun.star.webdav` and `http` URI schemes (and their
 encrypted TLS variants). See here for the specification:
-https://wiki.documentfoundation.org/Documentation/DevGuide/Universal_Content_Providers#The_WebDAV_Content_Provider
+https://wiki.SnipeOffice.org/Documentation/DevGuide/Universal_Content_Providers#The_WebDAV_Content_Provider
 
 Historically, webdav had two ucps, one based on `neon`, the second one
 based on `serf`. Both are superseded by the current `libcurl`
-implementation (since LibreOffice 7.3), but in case of behavioural
+implementation (since SnipeOffice 7.3), but in case of behavioural
 differences, go hunt for code differences (ucb/source/ucp/webdav-neon
 and ucb/source/ucp/webdav).
 
@@ -52,7 +52,7 @@ server idiosyncrasies:
 
 To a first approximation, there are 3 parts involved in the UCP:
 
-* The upper layer implements the UNO API which is called by LibreOffice, and
+* The upper layer implements the UNO API which is called by SnipeOffice, and
   translates the calls from generic sequence-of-any stringly typed abstractness
   into HTTP or WebDAV protocol calls, and does some high level protocol
   handling to figure out what the server supports and so on. This is

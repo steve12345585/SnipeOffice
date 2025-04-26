@@ -19,7 +19,7 @@ refer to [drawinglayer](../drawinglayer) documentation.
 ## Known Bugs
 Known remaining bugs for this module are gathered here:
 
-* [Bug 88278 - [META] SVG import image filter (all modules)](https://bugs.documentfoundation.org/show\_bug.cgi?id=88278)
+* [Bug 88278 - [META] SVG import image filter (all modules)](https://bugs.SnipeOffice.org/show\_bug.cgi?id=88278)
 
 ## Dependencies
 Direct dependencies for **emfio** are [**drawinglayer**](../drawinglayer) and

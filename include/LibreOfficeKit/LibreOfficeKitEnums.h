@@ -371,7 +371,7 @@ typedef enum
      * {
      *     "classification": "error" | "warning" | "info"
      *     "kind": "network" etc.
-     *     "code": a structured 32-bit error code, the ErrCode from LibreOffice's <comphelper/errcode.hxx>
+     *     "code": a structured 32-bit error code, the ErrCode from SnipeOffice's <comphelper/errcode.hxx>
      *     "message": freeform description
      * }
      */

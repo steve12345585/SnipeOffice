@@ -1,16 +1,16 @@
-# LibreOffice for Android
+# SnipeOffice for Android
 
 ## Bootstrap
 
-Contains common code for all projects on Android to bootstrap LibreOffice. In
-addition it is a home to `LibreOfficeKit` (LOK - see `libreofficekit/README.md`) JNI
+Contains common code for all projects on Android to bootstrap SnipeOffice. In
+addition it is a home to `SnipeOfficeKit` (LOK - see `SnipeOfficekit/README.md`) JNI
 classes.
 
 ## Stuff in Source Directory
 
-LibreOffice Android application - the code is based on Fennec (Firefox for Android).
+SnipeOffice Android application - the code is based on Fennec (Firefox for Android).
 It uses OpenGL ES 2 for rendering of the document tiles which are gathered from
-LibreOffice using LOK. The application contains the LibreOffice core in one shared
+SnipeOffice using LOK. The application contains the SnipeOffice core in one shared
 library: `liblo-native-code.so`, which is bundled together with the application.
 
 ## Architecture and Threading
@@ -21,24 +21,24 @@ The application implements editing support using 4 threads:
    amount of time.
 2. An OpenGL thread which contains the OpenGL context and is responsible for drawing
    all layers (including tiles) to the screen.
-3. A thread (`LOKitThread`), that performs `LibreOfficeKit` calls, which may take more time
+3. A thread (`LOKitThread`), that performs `SnipeOfficeKit` calls, which may take more time
    to complete. In addition it also receives events from the soffice thread (see below)
    when the callback emits an event. Events are stored in a blocking queue (thread
    processes events in FCFS order, goes to sleep when no more event is available and
    awakens when there are events in the queue again).
-4. A native thread created by LibreOfficeKit (we call it the soffice thread), where
-   LibreOffice itself runs. It receives calls from `LOKitThread`, and may emit callback
+4. A native thread created by SnipeOfficeKit (we call it the soffice thread), where
+   SnipeOffice itself runs. It receives calls from `LOKitThread`, and may emit callback
    events as necessary.
 
 ## LOKitThread
 
-`LOKitThread` (`org.libreoffice.LOKitThread`) communicates with LO via JNI (this can
-be done only for one thread) and processes events (defined in `org.libreoffice.LOEvent`)
+`LOKitThread` (`org.SnipeOffice.LOKitThread`) communicates with LO via JNI (this can
+be done only for one thread) and processes events (defined in `org.SnipeOffice.LOEvent`)
 triggered from UI.
 
 ## Application Overview
 
-LibreOfficeMainActivity (`org.libreoffice.LibreOfficeMainActivity`) is the entry point
+SnipeOfficeMainActivity (`org.SnipeOffice.SnipeOfficeMainActivity`) is the entry point
 of the application - everything starts up and tears down from here (`onCreate`, `onResume`,
 `onPause`, `onStart`, `onStop`, `onDestroy`).
 
@@ -103,18 +103,18 @@ low resolution layer.
 
 ### Tile Invalidation
 
-Tile can change in LibreOffice when user changes the content (adds, removes text or changes
-the properties). In this case, an invalidation rectangle is signaled from LibreOffice, which
+Tile can change in SnipeOffice when user changes the content (adds, removes text or changes
+the properties). In this case, an invalidation rectangle is signaled from SnipeOffice, which
 includes a rectangle that needs to be invalidated. In this case `LOKitThread` gets this request
 via callback, and rechecks all tiles if they need to be invalidated. For more details see
 LOKitThread#tileInvalidation).
 
 ## Editing
 
-For editing there are 2 coarse tasks that the LibreOffice app must do:
+For editing there are 2 coarse tasks that the SnipeOffice app must do:
 
-1. send input events to LibreOffice core (keyboard, touch and mouse)
-2. listen to messages (provided via callback) from LibreOffice core and react accordingly
+1. send input events to SnipeOffice core (keyboard, touch and mouse)
+2. listen to messages (provided via callback) from SnipeOffice core and react accordingly
 
 In most cases when an input event happens and is send to the LO core, then a message from
 LO core follows. For example: when the user writes to the keyboard, key event is sent and
@@ -122,19 +122,19 @@ an invalidation request from LO core follows. When user touches an image, a mous
 sent, and a "new graphic selection" message from LO core follows.
 
 All keyboard and touch events are sent to `LOKitThread` as `LOEvents`. In `LOKitThread` they are
-processed and sent to LibreOffice core. The touch events originate in `JavaPanZoomController`,
-the keyboard events in `LOKitInputConnectionHandler` (`org.libreoffice.LOKitInputConnectionHandler`),
+processed and sent to SnipeOffice core. The touch events originate in `JavaPanZoomController`,
+the keyboard events in `LOKitInputConnectionHandler` (`org.SnipeOffice.LOKitInputConnectionHandler`),
 however there are other parts too - depending on the need.
 
-`InvalidationHandler` (`org.libreoffice.InvalidationHandler`) is the class that is responsible
-to process messages from LibreOffice core and to track the state.
+`InvalidationHandler` (`org.SnipeOffice.InvalidationHandler`) is the class that is responsible
+to process messages from SnipeOffice core and to track the state.
 
 ## Overlay
 
 Overlay elements like cursor and selections aren't drawn by the LO core, instead the core
 only provides data (cursor position, selection rectangles) and the app needs to draw them.
-`DocumentOverlay` (`org.libreoffice.overlay.DocumentOverlay`) and `DocumentOverlayView`
-(`org.libreoffice.overlay.DocumentOverlayView`) are the classes that provide the overlay over
+`DocumentOverlay` (`org.SnipeOffice.overlay.DocumentOverlay`) and `DocumentOverlayView`
+(`org.SnipeOffice.overlay.DocumentOverlayView`) are the classes that provide the overlay over
 the document, where selections and the cursor is drawn.
 
 
@@ -230,7 +230,7 @@ Using `lldb` from within Android Studio is more comfortable though and works lik
 	- on tab "Native Debugger" add `android/obj/local/<hostarch>` to
 	the Symbol directories
 	- on the LLDB startup commands tab add
-	"command script import `/path/to/solenv/lldb/libreoffice/LO.py`"
+	"command script import `/path/to/solenv/lldb/SnipeOffice/LO.py`"
 	to get some pretty printing hooks for the various string classes
 
 Then you can select your new configuration and use Run | Debug to launch it.
@@ -268,7 +268,7 @@ Assuming that you're already in the LOAndroid3 directory in your shell.
 ### Debugging the Missing Services
 
 Android library only include essential services that are compiled for
-LibreOffice in order to reduce the size of the apk. When developing,
+SnipeOffice in order to reduce the size of the apk. When developing,
 some services might become useful and we should add those services
 to the combined library.
 
@@ -289,7 +289,7 @@ Which services are combined in the android lib is determined by
 
 ### Common Errors / Gotchas
 
-    lo_dlneeds: Could not read ELF header of /data/data/org.libreoffice...libfoo.so
+    lo_dlneeds: Could not read ELF header of /data/data/org.SnipeOffice...libfoo.so
 This (most likely) means that the install quietly failed, and that
 the file is truncated; check it out with `adb shell ls -l /data/data/...`
 

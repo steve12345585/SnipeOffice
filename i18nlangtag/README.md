@@ -29,7 +29,7 @@ When changing a (translation's) language tag (for example, `ca-XV` to `ca-valenc
     * replace the tag and sort alphabetically
 
 * in `translations/source` do  `git mv old-tag new-tag`
-    * note that translations is a git submodule so <https://wiki.documentfoundation.org/Development/Submodules applies>
+    * note that translations is a git submodule so <https://wiki.SnipeOffice.org/Development/Submodules applies>
 
 * `i18nlangtag/source/isolang/isolang.cxx`
     * maintain the old tag's mapping entry in `aImplIsoLangEntries` to be able to read existing documents using that code

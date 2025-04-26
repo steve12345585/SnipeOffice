@@ -228,7 +228,7 @@ void AquaSalInstance::AfterAppInit()
     // would be to fix all the cases where a call to [NSSpellChecker sharedSpellChecker] in
     // lingucomponent/source/spellcheck/macosxspell/macspellimp.mm is done while the SolarMutex is
     // locked (somewhere up the call chain), but that appears to be rather difficult (see e.g.
-    // <https://bugs.documentfoundation.org/show_bug.cgi?id=151894> "FILEOPEN a Base Document with
+    // <https://bugs.SnipeOffice.org/show_bug.cgi?id=151894> "FILEOPEN a Base Document with
     // customized event for open a startform by 'open document' LO stuck").  So, at least for now,
     // chicken out and do that first call to [NSSpellChecker sharedSpellChecker] upfront in a
     // controlled environment:

@@ -1,9 +1,9 @@
-= Uploading LibreOffice API to Maven Central
+= Uploading SnipeOffice API to Maven Central
 
-This file documents the prerequisites and workflow to upload LibreOffice
+This file documents the prerequisites and workflow to upload SnipeOffice
 API to Maven Central or local Maven repository.
 
-To install LibreOffice API to local Maven repository or deploy the API
+To install SnipeOffice API to local Maven repository or deploy the API
 to the Maven Central, extra build toolchain is required.
 
 `Ant` is used to bootstrap `Buck` build tool. `Buck` build tool is
@@ -156,7 +156,7 @@ heap size:
 ----
 
 
-== Preparations to publish LibreOffice API to Maven Central
+== Preparations to publish SnipeOffice API to Maven Central
 
 
 === Deploy Configuration settings for Maven Central
@@ -185,7 +185,7 @@ account to be able to upload artifacts to Maven Central.
 </settings>
 ----
 
-* Request permissions to upload artifacts to the `org.libreoffice`
+* Request permissions to upload artifacts to the `org.SnipeOffice`
 repository on Maven Central:
 
 Ask for this permission by adding a comment on the
@@ -235,7 +235,7 @@ It can also be included in the key chain on macOS.
 
 == Update Versions
 
-Before publishing new artifacts to Maven Central, `LIBREOFFICE_VERSION`
+Before publishing new artifacts to Maven Central, `SnipeOffice_VERSION`
 in the `VERSION` file must be updated, e.g. change it from `5.0.0` to `5.1.0`.
 
 In addition the version must be updated in a number of pom.xml files.
@@ -248,14 +248,14 @@ version as parameter, e.g.:
 ----
 
 
-== Build LibreOffice
+== Build SnipeOffice
 
-Build LibreOffice as usually, so that API JARs are created.
+Build SnipeOffice as usually, so that API JARs are created.
 
 
-== Publish the LibreOffice artifacts to local Maven repository
+== Publish the SnipeOffice artifacts to local Maven repository
 
-Execute this command to install LibreOffice API to your local Maven
+Execute this command to install SnipeOffice API to your local Maven
 repository. For troubleshooting, the environment variable `VERBOSE`
 can be set:
 
@@ -263,11 +263,11 @@ can be set:
   VERBOSE=1 buck build api_install
 ----
 
-Once executed, the local Maven repository contains the LibreOffice API
+Once executed, the local Maven repository contains the SnipeOffice API
 artifacts:
 
 ----
-  $ ls -1 ~/.m2/repository/org/libreoffice/unoil/5.1.0/
+  $ ls -1 ~/.m2/repository/org/SnipeOffice/unoil/5.1.0/
   _maven.repositories
   unoil-5.1.0.jar
   unoil-5.1.0-javadoc.jar
@@ -276,7 +276,7 @@ artifacts:
 ----
 
 
-== Publish the LibreOffice artifacts to Maven Central
+== Publish the SnipeOffice artifacts to Maven Central
 
 * Make sure you have done the configuration for deploying to Maven Central.
 * Make sure that the version is updated in the `VERSION` file and in
@@ -301,13 +301,13 @@ If no artifacts are uploaded, clean the `buck-out` folder and retry:
   rm -rf buck-out
 ----
 
-* To where the artifacts are uploaded depends on the `LIBREOFFICE_VERSION`
+* To where the artifacts are uploaded depends on the `SnipeOffice_VERSION`
 in the `VERSION` file:
 
 ** SNAPSHOT versions are directly uploaded into the Sonatype snapshots
 repository and no further action is needed:
 
-https://oss.sonatype.org/content/repositories/snapshots/org/libreoffice/
+https://oss.sonatype.org/content/repositories/snapshots/org/SnipeOffice/
 
 ** Release versions are uploaded into a staging repository in the
 link:https://oss.sonatype.org/[Sonatype Nexus Server].
@@ -318,7 +318,7 @@ link:https://oss.sonatype.org/[Sonatype Nexus Server].
 sign in with your Sonatype credentials.
 
 ** Click on 'Build Promotion' in the left navigation bar under
-'Staging Repositories' and find the `orglibreoffice-XXXX` staging
+'Staging Repositories' and find the `orgSnipeOffice-XXXX` staging
 repository.
 
 ** Verify its content
@@ -337,7 +337,7 @@ modified anymore, but you may still drop it if you find any issues.
 ** Test closed staging repository
 
 Once a repository is closed you can find the URL to it in the `Summary`
-section, e.g. https://oss.sonatype.org/content/repositories/orglibreoffice-4711
+section, e.g. https://oss.sonatype.org/content/repositories/orgSnipeOffice-4711
 
 Use this URL for further testing of the artifacts in this repository,
 e.g. to try building an extension against this API in this repository
@@ -347,7 +347,7 @@ update the version in the `pom.xml` and configure the repository:
   <repositories>
     <repository>
       <id>mexus-staging-repository</id>
-      <url>https://oss.sonatype.org/content/repositories/orglibreoffice-4711</url>
+      <url>https://oss.sonatype.org/content/repositories/orgSnipeOffice-4711</url>
     </repository>
   </repositories>
 ----
@@ -366,12 +366,12 @@ link:https://oss.sonatype.org/[Sonatype Nexus Server], select it and
 click on `Release`.
 
 ** The released artifacts are available in
-https://oss.sonatype.org/content/repositories/releases/org/libreoffice/
+https://oss.sonatype.org/content/repositories/releases/org/SnipeOffice/
 
 ** It may take up to 2 hours until the artifacts appear on Maven
 Central:
 
-http://central.maven.org/maven2/org/libreoffice/
+http://central.maven.org/maven2/org/SnipeOffice/
 
 * [optional]: View download statistics
 
@@ -381,4 +381,4 @@ link:https://oss.sonatype.org/[Sonatype Nexus Server].
 ** Click on 'Views/Repositories' in the left navigation bar under
 'Central Statistics'.
 
-** Select `org.libreoffice` as `Project`.
+** Select `org.SnipeOffice` as `Project`.

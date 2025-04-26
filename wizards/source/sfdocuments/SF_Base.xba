@@ -21,7 +21,7 @@ Option Explicit
 &apos;&apos;&apos;		Some methods are generic for all types of documents: they are combined in the SF_Document module.
 &apos;&apos;&apos;		Specific properties and methods are implemented in the concerned subclass(es) SF_Calc, SF_Writer, ...
 &apos;&apos;&apos;
-&apos;&apos;&apos;		To workaround the absence of class inheritance in LibreOffice Basic, some redundancy is necessary
+&apos;&apos;&apos;		To workaround the absence of class inheritance in SnipeOffice Basic, some redundancy is necessary
 &apos;&apos;&apos;		Each subclass MUST implement also the generic methods and properties, even if they only call
 &apos;&apos;&apos;		the parent methods and properties.
 &apos;&apos;&apos;		They should also duplicate some generic private members as a subset of their own set of members

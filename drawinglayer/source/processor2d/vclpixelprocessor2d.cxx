@@ -163,7 +163,7 @@ bool VclPixelProcessor2D::tryDrawPolygonStrokePrimitive2DDirect(
         && css::drawing::LineCap_BUTT != rSource.getLineAttribute().getLineCap())
     {
         // better use decompose to get that combination done for now, see discussion
-        // at https://bugs.documentfoundation.org/show_bug.cgi?id=130478#c17 and ff
+        // at https://bugs.SnipeOffice.org/show_bug.cgi?id=130478#c17 and ff
         return false;
     }
 

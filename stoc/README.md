@@ -35,5 +35,5 @@ the individual parts.  Horror.
 When the XML service `.rdb`s were introduced, we chickened out (see above
 for rationale) and put them behind an `XRegistry` facade, so that they
 would seamlessly integrate with the existing mess. We postponed
-systematic clean-up to the pie-in-the-sky days of LibreOffice 4 (or, "once we'll
+systematic clean-up to the pie-in-the-sky days of SnipeOffice 4 (or, "once we'll
 become incompatible with OpenOffice.org," as the phrase used to be back then)

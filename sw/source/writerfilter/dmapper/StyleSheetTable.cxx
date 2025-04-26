@@ -949,7 +949,7 @@ void StyleSheetTable::ApplyNumberingStyleNameToParaStyles()
     }
 }
 
-/* Counteract the destructive tendencies of LibreOffice's Chapter Numbering
+/* Counteract the destructive tendencies of SnipeOffice's Chapter Numbering
  *
  * Any assignment to Chapter Numbering will erase the numbering-like properties of inherited styles.
  * So go through the list of styles and any that inherit from a Chapter Numbering style

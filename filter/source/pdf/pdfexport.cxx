@@ -520,7 +520,7 @@ bool PDFExport::Export( const OUString& rFile, const Sequence< PropertyValue >& 
                         utl::ConfigManager::getAboutBoxProductVersion() +
                         " (" + arch + ")"
 #if HAVE_FEATURE_COMMUNITY_FLAVOR
-                        " / LibreOffice Community"
+                        " / SnipeOffice Community"
 #endif
                         ;
             }

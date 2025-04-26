@@ -58,7 +58,7 @@ device like the iPad it would not be acceptable to run a normal
 LibreOffice application with overlapping windows and mouse-oriented
 GUI widgets.
 
-It makes sense to use only a part of LibreOffice's code for iOS. Lots
+It makes sense to use only a part of SnipeOffice's code for iOS. Lots
 of the GUI-oriented code should be left out. iOS apps that want to use
 the applicable LibreOffice code will handle all their GUI in a
 platform-dependent manner. How well it will be possible to do such a
@@ -71,7 +71,7 @@ allowed to load own dynamic libraries. (System libraries are used in
 the form of dynamic libraries, just like on macOS, of which iOS is
 a variant.)
 
-Thus all the libraries in LibreOffice that normally are shared
+Thus all the libraries in SnipeOffice that normally are shared
 libraries (DLLs on Windows, shared objects (.so) on Linux, dynamic
 libraries on macOS (.dylib)) must be built as static archives
 instead. This has some interesting consequences for how UNO is

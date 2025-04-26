@@ -255,7 +255,7 @@ Public Sub AddItem(Optional ByVal MenuItem As Variant _
 &apos;&apos;&apos;			If the last component is equal to &quot;---&quot;, a line separator is inserted and all other arguments are ignored
 &apos;&apos;&apos;		Command: A menu command like &quot;.uno:About&quot;. The validity of the command is not checked.
 &apos;&apos;&apos;		Script: a Basic or Python script (determined by its URI notation) to be run when the item is clicked
-&apos;&apos;&apos;			Read https://wiki.documentfoundation.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
+&apos;&apos;&apos;			Read https://wiki.SnipeOffice.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
 &apos;&apos;&apos;			No argument will be passed to the called script.
 &apos;&apos;&apos;		Arguments Command and Script are mutually exclusive.
 &apos;&apos;&apos;	Returns:

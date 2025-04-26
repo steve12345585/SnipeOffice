@@ -128,7 +128,7 @@ End Property	&apos;	SFWidgets.SF_ToolbarButton.Index (get)
 REM -----------------------------------------------------------------------------
 Property Get OnClick() As Variant
 &apos;&apos;&apos;	Returns the UNO command or the script (expressed in the scripting framework_URI notation) run when the button is clicked
-&apos;&apos;&apos;	Read https://wiki.documentfoundation.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
+&apos;&apos;&apos;	Read https://wiki.SnipeOffice.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
 &apos;&apos;&apos;	Note that no event object is passed to the script.
 &apos;&apos;&apos;	Example:
 &apos;&apos;&apos;		MsgBox myButton.OnClick
@@ -236,7 +236,7 @@ REM ----------------------------------------------------------------------------
 Public Function Execute() As Variant
 &apos;&apos;&apos;	Execute the command stored in the toolbar button.
 &apos;&apos;&apos;	The command can be a UNO command or a Basic/Python script (expressed in the scripting framework_URI notation)
-&apos;&apos;&apos;	Read https://wiki.documentfoundation.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
+&apos;&apos;&apos;	Read https://wiki.SnipeOffice.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
 &apos;&apos;&apos;	No argument is passed to the script to execute.
 &apos;&apos;&apos;	Args:
 &apos;&apos;&apos;	Returns:

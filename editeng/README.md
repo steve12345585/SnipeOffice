@@ -6,7 +6,7 @@ has no dependencies on `svx` (nor on `sfx2`) while in turn `svx` depends on edit
 Read more in the mailing list post:
 <http://www.mail-archive.com/dev@openoffice.org/msg13237.html>
 
-If you build LibreOffice with `dbgutil`, you have some extended debug keys:
+If you build SnipeOffice with `dbgutil`, you have some extended debug keys:
 
 - Ctrl+Alt+F1 - draws the paragraph rectangles in different colors
 - Ctrl+Alt+F11 - toggles dumping the edit engine state to the

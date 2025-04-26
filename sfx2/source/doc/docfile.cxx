@@ -2679,7 +2679,7 @@ void SfxMedium::Transfer_Impl()
                         // tdf#95272 try to re-issue a lock command when a new file is created.
                         // This may be needed because some WebDAV servers fail to implement the
                         // 'LOCK on unallocated reference', see issue comment:
-                        // <https://bugs.documentfoundation.org/show_bug.cgi?id=95792#c8>
+                        // <https://bugs.SnipeOffice.org/show_bug.cgi?id=95792#c8>
                         // and specification at:
                         // <http://tools.ietf.org/html/rfc4918#section-7.3>
                         // If the WebDAV resource is already locked by this LO instance, nothing will

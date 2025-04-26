@@ -45,7 +45,7 @@ except ImportError:
     import xml.etree.ElementTree as ET
     lxml = False
 
-howto_url = "https://wiki.documentfoundation.org/Development/Accessibility"
+howto_url = "https://wiki.SnipeOffice.org/Development/Accessibility"
 
 # Toplevel widgets
 widgets_toplevel = [

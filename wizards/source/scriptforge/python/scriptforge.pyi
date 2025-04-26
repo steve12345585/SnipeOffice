@@ -127,7 +127,7 @@ Examples
 """
 SCRIPT_URI = TypeVar('SCRIPT_URI', str, str)
 """ String reference to a Basic or Python macro as described in
-``https://wiki.documentfoundation.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification``
+``https://wiki.SnipeOffice.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification``
 """
 SQL_SELECT = TypeVar('SQL_SELECT', str, str)
 """ A SQL command containing a SELECT statement, a tablename or a queryname.
@@ -1303,7 +1303,7 @@ class SFScriptForge:
                     Returns
                         A ``TEXTSTREAM`` instance representing the opened file or ``None`` if an error occurred.
                         The method does not check if the file is really a text file. It doesn't check either
-                        if the given encoding is implemented in LibreOffice nor if it is the right one.
+                        if the given encoding is implemented in SnipeOffice nor if it is the right one.
                 """
             ...
 
@@ -1776,7 +1776,7 @@ class SFScriptForge:
         SCRIPTISPERSOXT: Literal["user:uno_packages"]
         """ The invoked library is in an extension installed for the current user (Python). """
         SCRIPTISSHARED: Literal["share"]
-        """ The invoked library is in LibreOffice macros (Python).  """
+        """ The invoked library is in SnipeOffice macros (Python).  """
         SCRIPTISSHAROXT: Literal["share:uno_packages"]
         """ The invoked library is in an extension installed for all users (Python).    """
         SCRIPTISOXT: Literal["uno_packages"]
@@ -3788,7 +3788,7 @@ class SFDialogs:
                         ``border``: "3D" (default), "FLAT" or "NONE".
 
                         ``editmask``: a character code that determines what the user may enter. More info on
-                        https://wiki.documentfoundation.org/Documentation/DevGuide/Graphical_User_Interfaces#Pattern_Field.
+                        https://wiki.SnipeOffice.org/Documentation/DevGuide/Graphical_User_Interfaces#Pattern_Field.
 
                         ``literalmask``: contains the initial values that are displayed in the pattern field.
                     Returns
@@ -6497,7 +6497,7 @@ class SFDocuments:
     # #########################################################################
     class SF_Form(SFServices):
         """
-            Management of forms defined in LibreOffice documents. Supported types are Base, Calc and Writer documents.
+            Management of forms defined in SnipeOffice documents. Supported types are Base, Calc and Writer documents.
             It includes the management of sub-forms
             Each instance of the current class represents a single form or a single sub-form
             A form may optionally be (understand "is often") linked to a data source manageable with
@@ -7293,7 +7293,7 @@ class SFWidgets:
 
                         ``script``: a Basic or Python script (determined by its URI notation) to be run when
                         the item is clicked.
-                        Read https://wiki.documentfoundation.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
+                        Read https://wiki.SnipeOffice.org/Documentation/DevGuide/Scripting_Framework#Scripting_Framework_URI_Specification
                         No argument will be passed to the called script.
                     Note
                         Arguments ``Command`` and ``Script`` are mutually exclusive.

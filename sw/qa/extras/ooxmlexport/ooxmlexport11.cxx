@@ -859,7 +859,7 @@ DECLARE_OOXMLEXPORT_TEST(testGroupedShapeLink, "grouped_link.docx")
     uno::Reference<drawing::XShapes> xGroupShape(getShape(1), uno::UNO_QUERY);
     CPPUNIT_ASSERT_EQUAL(u"https://www.SnipeOffice.org"_ustr,
                          getProperty<OUString>(xGroupShape->getByIndex(0), u"Hyperlink"_ustr));
-    CPPUNIT_ASSERT_EQUAL(u"https://www.documentfoundation.org"_ustr,
+    CPPUNIT_ASSERT_EQUAL(u"https://www.SnipeOffice.org"_ustr,
                          getProperty<OUString>(xGroupShape->getByIndex(1), u"Hyperlink"_ustr));
 }
 

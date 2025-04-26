@@ -211,7 +211,7 @@ sal_Int32 DatabaseMetaData::getDriverMinorVersion(  )
 sal_Bool DatabaseMetaData::usesLocalFiles(  )
 {
     // LEM TODO:
-    //           https://wiki.documentfoundation.org/Documentation/DevGuide/Database_Access#XDatabaseMetaData_Interface
+    //           https://wiki.SnipeOffice.org/Documentation/DevGuide/Database_Access#XDatabaseMetaData_Interface
     //           says "Returns true when the catalog name of the
     //           database should not appear in the DatasourceBrowser
     //           of LibreOffice API, otherwise false is returned."
@@ -312,7 +312,7 @@ OUString DatabaseMetaData::getSQLKeywords(  )
 OUString DatabaseMetaData::getNumericFunctions(  )
 {
     // See https://www.postgresql.org/docs/9.1/static/functions-math.html
-    // LEM TODO: Err... https://wiki.documentfoundation.org/Documentation/DevGuide/Database_Access#Support_Scalar_Functions
+    // LEM TODO: Err... https://wiki.SnipeOffice.org/Documentation/DevGuide/Database_Access#Support_Scalar_Functions
     //           says this should be "Open Group CLI" names, not PostgreSQL names.
     //           Currently this is just a list of supported functions in PostgreSQL, with PostgreSQL names.
     //           And it is my job to map from Open Group CLI names/syntax to PostgreSQL names/syntax. Where? By parsing the SQL???

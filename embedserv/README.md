@@ -1,3 +1,3 @@
-# LibreOffice Embeddable Objects
+# SnipeOffice Embeddable Objects
 
-To embed LibreOffice via OLE2.
+To embed SnipeOffice via OLE2.

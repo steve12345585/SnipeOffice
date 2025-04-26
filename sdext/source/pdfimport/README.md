@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The code in this directory parses a PDF file and builds a LibreOffice
+The code in this directory parses a PDF file and builds a SnipeOffice
 document contain similar elements, which can then be edited.
 It is invoked when opening a PDF file, but **not** when inserting
 a PDF into a document.  Inserting a PDF file renders it and inserts
@@ -25,7 +25,7 @@ Turing complete, so it's a wonder that PDFs ever manage to display anything.
 
 - Not all elements have clipping implemented.
 
-- LibreOffice's clipping routines all use Even-odd winding rules, where
+- SnipeOffice's clipping routines all use Even-odd winding rules, where
 as PDF can (and usually does) use non-zero winding rules, making some
 clipping operations incorrect.
 
@@ -35,16 +35,16 @@ for reassembling characters back into lines of text.
 Other programs, like *pdftotext* have more complex heuristics that might be worth a try.
 
 - Some cheap PDF operations, like the more advanced fills, generate many
-hundreds of objects in LibreOffice, which can make the document painfully
+hundreds of objects in SnipeOffice, which can make the document painfully
 slow to open.  At least some of these are possible to improve by adding
-more Poppler API implementations.  Some may require expanding LibreOffice's
+more Poppler API implementations.  Some may require expanding SnipeOffice's
 set of fill types.
 
 - There can be differences between distributions Poppler library builds
-and the builds LibreOffice builds when it doesn't have a distro build
-to use, e.g. in LibreOffice's own distributed builds or the bibisect
+and the builds SnipeOffice builds when it doesn't have a distro build
+to use, e.g. in SnipeOffice's own distributed builds or the bibisect
 builds.  In particular the distro builds may include another library
-(supporting another embedded image type) than LibreOffice's build.
+(supporting another embedded image type) than SnipeOffice's build.
 
 ## Fundamental limitations
 
@@ -57,7 +57,7 @@ then this is probably the issue.
 
 - PDF can use complex programming in many places, for example a simple fill
 could be composed of a complex program to generate the fill tiles instead
-of an obvious simple item that can be encoded as LibreOffice shading type.
+of an obvious simple item that can be encoded as SnipeOffice shading type.
 Rendering these down to image tiles works OK but can sometimes end up
 with a fuzzy image rather than a nice sharp vector representation.
 
@@ -67,7 +67,7 @@ thus has lots of ifdef's to deal with different Poppler versions.
 ## Structure
 
 Note that the structure is dictated by Poppler being GPL licensed, where
-as LibreOffice isn't.
+as SnipeOffice isn't.
 
 - *xpdfwrapper/* contains the GPL code that's linked with Poppler
 and forms the *xpdfimport* binary.    That binary outputs a stream
@@ -75,7 +75,7 @@ representing the PDF as simpler operations (lines, clipping operations,
 images etc).  These form a series of commands on stdout, and binary
 data (mostly images) on stderr.  This does make adding debugging tricky.
 
-- *wrapper/* contains the LibreOffice glue that execs the *xpdfimport*
+- *wrapper/* contains the SnipeOffice glue that execs the *xpdfimport*
 binary and parses the stream.  It also sets up password entry for
 protected PDFs.  After parsing the keyword and then any data that
 should be with the keyword, this layer than calls into the following
@@ -85,11 +85,11 @@ tree layer.
 wrapper layer.  The tree is then 'visited' by optimisation layers
 (that do things like assemble individual characters into lines of text)
 and then by backend specific XML generators (e.g. for Draw and Writer)
-that then generate an XML stream to be parsed by the core of LibreOffice.
+that then generate an XML stream to be parsed by the core of SnipeOffice.
 
 ## The wrapper protocol
 
-The LibreOffice wrapper talks to the GPL wrapper code over a pipe
+The SnipeOffice wrapper talks to the GPL wrapper code over a pipe
 using a simple line based protocol before the main decoding is done.
 
 The commands are:
@@ -170,7 +170,7 @@ or hang or shrinking the problem down.
 files to really cut down the number of primitives, but takes some
 getting used to.
 
-- The xpdfimport binary can be run independently of the rest of LibreOffice
+- The xpdfimport binary can be run independently of the rest of SnipeOffice
 to allow the translated stream to be examined:
 
         ./instdir/program/xpdfimport problem.pdf < /dev/null > stream 2> binarystream

@@ -1973,7 +1973,7 @@
     <table:table-column table:style-name="co22" table:number-columns-repeated="1015" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro7">
      <table:table-cell table:number-columns-repeated="7"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=40460" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=40460</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=40460" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=40460</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1016"/>
     </table:table-row>

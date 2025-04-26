@@ -7,7 +7,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-// Design proposal: https://wiki.documentfoundation.org/Design/Whiteboards/Comments_Ruler_Control
+// Design proposal: https://wiki.SnipeOffice.org/Design/Whiteboards/Comments_Ruler_Control
 
 #include <swruler.hxx>
 

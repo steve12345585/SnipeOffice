@@ -988,7 +988,7 @@ CPPUNIT_TEST_FIXTURE(Test, Test_ShadowDirection)
     CPPUNIT_ASSERT_EQUAL(1, getPages());
     // The attribute 'rotWithShape' has the default value 'true' in OOXML, so Words interprets a
     // missing attribute as 'true'. That means that Word rotates the shadow if the shape is
-    // rotated. Because in LibreOffice a shadow is never rotated, we must not omit this
+    // rotated. Because in SnipeOffice a shadow is never rotated, we must not omit this
     // attribute.
     xmlDocUniquePtr pXmlDoc = parseExport(u"word/document.xml"_ustr);
     assertXPath(pXmlDoc,

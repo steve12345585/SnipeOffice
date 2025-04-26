@@ -10,7 +10,7 @@ repeated administrator check for an update.
 
 ## Note
 
-The updater executable should not depend on any other dynamic library in the LibreOffice
+The updater executable should not depend on any other dynamic library in the SnipeOffice
 installation as we would need to copy that one also to a temporary directory during update. We can't
 update any library or executable that is currently in use. For the updater executable we solve this
 problem by copying the updater before using it to a temporary directory.

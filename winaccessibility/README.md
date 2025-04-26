@@ -10,7 +10,7 @@ The code breaks into three bits:
 
 + `source/service/`
 	+ the UNO service providing the accessibility bridge.
-	  It essentially listens to events from the LibreOffice
+	  It essentially listens to events from the SnipeOffice
 	  core and creates and synchronises COM peers for our
 	  internal accessibility objects when events arrive.
 

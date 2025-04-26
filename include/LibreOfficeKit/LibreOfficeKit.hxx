@@ -971,7 +971,7 @@ public:
      *        Another useful FilterOption is "Language=...".  It is consumed
      *        by the documentLoad() itself, and when provided, LibreOfficeKit
      *        switches the language accordingly first.
-     * @since pFilterOptions argument added in LibreOffice 5.0
+     * @since pFilterOptions argument added in SnipeOffice 5.0
      */
     Document* documentLoad(const char* pUrl, const char* pFilterOptions = NULL)
     {
@@ -1158,7 +1158,7 @@ public:
      * Override the SAL_LOG environment variable
      *
      * For the syntax of the string see the documentation for "Basic
-     * logging functionality" in LibreOffice internal API
+     * logging functionality" in SnipeOffice internal API
      * documentation (include/sal/log.hxx). If the logging selector
      * has been set by this function to a non-empty value, that is used
      * instead of the environment variable SAL_LOG.

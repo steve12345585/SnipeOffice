@@ -199,7 +199,7 @@ sal_Int16 GetMetalType(const SdrCustomShapeGeometryItem& rItem, const sal_Int16 
 
 // Calculates the light directions for the additional lights, which are used to emulate soft
 // lights of MS Office. Method needs to be documented in the Wiki
-// https://wiki.documentfoundation.org/Development/ODF_Implementer_Notes in part
+// https://wiki.SnipeOffice.org/Development/ODF_Implementer_Notes in part
 // List_of_LibreOffice_ODF_implementation-defined_items
 // The method expects vector rLight to be normalized and results normalized vectors.
 void lcl_SoftLightsDirection(const basegfx::B3DVector& rLight, basegfx::B3DVector& rSoftUp,

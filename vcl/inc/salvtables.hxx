@@ -714,7 +714,7 @@ public:
     virtual ~SalInstanceSpinButton() override;
 };
 
-//ComboBox and ListBox have similar apis, ComboBoxes in LibreOffice have an edit box and ListBoxes
+//ComboBox and ListBox have similar apis, ComboBoxes in SnipeOffice have an edit box and ListBoxes
 //don't. This distinction isn't there in Gtk. Use a template to sort this problem out.
 template <class vcl_type>
 class SalInstanceComboBox : public SalInstanceWidget, public virtual weld::ComboBox

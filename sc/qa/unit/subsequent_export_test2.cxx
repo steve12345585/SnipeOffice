@@ -1249,7 +1249,7 @@ CPPUNIT_TEST_FIXTURE(ScExportTest2, testTdf123645XLSX)
     assertXPath(pXmlRels, "/rels:Relationships/rels:Relationship[@Id='rId3']", "Target",
                 u"#Sheet2!A1");
     assertXPath(pXmlRels, "/rels:Relationships/rels:Relationship[@Id='rId5']", "Target",
-                u"https://bugs.documentfoundation.org/show_bug.cgi?id=123645");
+                u"https://bugs.SnipeOffice.org/show_bug.cgi?id=123645");
 }
 
 CPPUNIT_TEST_FIXTURE(ScExportTest2, testTdf125173XLSX)
@@ -1281,7 +1281,7 @@ CPPUNIT_TEST_FIXTURE(ScExportTest2, testTdf79972XLSX)
     xmlDocUniquePtr pXmlRels = parseExport(u"xl/worksheets/_rels/sheet1.xml.rels"_ustr);
     CPPUNIT_ASSERT(pXmlRels);
     assertXPath(pXmlRels, "/rels:Relationships/rels:Relationship", "Target",
-                u"https://bugs.documentfoundation.org/show_bug.cgi?id=79972");
+                u"https://bugs.SnipeOffice.org/show_bug.cgi?id=79972");
     assertXPath(pXmlRels, "/rels:Relationships/rels:Relationship", "TargetMode", u"External");
 }
 
@@ -1297,7 +1297,7 @@ CPPUNIT_TEST_FIXTURE(ScExportTest2, testTdf126024XLSX)
     xmlDocUniquePtr pXmlRels = parseExport(u"xl/worksheets/_rels/sheet1.xml.rels"_ustr);
     CPPUNIT_ASSERT(pXmlRels);
     assertXPath(pXmlRels, "/rels:Relationships/rels:Relationship", "Target",
-                u"https://bugs.documentfoundation.org/");
+                u"https://bugs.SnipeOffice.org/");
     assertXPath(pXmlRels, "/rels:Relationships/rels:Relationship", "TargetMode", u"External");
 }
 

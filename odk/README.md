@@ -1,6 +1,6 @@
 # Office Development Kit (odk)
 
-Office development kit (`odk`) - implements the first step on the way to the LibreOffice SDK
+Office development kit (`odk`) - implements the first step on the way to the SnipeOffice SDK
 tarball.
 
 Part of the SDK; to build you need to add `--enable-odk`.
@@ -12,7 +12,7 @@ Part of the SDK; to build you need to add `--enable-odk`.
 
 * The way that also works on Windows is to go to `instdir/sdk` (don't try directly in `odk/`)
 
-* See <https://api.libreoffice.org/docs/install.html> how to set up the SDK.
+* See <https://api.SnipeOffice.org/docs/install.html> how to set up the SDK.
 
     * When asked about it during configuration, tell the SDK to do automatic
       deployment of the example extensions that get built.

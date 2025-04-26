@@ -6369,7 +6369,7 @@ TOPIC:
 com.sun.star.task.JobExecutor
 
 LINK:Documentation/DevGuide/Database_Access#DatabaseContext
-DESCR:Database Access - Data Sources in LibreOffice API - DatabaseContext
+DESCR:Database Access - Data Sources in SnipeOffice API - DatabaseContext
 REF:
 com.sun.star.sdb.Connection
 com.sun.star.sdb.DatabaseContext

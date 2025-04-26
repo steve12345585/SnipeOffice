@@ -316,7 +316,7 @@ cpp2uno_call(bridges::cpp_uno::shared::CppInterfaceProxy* pThis,
                     // directly bind this register to 64 bit variable.
                     //
                     // This bug occurs when build pyuno with gcc-12 with -O2.
-                    // https://bugs.documentfoundation.org/show_bug.cgi?id=155937
+                    // https://bugs.SnipeOffice.org/show_bug.cgi?id=155937
                     //
                     // So we need to clean the higher bits in bridge.
                     case typelib_TypeClass_BOOLEAN:

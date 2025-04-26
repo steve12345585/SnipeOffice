@@ -158,7 +158,7 @@
       <text:p text:style-name="P6">2022-04-24_Quirk<text:span text:style-name="T2">s</text:span> in the focusing property of the Navigator</text:p>
       <text:p text:style-name="P10">This example file shows several bugs. It was written as an example to #148755. But I also recorded all other surprising things in order to report them on separate bug reports. Don’t mind if they appear here, it is just just to catch some of them in order to report them.</text:p>
       <text:p text:style-name="P10">This report was written with </text:p>
-      <text:p text:style-name="P11">Version: 7.4.0.0.alpha0+ / LibreOffice Community<text:line-break/>Build ID: f775b625b497b4fa6731bddd433916dde52fbb2e<text:line-break/>CPU threads: 4; OS: Linux 5.4; UI render: default; VCL: gtk3<text:line-break/>Locale: de-DE (de_DE.UTF-8); UI: en-US<text:line-break/>Calc: threaded</text:p>
+      <text:p text:style-name="P11">Version: 7.4.0.0.alpha0+ / SnipeOffice Community<text:line-break/>Build ID: f775b625b497b4fa6731bddd433916dde52fbb2e<text:line-break/>CPU threads: 4; OS: Linux 5.4; UI render: default; VCL: gtk3<text:line-break/>Locale: de-DE (de_DE.UTF-8); UI: en-US<text:line-break/>Calc: threaded</text:p>
       <text:p text:style-name="P12">but I have seen some of these glitches also in other versions of LO Writer!</text:p>
       <text:table-of-content text:style-name="Sect1" text:protected="true" text:name="Table of Contents1">
         <text:table-of-content-source text:outline-level="10">

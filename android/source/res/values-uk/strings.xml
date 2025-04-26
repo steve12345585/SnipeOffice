@@ -95,7 +95,7 @@
     <string name="font_color">Колір шрифта</string>
     <string name="action_rename_slide">Перейменувати слайд</string>
     <string name="automatic">Автоматично</string>
-    <string name="app_version">Версія: %1$s&lt;br&gt;ID збірки: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">Версія: %1$s&lt;br&gt;ID збірки: &lt;a href=https://snipeoffice.org/hub/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="app_name_settings">Налаштування Оглядача LibreOffice</string>
     <string name="new_textdocument">Новий текстовий документ</string>
     <string name="title_recents">Попередні файли</string>

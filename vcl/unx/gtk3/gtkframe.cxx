@@ -1752,7 +1752,7 @@ void GtkSalFrame::Init( SalFrame* pParent, SalFrameStyleFlags nStyle )
 
 #if !GTK_CHECK_VERSION(4,0,0)
 #if defined(GDK_WINDOWING_WAYLAND)
-        //rhbz#1392145 under wayland/csd if we've overridden the default widget direction in order to set LibreOffice's
+        //rhbz#1392145 under wayland/csd if we've overridden the default widget direction in order to set SnipeOffice's
         //UI to the configured ui language but the system ui locale is a different text direction, then the toplevel
         //built-in close button of the titlebar follows the overridden direction rather than continue in the same
         //direction as every other titlebar on the user's desktop. So if they don't match set an explicit

@@ -3073,8 +3073,8 @@ void FormulaCompiler::ForceArrayOperator( FormulaTokenRef const & rCurr )
     // "SUM(SQRT({1,2,3,4})) returns 6.14 when entered normally". However,
     // these need to be treated similar but not as ParamClass::ForceArray
     // (which would contradict the example in
-    // https://bugs.documentfoundation.org/show_bug.cgi?id=122301#c19 and A6 of
-    // https://bugs.documentfoundation.org/show_bug.cgi?id=133260#c10 ).
+    // https://bugs.SnipeOffice.org/show_bug.cgi?id=122301#c19 and A6 of
+    // https://bugs.SnipeOffice.org/show_bug.cgi?id=133260#c10 ).
     // See also
     // commit d0ded163d8e93dc5b10d7a7c9bdab1d0a6a50bac
     // commit 5413c8871dec08eff19f514f5f391b946a45c86c

@@ -667,7 +667,7 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>false = text that doesn‘t fit is aligned according to text anchor attributes</text:p><text:p>true = text that doesn‘t fit is aligned to top-left of drawing object</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=99729" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=99729</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=99729" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=99729</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1486,7 +1486,7 @@
      <table:table-cell table:style-name="Default"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>Word compat:</text:p><text:p>true: blanks at the end of a line are not painted, and blanks at end of right-aligned line are in the margin</text:p><text:p>false: blanks at the end of a line are painted, and blanks at end of right-aligned line are in the text body</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=104349" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=104349</text:a> </text:p><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=104668" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=104668</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=104349" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=104349</text:a> </text:p><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=104668" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=104668</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1919,7 +1919,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>LO4 compat:</text:p><text:p>true: proportional line spacing &lt; 100% affects first line of paragraph</text:p><text:p>false: proportional line spacing &lt; 100% is ignored on first line of paragraph</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=79602" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=79602</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=79602" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=79602</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -1940,7 +1940,7 @@
      <table:table-cell table:style-name="Default"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>Word compat:</text:p><text:p>true: only the content of form controls can be edited, not anything else in the document</text:p><text:p>false: document can be edited as usual</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=81833" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=81833</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=81833" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=81833</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2074,7 +2074,7 @@
      <table:table-cell table:style-name="Default"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>Word compat:</text:p><text:p>true: disable all built-in styles</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=53175" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=53175</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=53175" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=53175</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2095,7 +2095,7 @@
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>LO4.4 compat:</text:p><text:p>true: flys anchored at flys are painted as bizarrely as OOo did</text:p><text:p>false: flys anchored at flys are painted according to draw:z-index</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=86578" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=86578</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=86578" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=86578</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -2247,7 +2247,7 @@
      <table:table-cell table:style-name="Default"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>Word compat:</text:p><text:p>true: column break that is not inside a multi-column environment is treated as a page break</text:p><text:p>false: column break that is not inside a multi-column environment has no effect</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=76349" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=76349</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=76349" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=76349</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -3057,7 +3057,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>false = text that doesn‘t fit is aligned according to text anchor attributes</text:p><text:p>true = text that doesn‘t fit is aligned to top-left of drawing object</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=99729" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=99729</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=99729" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=99729</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -4242,7 +4242,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>false = text that doesn‘t fit is aligned according to text anchor attributes</text:p><text:p>true = text that doesn‘t fit is aligned to top-left of drawing object</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=99729" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=99729</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=99729" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=99729</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>
@@ -5549,7 +5549,7 @@
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p>false = text that doesn‘t fit is aligned according to text anchor attributes</text:p><text:p>true = text that doesn‘t fit is aligned to top-left of drawing object</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.documentfoundation.org/show_bug.cgi?id=99729" xlink:type="simple">https://bugs.documentfoundation.org/show_bug.cgi?id=99729</text:a></text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://bugs.SnipeOffice.org/show_bug.cgi?id=99729" xlink:type="simple">https://bugs.SnipeOffice.org/show_bug.cgi?id=99729</text:a></text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1014"/>
     </table:table-row>

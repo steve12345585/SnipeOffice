@@ -1,3 +1,3 @@
-# Embedding Objects Into LibreOffice
+# Embedding Objects Into SnipeOffice
 
-Code for embedding objects into LibreOffice (reverse of `embedserv` module).
+Code for embedding objects into SnipeOffice (reverse of `embedserv` module).

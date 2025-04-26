@@ -1,6 +1,6 @@
-# LibreOfficeKit
+# SnipeOfficeKit
 
-LibreOfficeKit can be used for accessing LibreOffice functionality
+SnipeOfficeKit can be used for accessing SnipeOffice functionality
 through C/C++, without any need to use UNO.
 
 For now it only offers document conversion (in addition to an experimental
@@ -8,15 +8,15 @@ tiled rendering API).
 
 ## Integrating LOK Into Other Software
 
-LOK functionality can be accessed by including `LibreOfficeKit.h[xx]` in your
+LOK functionality can be accessed by including `SnipeOfficeKit.h[xx]` in your
 program.
 
-LOK initialisation (`lok_init`) requires the inclusion of `LibreOfficeKitInit.h` in
-your program. If you use the C++ `LibreOfficeKit.hxx` header, it already includes
-`LibreOfficeKitInit.h` for you.
+LOK initialisation (`lok_init`) requires the inclusion of `SnipeOfficeKitInit.h` in
+your program. If you use the C++ `SnipeOfficeKit.hxx` header, it already includes
+`SnipeOfficeKitInit.h` for you.
 
-(`LibreOfficeKit.hxx` is a simple and fully inlined C++ wrapper for the same
-functionality as in `LibreOfficeKit.h`.)
+(`SnipeOfficeKit.hxx` is a simple and fully inlined C++ wrapper for the same
+functionality as in `SnipeOfficeKit.h`.)
 
 An example program can be seen on:
 <https://gitlab.com/ojwb/lloconv>
@@ -31,16 +31,16 @@ To use LOK Tiled Rendering you will need the following before the LOK includes:
 
 Currently only bitmap-buffer rendering is supported, with a 32-bit BGRA
 colorspace (further alternatives could feasibly be implemented as needed).
-Scanlines are ordered top-down (whereas LibreOffice will internally default
+Scanlines are ordered top-down (whereas SnipeOffice will internally default
 to bottom-up).
 
 ## Tiled Editing
 
 On top of the tiled rendering API, a set of new methods have been added to the
 `lok::Document` class to allow basic editing, too. Communication between the LOK
-client and LibreOffice is a two-way channel. The client can initiate an action
+client and SnipeOffice is a two-way channel. The client can initiate an action
 by calling the above mentioned methods. The most important methods for the
-client -> LibreOffice communication are:
+client -> SnipeOffice communication are:
 
 - `initializeForRendering()`, expected to be called right after
   `lok::Office::documentLoad()` returned a `lok::Document*`.
@@ -50,16 +50,16 @@ client -> LibreOffice communication are:
   mouse event.
 
 In general, all coordinates are always in absolute twips (20th of a point, or:
-1" = 1440 twips). See `lok::Document` in `LibreOfficeKit.hxx` for a full list of
+1" = 1440 twips). See `lok::Document` in `SnipeOfficeKit.hxx` for a full list of
 methods and their documentation.
 
-The other way around (LibreOffice -> LOK client) is implemented using a
+The other way around (SnipeOffice -> LOK client) is implemented using a
 callback. A LOK client can register a callback using the registerCallback()
 method. Whenever editing requires some action on the client side, a callback
 event is emitted. The callback types are described using the
-`LibreOfficeKitCallbackType` enumeration in `LibreOfficeKitEnums.h`, the callback
-function signature itself is provided by the LibreOfficeKitCallback typedef in
-`LibreOfficeKitTypes.h`. The most important callback types:
+`SnipeOfficeKitCallbackType` enumeration in `SnipeOfficeKitEnums.h`, the callback
+function signature itself is provided by the SnipeOfficeKitCallback typedef in
+`SnipeOfficeKitTypes.h`. The most important callback types:
 
 - `LOK_CALLBACK_INVALIDATE_TILES`: drop all tiles cached on client-side that
   intersect with the provided rectangle
@@ -73,7 +73,7 @@ There are currently two known LOK clients supporting tiled editing:
 
 - `gtktiledviewer` (see below), which allows testing the LOK core implementation
   on (desktop) Linux
-- (LibreOffice on) Android
+- (SnipeOffice on) Android
 
 Core has next to no idea what is the LOK client, so for effective development,
 it's recommended that the core part is developed against `gtktiledviewer`, and
@@ -83,7 +83,7 @@ object files into a single `.so`, etc).
 
 ### LOK API guidelines
 
-Introducing explicit new API under `include/LibreOfficeKit/` adds type safety but listing each &
+Introducing explicit new API under `include/SnipeOfficeKit/` adds type safety but listing each &
 every micro-feature in those headers don't scale. Before extending those headers, consider using one
 of the following alternatives, which require no changes to these headers:
 
@@ -124,7 +124,7 @@ Running the compiled executable requires GTK's bin in PATH:
 
     PATH=${PATH}:/cygdrive/c/gtk-build/gtk/x64/release/bin bin/run gtktiledviewer --lo-path=$(cygpath -am $PWD/instdir/program) ../test.odt
 
-## LibreOfficeKitGtk
+## SnipeOfficeKitGtk
 
 Currently consists of only a very basic GTK document viewer widget.
 

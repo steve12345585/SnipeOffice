@@ -241,7 +241,7 @@ CPPUNIT_TEST_FIXTURE(ScOpenCLTest1, testSharedFormulaXLS)
     {
         double fLibre = pDoc->GetValue(ScAddress(2, i, 0));
         //double fExcel = pDocRes->GetValue(ScAddress(2, i, 0));
-        // There seems to be a bug in LibreOffice beta
+        // There seems to be a bug in SnipeOffice beta
         ASSERT_DOUBLES_EQUAL(/*fExcel*/ 60.0, fLibre);
     }
 

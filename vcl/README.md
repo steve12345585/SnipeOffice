@@ -73,7 +73,7 @@ VCL provides a graphical toolkit similar to gtk+, Qt, SWING etc.
 Note: references to "SV" in the code mean StarView, which was a
 portable C++ class library for GUIs, with very old roots, that was
 developed by StarDivision. Nowadays it is not used by anything except
-LibreOffice (and OpenOffice).
+SnipeOffice (and OpenOffice).
 
 "svp" stands for "StarView Plugin".
 
@@ -175,7 +175,7 @@ build, and then
 
     export SAL_LOG=+INFO.cppcanvas.emf+INFO.vcl.emf
 
-before running LibreOffice; it will give you lots of useful hints.
+before running SnipeOffice; it will give you lots of useful hints.
 
 You can also fallback to EMF (from EMF+) rendering via
 
@@ -220,7 +220,7 @@ other programs, use the "pdfunzip" tool:
 
 ### SolarMutexGuard
 
-The solar mutex is the "big kernel lock" of LibreOffice, a global one. It's a
+The solar mutex is the "big kernel lock" of SnipeOffice, a global one. It's a
 recursive mutex, so it's allowed to take the lock on the same thread multiple
 times, and only the last unlock will actually release the mutex.
 

@@ -372,7 +372,7 @@ Dim i As Integer, k As Integer, l As Integer, m As Integer
 
 	&apos;	Exploration is done via tree nodes, starting
 	&apos;	from a com.sun.star.comp.scripting.ScriptProviderForBasic
-	&apos;	See also bug report https://bugs.documentfoundation.org/show_bug.cgi?id=165147
+	&apos;	See also bug report https://bugs.SnipeOffice.org/show_bug.cgi?id=165147
 	vCategories = Array(&quot;user&quot;, &quot;share&quot;)
 	For i = 0 To UBound(vCategories)
 		Set oBasic = CreateUnoService(&quot;com.sun.star.comp.scripting.ScriptProviderForBasic&quot;)

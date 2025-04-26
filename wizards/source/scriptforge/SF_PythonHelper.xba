@@ -684,7 +684,7 @@ Check:
 
 Try:
 	&apos;	Dispatching strategy: based on next constraints
-	&apos;			(1) Bug https://bugs.documentfoundation.org/show_bug.cgi?id=138155
+	&apos;			(1) Bug https://bugs.SnipeOffice.org/show_bug.cgi?id=138155
 	&apos;				The CallByName function fails when returning an array
 	&apos;			(2) Python has tuples and tuple of tuples, not 2D arrays
 	&apos;			(3) Passing 2D arrays through a script provider always transform it into a sequence of sequences

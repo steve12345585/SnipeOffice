@@ -38,7 +38,7 @@
     <string name="alert_ok">OK</string>
     <string name="action_settings">設定</string>
     <string name="sheet">シート</string>
-    <string name="app_version">バージョン: %1$s&lt;br&gt;ビルドID: &lt;a href=https://hub.SnipeOffice.org/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
+    <string name="app_version">バージョン: %1$s&lt;br&gt;ビルドID: &lt;a href=https://snipeoffice.org/hub/git-core/%2$s&gt;%2$s&lt;/a&gt;</string>
     <string name="about_license">ライセンスを表示</string>
     <string name="title_browser">すべてのファイル</string>
     <string name="app_name">LibreOffice Viewer</string>

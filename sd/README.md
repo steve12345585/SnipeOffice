@@ -1,4 +1,4 @@
-# LibreOffice Impress / Draw Application
+# SnipeOffice Impress / Draw Application
 
 The core directory for the impress/draw applications.
 
@@ -50,7 +50,7 @@ Add custom shapes export (see below). enhance text
 output, we don't write text style for indentation levels now, need to
 export `a:lvl1pPr`, `a:lvl2pPr`, ... elements.
 
-`PPTX` import was written by Sun/Oracle and then extended in LibreOffice
+`PPTX` import was written by Sun/Oracle and then extended in SnipeOffice
 a lot during bug fixing. It is located in `oox/source/ppt` and
 `oox/source/drawingml`. The areas with most bugs (at least until today)
 were shape placeholders and text style inheritance.

@@ -12000,7 +12000,7 @@ private:
 #endif
 
             // by default the GtkMenuButton down arrow button is as wide as
-            // a normal button and LibreOffice's original ones are very
+            // a normal button and SnipeOffice's original ones are very
             // narrow, that assumption is fairly baked into the toolbar and
             // sidebar designs, try and minimize the width of the dropdown
             // zone.
@@ -24799,7 +24799,7 @@ public:
            4) we want to be able to control the width of the button, but have a drop down menu which
               is not limited to the width of the button
 
-           5) https://bugs.documentfoundation.org/show_bug.cgi?id=131120
+           5) https://bugs.SnipeOffice.org/show_bug.cgi?id=131120
               super tall menu doesn't appear under X sometimes
         */
         GtkBuilder* pComboBuilder = makeComboBoxBuilder();

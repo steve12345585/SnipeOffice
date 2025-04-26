@@ -36,7 +36,7 @@
   
   
   
-  <meta:generator>LibreOfficeDev/4.4.0.0.alpha0$Windows_x86 LibreOffice_project/86a3fe47a66950e26d23d7d7f2680fa7d4fb0839</meta:generator>
+  SnipeOfficeCC/4.4.0.0.alpha0$Windows_x86 LibreOffice_project/86a3fe47a66950e26d23d7d7f2680fa7d4fb0839</meta:generator>
   
   
   
@@ -455,7 +455,7 @@
     <text:p text:style-name="P1"><text:span text:style-name="Dokumentinfo"><text:file-name text:display="full">F:\TempLO-development&amp;QA\PolygonWithText.odt</text:file-name></text:span><text:tab/><text:page-number text:select-page="current">0</text:page-number>/<text:page-count>1</text:page-count></text:p>
    </style:footer>
    <style:footer-left>
-    <text:p text:style-name="P2"><text:page-number text:select-page="current">0</text:page-number>/<text:page-count>1</text:page-count><text:tab/><text:span text:style-name="Dokumentinfo"><text:print-dÿÿÿóstyle:data-style-name="N84"/></text:span></text:p>
+    <text:p text:style-name="P2"><text:page-number text:select-page="current">0</text:page-number>/<text:page-count>1</text:page-count><text:tab/><text:span text:style-name="Dokumentinfo"><text:print-dï¿½ï¿½ï¿½ï¿½style:data-style-name="N84"/></text:span></text:p>
    </style:footer-left>
   </style:master-page>
  </office:master-styles>

@@ -213,7 +213,7 @@
 #include <app.hxx>
 
 #include "../app/cmdlineargs.hxx"
-// We also need to hackily be able to start the main libreoffice thread:
+// We also need to hackily be able to start the main SnipeOffice thread:
 #include "../app/sofficemain.h"
 #include "../app/officeipcthread.hxx"
 #include <lib/init.hxx>

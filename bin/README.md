@@ -23,6 +23,6 @@ Another example is:
 which will try to detect and extract all the German comments in a
 given source code hierarchy `/` directory.
 
-Please note that the associated issue [tdf#39468](https://bugs.documentfoundation.org/show_bug.cgi?id=39468) is now marked as
+Please note that the associated issue [tdf#39468](https://bugs.SnipeOffice.org/show_bug.cgi?id=39468) is now marked as
 RESOLVED/FIXED, so don't expect many German comments.
 

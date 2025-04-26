@@ -32,7 +32,7 @@ class tdf122509(UITestCase):
                 self.assertEqual(get_state_as_dict(xformatted)["Text"], "#,##0.00 [$USD];[RED]-#,##0.00 [$USD]")
                 #click negative
                 xnegnumred.executeAction("CLICK", tuple())
-                #format check; https://bugs.documentfoundation.org/show_bug.cgi?id=122509#c7
+                #format check; https://bugs.SnipeOffice.org/show_bug.cgi?id=122509#c7
                 self.assertEqual(get_state_as_dict(xformatted)["Text"], "#,##0.00 [$USD];-#,##0.00 [$USD]")
                 # click negative
                 xnegnumred.executeAction("CLICK", tuple())

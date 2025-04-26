@@ -1374,9 +1374,9 @@ bool SkiaSalGraphicsImpl::blendAlphaBitmap(const SalTwoRect& rPosAry,
     // SkiaSalGraphicsImpl::blendBitmap() fails unexpectedly in the following
     // cases so return false and use the non-Skia alpha mask blending code:
     // - Unexpected white areas when running a slideshow or printing:
-    //     https://bugs.documentfoundation.org/attachment.cgi?id=188447
+    //     https://bugs.SnipeOffice.org/attachment.cgi?id=188447
     // - Unexpected scaling of bitmap and/or alpha mask when exporting to PDF:
-    //     https://bugs.documentfoundation.org/attachment.cgi?id=188498
+    //     https://bugs.SnipeOffice.org/attachment.cgi?id=188498
     if (!SkiaHelper::isAlphaMaskBlendingEnabled())
         return false;
 

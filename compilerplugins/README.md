@@ -6,7 +6,7 @@ This directory contains code for compiler plugins. These are used to perform
 additional actions during compilation (such as additional warnings) and
 also to perform mass code refactoring.
 
-Currently only the Clang compiler is supported <http://wiki.documentfoundation.org/Development/Clang>.
+Currently only the Clang compiler is supported <http://wiki.SnipeOffice.org/Development/Clang>.
 
 ## Usage
 
@@ -68,4 +68,4 @@ in rewriting mode (during which no object files are generate).
 
 ## Code Documentation / HowTos
 
-<https://wiki.documentfoundation.org/Clang_plugins>
+<https://wiki.SnipeOffice.org/Clang_plugins>

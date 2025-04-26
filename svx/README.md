@@ -12,7 +12,7 @@ Contains graphics related helper code. Lots of the draw and impress code is in t
 
 ## SdrObject
 
-The shapes you can see in LibreOffice (like rectangle, etc.) are SdrObjects.
+The shapes you can see in SnipeOffice (like rectangle, etc.) are SdrObjects.
 They are declared as a hierarchy:
 
     SdrObject <- SdrAttrObj <- E3dObject <- E3dCompoundObject <- E3dCubeObj

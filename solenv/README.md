@@ -1,7 +1,7 @@
 # Tools and Makefile Fragments Necessary for Compilation
 
 This module contains many tools and makefile configuration pieces,
-critical for building LibreOffice:
+critical for building SnipeOffice:
 
 - `bin/`
 
@@ -18,7 +18,7 @@ critical for building LibreOffice:
 
 - `gbuild/`
 
-    implementation of the LibreOffice build system
+    implementation of the SnipeOffice build system
     See `gbuild/README` for more info.
 
 - `gdb/`
@@ -40,6 +40,6 @@ critical for building LibreOffice:
 
 - `flatpak-manifest.in`
 
-    This file is copied manually to https://github.com/flathub/org.libreoffice.LibreOffice/blob/master/org.libreoffice.LibreOffice.json
+    This file is copied manually to https://github.com/flathub/org.SnipeOffice.SnipeOffice/blob/master/org.SnipeOffice.SnipeOffice.json
     The `flatpak/build.sh` in the LO `dev-tools` repository is obsolete.
 

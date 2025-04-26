@@ -233,7 +233,7 @@ CPPUNIT_TEST_FIXTURE(SdUiImpressTest, testDocumentStructureTransformExtractSlide
           "\"TextCount\": 1, \"Texts\": { \"Text 0\": { \"ParaCount\": 1, \"Paragraphs\": [ "
           "\"Friendly Open Source Project\"]}}}, \"Objects 1\": { }, \"Objects 2\": { "
           "\"TextCount\": 1, \"Texts\": { \"Text 0\": { \"ParaCount\": 9, \"Paragraphs\": [ \"Real "
-          "Open Source\", \"100% open-source code\", \"Built with LibreOffice technology\", "
+          "Open Source\", \"100% open-source code\", \"Built with SnipeOffice technology\", "
           "\"Built with Free Software technology stacks: primarily C++\", \"Runs best on Linux\", "
           "\"Open Development\", \"Anyone can contribute & participate\", \"Follow commits and "
           "tickets\", \"Public community calls - forum has details\"]}}}, \"Objects 3\": { "

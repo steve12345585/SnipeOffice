@@ -276,7 +276,7 @@ End Function
 REM -----------------------------------------------------------------------------------------------------------------------
 Private Function _ExtensionLocation() As String
 &apos;	Return the URL pointing to the location where OO installed the Access2Base extension
-&apos;	Adapted from https://wiki.documentfoundation.org/Documentation/DevGuide/Extensions#Location_of_Installed_Extensions
+&apos;	Adapted from https://wiki.SnipeOffice.org/Documentation/DevGuide/Extensions#Location_of_Installed_Extensions
 
 Dim oPip As Object, sLocation As String
 	Set oPip = GetDefaultContext.getByName(&quot;/singletons/com.sun.star.deployment.PackageInformationProvider&quot;)

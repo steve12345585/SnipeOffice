@@ -39,7 +39,7 @@
 	         doing.
 	    -->
 	    <desc>Whether conversion from strings to floating-point numbers in Basic should behave
-	      as in LibreOffice 6, before the fix to tdf#97983.
+	      as in SnipeOffice 6, before the fix to tdf#97983.
 	    </desc>
 	  </info>
 	  <value>false</value>

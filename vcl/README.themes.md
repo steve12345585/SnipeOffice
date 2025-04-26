@@ -1,4 +1,4 @@
-# LibreOffice Themes
+# SnipeOffice Themes
 
 ## How to read this
 
@@ -6,7 +6,7 @@ It is suggested that you have the code open side-by-side and first read some par
 
 ## VLC Plugins and the UpdateSettings functions
 
-LibreOffice VCL (a bunch of  interfaces and a base implementation) has four main platform  specific implementations (gtk, qt, win,
+SnipeOffice VCL (a bunch of  interfaces and a base implementation) has four main platform  specific implementations (gtk, qt, win,
 osx). Each VCL plugin has an `UpdateSettings(AllSettings&  rSettings)` function somewhere. This function reads styling information
 like colors from  the platform specific widget toolkit and  loads the information into the `StyleSettings`  instance passed in the
 argument (indirectly through `AllSettings`).
@@ -30,7 +30,7 @@ the colors will have a light and a dark variant... The .xcu files are the config
 for the configuration nodes defined in the schema files.
 
 We use the term `registry` to refer to the application's configuration and we save the modifications to the default values (set in
-the .xcu files) in a file named `registrymodifications.xcu` which lives in `$XDG_CONFIG_HOME/libreoffice/(somewhere here)`.
+the .xcu files) in a file named `registrymodifications.xcu` which lives in `$XDG_CONFIG_HOME/SnipeOffice/(somewhere here)`.
 
 ## ColorConfig, ColorConfig_Impl, and EditableColorConfig
 
@@ -50,17 +50,17 @@ Also if you  add and set a  non-static flag to the  `StyleSettings` and print it
 `ColorConfig` constructor, you  will find that the  flag doesn't make it to  the static instance (accessed  from in `ColorConfig`)
 immediately. We use such a flag `mbSystemColorsLoaded` to see if the static `StyleSettings` object has the system colors or not.
 
-## The LibreOfficeTheme registry flag
+## The SnipeOfficeTheme registry flag
 
 ```xml
-<prop oor:name="LibreOfficeTheme" oor:type="xs:short" oor:nillable="false">
+<prop oor:name="SnipeOfficeTheme" oor:type="xs:short" oor:nillable="false">
   <info>
-    <desc>Specifies LibreOfficeTheme state.</desc>
-    <label>LibreOffice Theme</label>
+    <desc>Specifies SnipeOfficeTheme state.</desc>
+    <label>SnipeOffice Theme</label>
     ...
 ```
 
-To enable or disable theming,  we have a `LibreOfficeTheme` enum in the registry which is  represented by `enum class ThemeState`.
+To enable or disable theming,  we have a `SnipeOfficeTheme` enum in the registry which is  represented by `enum class ThemeState`.
 in the code. The  default value is `ENABLED` and the  only way for the user to disable  it is by changing it to  `0` in the expert
 configuration.
 
@@ -108,13 +108,13 @@ Then when the UpdateSettings function  is called again, the colors read from the
 
 ## Back to ColorConfig::SetupTheme()
 
-So  in `ColorConfig::SetupTheme()`,  we first  check if  `LibreOfficeTheme` enum  is set  to `DISABLED`,  and if  so then  we mark
+So  in `ColorConfig::SetupTheme()`,  we first  check if  `SnipeOfficeTheme` enum  is set  to `DISABLED`,  and if  so then  we mark
 `ThemeColors` as not cached, so no custom colors are set at the toolkit level and return from the `SetupTheme()` function. Then we
-check if `LibreOfficeTheme` is set to `RESET` which happens when  the user presses the `Reset All` button (after which he restarts
+check if `SnipeOfficeTheme` is set to `RESET` which happens when  the user presses the `Reset All` button (after which he restarts
 the system). If true then we check for `mbSystemColorsLoaded` to see if the default colors from the widget toolkit have made it to
-the static StyleSettings instance or not, and if that's true as well, we set `LibreOfficeTheme` enum to `ENABLED`
+the static StyleSettings instance or not, and if that's true as well, we set `SnipeOfficeTheme` enum to `ENABLED`
 
-Then in the  last part of `SetupTheme()`,  which we reach only  if `LibreOfficeTheme` is set  to `ENABLED`, we check  if the theme
+Then in the  last part of `SetupTheme()`,  which we reach only  if `SnipeOfficeTheme` is set  to `ENABLED`, we check  if the theme
 colors are cached or not (if the UI colors are loaded from the registry into the static `ThemeColors` instance or not). If cached,
 we don't touch those  over and over. If theme colors are  not cached, then we `Load` the `CurrentScheme` which  means that we load
 the colors for the current scheme from the registry and store them in `ColorConfig_Impl` instance.
@@ -153,9 +153,9 @@ void ColorConfig::LoadThemeColorsFromRegistry()
 
 ## What happens when "Reset All" is pressed
 
-When the  `Reset All` button  is pressed, all the  registry color values  are set to  `COL_AUTO` and `LibreOfficeTheme` is  set to
+When the  `Reset All` button  is pressed, all the  registry color values  are set to  `COL_AUTO` and `SnipeOfficeTheme` is  set to
 `RESET`. Then after restart, the `IsThemeReset` conditional  in `ColorConfig::SetupTheme()` checks if StyleSettings has the system
-colors  or not,  and once  it has,  `LibreOfficeTheme`  is set  to `ENABLED`  which  then goes  through the  last conditional  and
+colors  or not,  and once  it has,  `SnipeOfficeTheme`  is set  to `ENABLED`  which  then goes  through the  last conditional  and
 `LoadThemeColorsFromRegistry` is called (just explained  above). Since all the registry entries were set  to `COL_AUTO`, we end up
 getting default values for all the colors (hardcoded ones for document and StyleSettings colors for UI).
 

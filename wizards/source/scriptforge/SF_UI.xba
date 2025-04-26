@@ -954,7 +954,7 @@ Public Sub RunCommand(Optional ByVal Command As Variant _
 &apos;&apos;&apos; Run on the current window the given menu command. The command is executed with or without arguments
 &apos;&apos;&apos;	A few typical commands:
 &apos;&apos;&apos;		About, Delete, Edit, Undo, Copy, Paste, ...
-&apos;&apos;&apos;	Dozens can be found on next page: https://wiki.documentfoundation.org/Development/DispatchCommands
+&apos;&apos;&apos;	Dozens can be found on next page: https://wiki.SnipeOffice.org/Development/DispatchCommands
 &apos;&apos;&apos;	Args:
 &apos;&apos;&apos;		Command: Case-sensitive. The command itself is not checked.
 &apos;&apos;&apos;			If the command does not contain the &quot;.uno:&quot; prefix, it is added.

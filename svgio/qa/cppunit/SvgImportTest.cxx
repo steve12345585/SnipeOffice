@@ -1330,7 +1330,7 @@ CPPUNIT_TEST_FIXTURE(Test, testBehaviourWhenWidthAndHeightIsOrIsNotSet)
     // This test checks the behaviour when width and height attributes
     // are and are not set. In both cases the result must be the same,
     // however if the width / height are set, then the size of the image
-    // is enforced, but this isn't really possible in LibreOffice (or
+    // is enforced, but this isn't really possible in SnipeOffice (or
     // maybe we could lock the size in this case).
     // The behaviour in browsers is that when a SVG image has width / height
     // attributes set, then the image is shown with that size, but if it

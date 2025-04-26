@@ -10,7 +10,7 @@ Licencija:  LGPL/SISSL license, 2016
 
 Autor:	k r u n o . s e [ a t ] g m x . c o m	(Kruno)
 
-https://github.com/Kruno-S/acor_hr-HR-LibreOffice
+https://github.com/Kruno-S/acor_hr-HR-SnipeOffice
 
 ---
 

@@ -1483,7 +1483,7 @@ Public Function CreatePatternField(Optional ByVal ControlName As Variant _
 &apos;&apos;&apos;		Border: &quot;3D&quot; (default) or &quot;FLAT&quot; or &quot;NONE&quot;
 &apos;&apos;&apos;		Editmask: a character code that determines what the user may enter
 &apos;&apos;&apos;		LiteralMask: contains the initial values that are displayed in the pattern field
-&apos;&apos;&apos;			More details on https://wiki.documentfoundation.org/Documentation/DevGuide/Graphical_User_Interfaces#Pattern_Field
+&apos;&apos;&apos;			More details on https://wiki.SnipeOffice.org/Documentation/DevGuide/Graphical_User_Interfaces#Pattern_Field
 &apos;&apos;&apos;	Returns:
 &apos;&apos;&apos;		an instance of the SF_DialogControl class or Nothing
 &apos;&apos;&apos;	Example:

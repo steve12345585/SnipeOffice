@@ -268,14 +268,14 @@ def __getdocument__():
     global __docs__, _
     # The XSCRIPTCONTEXT object is part of the UNO (Universal Network Objects)
     # API provided by LibreOffice, which allows scripting languages like Python
-    # to interact with LibreOffice's underlying functionality. It provides a
+    # to interact with SnipeOffice's underlying functionality. It provides a
     # bridge between the scripting environment and the LibreOffice application,
     # making it possible for scripts to control and extend the functionality of LibreOffice.
 
-    # Because XSCRIPTCONTEXT is automatically available in LibreOffice Python
+    # Because XSCRIPTCONTEXT is automatically available in SnipeOffice Python
     # scripts, developers can directly use it to access the LibreOffice API
     # without needing to define it themselves, simplifying script development
-    # and making it easier to work with LibreOffice's features and capabilities._
+    # and making it easier to work with SnipeOffice's features and capabilities._
 
     # It would be good to use a linter that can be told to ignore this
     # "undefined variable" in the code (like flake8 or ruff) using # noqa: F821

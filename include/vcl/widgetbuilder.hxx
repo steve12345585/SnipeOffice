@@ -22,7 +22,7 @@
  * This class parses the .ui file and calls overridable methods
  * so subclasses can create the widgets of a specific toolkit.
  *
- * The VclBuilder subclass is the implementation using LibreOffice's own VCL toolkit
+ * The VclBuilder subclass is the implementation using SnipeOffice's own VCL toolkit
  * and the QtBuilder subclass uses native Qt widgets.
  */
 template <typename Widget, typename WidgetPtr, typename MenuClass, typename MenuPtr>

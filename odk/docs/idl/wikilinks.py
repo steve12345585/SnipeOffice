@@ -22,7 +22,7 @@
 
 import sys
 
-devguidewww = "https://wiki.documentfoundation.org/"
+devguidewww = "https://wiki.SnipeOffice.org/"
 in_topic = False
 link = None
 description = None

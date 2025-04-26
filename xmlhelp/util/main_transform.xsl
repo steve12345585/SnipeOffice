@@ -2,7 +2,7 @@
 
 <!--***********************************************************************
   This is the main transformation style sheet for transforming.
-  For use with LibreOffice 4.0+
+  For use with SnipeOffice 4.0+
   =========================================================================
   Changes Log
     May 24 2004 Created

@@ -1,3 +1,3 @@
 # External Projects
 
-External projects bundled with LibreOffice.
+External projects bundled with SnipeOffice.

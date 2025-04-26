@@ -9,7 +9,7 @@ dnl in order to create a configure script.
 # several non-alphanumeric characters, those are split off and used only for the
 # ABOUTBOXPRODUCTVERSIONSUFFIX in openoffice.lst. Why that is necessary, no idea.
 
-AC_INIT([LibreOffice],[25.8.0.0.alpha0+],[],[],[http://documentfoundation.org/])
+AC_INIT([LibreOffice],[25.8.0.0.alpha0+],[],[],[http://SnipeOffice.org/])
 
 dnl libnumbertext needs autoconf 2.68, but that can pick up autoconf268 just fine if it is installed
 dnl whereas aclocal (as run by autogen.sh) insists on using autoconf and fails hard
@@ -1656,7 +1656,7 @@ libo_FUZZ_ARG_ENABLE(pch,
 
 libo_FUZZ_ARG_ENABLE(epm,
     AS_HELP_STRING([--enable-epm],
-        [LibreOffice includes self-packaging code, that requires epm, however epm is
+        [SnipeOffice includes self-packaging code, that requires epm, however epm is
          useless for large scale package building.])
 )
 
@@ -2025,7 +2025,7 @@ libo_FUZZ_ARG_ENABLE(release-build,
         [Enable release build. Note that the "release build" choice is orthogonal to
          whether symbols are present, debug info is generated, or optimization
          is done.
-         See https://wiki.documentfoundation.org/Development/DevBuild]),
+         See https://wiki.SnipeOffice.org/Development/DevBuild]),
 ,)
 
 libo_FUZZ_ARG_ENABLE(hardening-flags,
@@ -2335,7 +2335,7 @@ libo_FUZZ_ARG_WITH(helppack-integration,
 
 libo_FUZZ_ARG_WITH(fonts,
     AS_HELP_STRING([--without-fonts],
-        [LibreOffice includes some third-party fonts to provide a reliable basis for
+        [SnipeOffice includes some third-party fonts to provide a reliable basis for
          help content, templates, samples, etc. When these fonts are already
          known to be available on the system then you should use this option.]),
 ,)
@@ -2367,7 +2367,7 @@ AC_ARG_WITH(package-format,
 AC_ARG_WITH(tls,
     AS_HELP_STRING([--with-tls],
         [Decides which TLS/SSL and cryptographic implementations to use for
-         LibreOffice's code. Default is to use NSS although OpenSSL is also
+         SnipeOffice's code. Default is to use NSS although OpenSSL is also
          possible. Notice that selecting NSS restricts the usage of OpenSSL
          in LO's code but selecting OpenSSL doesn't restrict by now the
          usage of NSS in LO's code. Possible values: openssl, nss.
@@ -15204,7 +15204,7 @@ AC_DEFINE_UNQUOTED(ONEDRIVE_CLIENT_SECRET, $ONEDRIVE_CLIENT_SECRET)
 
 
 dnl ===================================================================
-dnl Hook up LibreOffice's nodep environmental variable to automake's equivalent
+dnl Hook up SnipeOffice's nodep environmental variable to automake's equivalent
 dnl --enable-dependency-tracking configure option
 dnl ===================================================================
 AC_MSG_CHECKING([whether to enable dependency tracking])
@@ -15599,15 +15599,15 @@ if test $_os = WINNT -a -f "$SRC_ROOT/antivirusDetection.vbs" ; then
             EICAR_TEMP_FILE_CONTENTS=`cat $SRC_ROOT/eicar`
             rm $SRC_ROOT/eicar
             if [ [ "$EICAR_STRING" != "$EICAR_TEMP_FILE_CONTENTS" ] ]; then
-                AC_MSG_ERROR([Exclude the build and source directories associated with LibreOffice in the following Antivirus software: $ANTIVIRUS_LIST])
+                AC_MSG_ERROR([Exclude the build and source directories associated with SnipeOffice in the following Antivirus software: $ANTIVIRUS_LIST])
             fi
             echo $EICAR_STRING > $BUILDDIR/eicar
             EICAR_TEMP_FILE_CONTENTS=`cat $BUILDDIR/eicar`
             rm $BUILDDIR/eicar
             if [ [ "$EICAR_STRING" != "$EICAR_TEMP_FILE_CONTENTS" ] ]; then
-                AC_MSG_ERROR([Exclude the build and source directories associated with LibreOffice in the following Antivirus software: $ANTIVIRUS_LIST])
+                AC_MSG_ERROR([Exclude the build and source directories associated with SnipeOffice in the following Antivirus software: $ANTIVIRUS_LIST])
             fi
-            add_warning "To speed up builds and avoid failures in unit tests, it is highly recommended that you exclude the build and source directories associated with LibreOffice in the following Antivirus software: $ANTIVIRUS_LIST"
+            add_warning "To speed up builds and avoid failures in unit tests, it is highly recommended that you exclude the build and source directories associated with SnipeOffice in the following Antivirus software: $ANTIVIRUS_LIST"
         else
             AC_MSG_RESULT([not found])
         fi

@@ -119,5 +119,5 @@ else
     replaceable.replaceAll(descriptor);
 }
 
-// BeanShell scripts in LibreOffice should always return 0
+// BeanShell scripts in SnipeOffice should always return 0
 return 0;

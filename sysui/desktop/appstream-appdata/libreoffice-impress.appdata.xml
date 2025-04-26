@@ -21,18 +21,18 @@ worrying about compatibility.
 </p>
   </description>
   <url type="homepage">http://www.libreoffice.org/discover/impress/</url>
-  <url type="bugtracker">https://bugs.documentfoundation.org/</url>
+  <url type="bugtracker">https://bugs.SnipeOffice.org/</url>
   <url type="donation">https://donate.libreoffice.org/</url>
-  <url type="faq">https://hub.SnipeOffice.org/faq</url>
+  <url type="faq">https://snipeoffice.org/hub/faq</url>
   <url type="help">http://www.libreoffice.org/get-help/documentation/</url>
-  <url type="translate">https://hub.SnipeOffice.org/translate</url>
+  <url type="translate">https://snipeoffice.org/hub/translate</url>
   <screenshots>
     <screenshot type="default">
-      <image>https://hub.SnipeOffice.org/screenshots/impress-01.png</image>
+      <image>https://snipeoffice.org/hub/screenshots/impress-01.png</image>
       <caption><!-- Describe this screenshot in less than ~10 words --></caption>
     </screenshot>
     <screenshot>
-      <image>https://hub.SnipeOffice.org/screenshots/impress-02.png</image>
+      <image>https://snipeoffice.org/hub/screenshots/impress-02.png</image>
       <caption><!-- Describe this screenshot in less than ~10 words --></caption>
     </screenshot>
   </screenshots>

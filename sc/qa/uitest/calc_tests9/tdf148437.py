@@ -35,7 +35,7 @@ class tdf148437(UITestCase):
                 self.assertEqual(get_state_as_dict(xIndication)["Text"], "LibreOffice")
 
                 # Insert a sample hyperlink
-                xTarget.executeAction("TYPE", mkPropertyValues({"TEXT": "https://www.documentfoundation.org/"}))
+                xTarget.executeAction("TYPE", mkPropertyValues({"TEXT": "https://www.SnipeOffice.org/"}))
                 xIndication.executeAction("TYPE", mkPropertyValues({"KEYCODE":"CTRL+A"}))
                 xIndication.executeAction("TYPE", mkPropertyValues({"TEXT": "LibreOffice Document Foundation"}))
 
@@ -48,6 +48,6 @@ class tdf148437(UITestCase):
             self.assertEqual(xCell.getString(), "LibreOffice Document Foundation")
             xTextFields = xCell.getTextFields()
             self.assertEqual(len(xTextFields), 1)
-            self.assertEqual(xTextFields[0].URL, "https://www.documentfoundation.org/")
+            self.assertEqual(xTextFields[0].URL, "https://www.SnipeOffice.org/")
 
 # vim: set shiftwidth=4 softtabstop=4 expandtab:

@@ -26,7 +26,7 @@ Option Explicit
 &apos;&apos;&apos;
 &apos;&apos;&apos;		Documents might contain forms. The current service gives access to the &quot;SFDocuments.Form&quot; service
 &apos;&apos;&apos;
-&apos;&apos;&apos;		To workaround the absence of class inheritance in LibreOffice Basic, some redundancy is necessary
+&apos;&apos;&apos;		To workaround the absence of class inheritance in SnipeOffice Basic, some redundancy is necessary
 &apos;&apos;&apos;		Each subclass MUST implement also the generic methods and properties, even if they only call
 &apos;&apos;&apos;		the parent methods and properties implemented below
 &apos;&apos;&apos;		They should also duplicate some generic private members as a subset of their own set of members
@@ -1102,7 +1102,7 @@ Public Sub RunCommand(Optional ByVal Command As Variant _
 &apos;&apos;&apos; Run on the current document window the given menu command. The command is executed with or without arguments
 &apos;&apos;&apos;	A few typical commands:
 &apos;&apos;&apos;		Save, SaveAs, ExportToPDF, SetDocumentProperties, Undo, Copy, Paste, ...
-&apos;&apos;&apos;	Dozens can be found on next page: https://wiki.documentfoundation.org/Development/DispatchCommands
+&apos;&apos;&apos;	Dozens can be found on next page: https://wiki.SnipeOffice.org/Development/DispatchCommands
 &apos;&apos;&apos;	Args:
 &apos;&apos;&apos;		Command: Case-sensitive. The command itself is not checked.
 &apos;&apos;&apos;			If the command does not contain the &quot;.uno:&quot; prefix, it is added.
@@ -1777,7 +1777,7 @@ Dim sFilter As String				&apos;	A single filter name
 Dim iCount As Integer				&apos;	Filters counter
 Dim vFilter As Variant				&apos;	A filter descriptor as an array of Name/Value pairs
 Dim sType As String					&apos;	The filter type to be compared with the document service
-Dim lFlags As Long					&apos;	Read https://wiki.documentfoundation.org/Documentation/DevGuide/Office_Development#Properties_of_a_Filter
+Dim lFlags As Long					&apos;	Read https://wiki.SnipeOffice.org/Documentation/DevGuide/Office_Development#Properties_of_a_Filter
 Dim bExport As Boolean				&apos;	Filter valid for export when True
 Dim bImport As Boolean				&apos;	Filter valid for import when True
 Dim bImportExport As Boolean		&apos;	Filter valid both for import and export when True

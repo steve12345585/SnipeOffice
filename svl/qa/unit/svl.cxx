@@ -586,9 +586,9 @@ void Test::testDateInput()
         { "US/Mountain", "1790-07-26" },
         { "Asia/Tehran", "1999-03-22" },
 
-        // Data from https://bugs.documentfoundation.org/show_bug.cgi?id=63230
-        // https://bugs.documentfoundation.org/attachment.cgi?id=79051
-        // https://bugs.documentfoundation.org/show_bug.cgi?id=79663
+        // Data from https://bugs.SnipeOffice.org/show_bug.cgi?id=63230
+        // https://bugs.SnipeOffice.org/attachment.cgi?id=79051
+        // https://bugs.SnipeOffice.org/show_bug.cgi?id=79663
         { "Africa/Accra", "1800-01-01" },
         { "Africa/Accra", "1800-04-10" },
         { "Africa/Addis_Ababa", "1870-01-01" },

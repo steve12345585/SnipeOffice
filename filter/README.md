@@ -1,4 +1,4 @@
-# LibreOffice Filters
+# SnipeOffice Filters
 
 Filter registration and some simple filters (also descriptions).
 

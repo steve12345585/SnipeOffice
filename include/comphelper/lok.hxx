@@ -37,7 +37,7 @@ public:
 };
 
 // Functions to be called only from the LibreOfficeKit implementation in desktop, not from other
-// places in LibreOffice code.
+// places in SnipeOffice code.
 
 COMPHELPER_DLLPUBLIC void setActive(bool bActive = true);
 

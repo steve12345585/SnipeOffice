@@ -9,7 +9,7 @@
 # This script attempts to install the necessary dependencies to do LibreOffice development.
 #
 # It should be kept in sync with the instructions at
-#    https://wiki.documentfoundation.org/Development/BuildingOnLinux
+#    https://wiki.SnipeOffice.org/Development/BuildingOnLinux
 #
 
 # Detect OS (i.e. distro)

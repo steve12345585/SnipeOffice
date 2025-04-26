@@ -11,7 +11,7 @@ The sources for this Document is:
  Bug-Ticket: tdf#79787
 
 
-In LibreOffice the lines are defined by two information: the style and the width of the line. There are seven different line styles available. And the following line width can be selected: 0.05 pt, 0.25 pt, 0.50 pt, 0.75 pt, 1.0 pt, 1.25 pt, 1.50 pt, … until 9pt.
+in SnipeOffice the lines are defined by two information: the style and the width of the line. There are seven different line styles available. And the following line width can be selected: 0.05 pt, 0.25 pt, 0.50 pt, 0.75 pt, 1.0 pt, 1.25 pt, 1.50 pt, … until 9pt.
 In Excel you can only define the style of the line. There are 13 different styles available. The width cannot be entered explicitly, instead you have different styles for a solid line with different width (s. Screenshots below).
 The question is now: how to map the borderlines of LibreOffice to Excel and vice versa.
 In the overview below you can see the mapping as it is and some suggestions how to improve it. As the borders are defined different, it will not be possible to define a 1:1 mapping."
@@ -39,9 +39,9 @@ Excel-Line Name                                      Value            ||        
 
 In the following cases a 1:1 mapping is not possible.
 
-    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
+    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in SnipeOffice and save as XLSX.
 Create in|      In Excel save as XLSX,         | In Excel save as ODS,||  Created in     |        Load saved xlsx-file         | Load saved xlsx-file
-Excel2013|       Load in LibreOffice           |  Load in LibreOffice ||LibreOffice with |          in LibreOffice             |      in Excel
+Excel2013|       Load in SnipeOffice           |  Load in SnipeOffice ||LibreOffice with |          in SnipeOffice             |      in Excel
 _______________________________________________________________________________________________________________________________________________________
    Line  |current transformation|new suggestion|current transformation||Line      Width  |current transformation|new suggestion|current|new suggestion
          |   Line      Width    | Line   Width |   Line      Width    ||                 |   Line      Width    | Line   Width |  Line |    Line
@@ -63,9 +63,9 @@ ________________________________________________________________________________
 No similar border available => choose one that is not used similar one and make the roundtrip via xlsx-file possible (create in LO, save as xlsx, open in LO and
 border is not changed)
 
-    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
+    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in SnipeOffice and save as XLSX.
 Create in|      In Excel save as XLSX,         | In Excel save as ODS,||  Created in     |        Load saved xlsx-file         | Load saved xlsx-file
-Excel2013|       Load in LibreOffice           |  Load in LibreOffice ||LibreOffice with |          in LibreOffice             |      in Excel
+Excel2013|       Load in SnipeOffice           |  Load in SnipeOffice ||LibreOffice with |          in SnipeOffice             |      in Excel
 _______________________________________________________________________________________________________________________________________________________
    Line  |current transformation|new suggestion|current transformation||Line      Width  |current transformation|new suggestion|current|new suggestion
          |   Line      Width    | Line   Width |   Line      Width    ||                 |   Line      Width    | Line   Width |  Line |    Line
@@ -74,9 +74,9 @@ ________________________________________________________________________________
 
 In the following cases the mapping is o.k. and should not be changed.
 
-    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in LibreOffice and save as XLSX.
+    Excel -> LibreOffice: Create in Excel and open it in LibreOffice. ||    LibreOffice -> Excel: Create Sheet in SnipeOffice and save as XLSX.
 Create in|      In Excel save as XLSX,         | In Excel save as ODS,||  Created in     |        Load saved xlsx-file         | Load saved xlsx-file
-Excel2013|       Load in LibreOffice           |  Load in LibreOffice ||LibreOffice with |          in LibreOffice             |      in Excel
+Excel2013|       Load in SnipeOffice           |  Load in SnipeOffice ||LibreOffice with |          in SnipeOffice             |      in Excel
 _______________________________________________________________________________________________________________________________________________________
    Line  |current transformation|new suggestion|current transformation||Line      Width  |current transformation               |current
          |   Line      Width    | Line   Width |   Line      Width    ||                 |   Line      Width                   |  Line

@@ -2373,7 +2373,7 @@ const std::pair<const char *, int> RID_STRLIST_FUNCTION_NAMES_ENGLISH[] =
 /** Function names that can be localized if [en-US]. Same names should be used
     in RID_STRLIST_FUNCTION_NAMES_ENGLISH above. Names can be changed, the
     change has to be mentioned in the release notes, i.e.
-    https://wiki.documentfoundation.org/ReleaseNotes/...
+    https://wiki.SnipeOffice.org/ReleaseNotes/...
  */
 const std::pair<TranslateId, int> RID_STRLIST_FUNCTION_NAMES[] =
 {

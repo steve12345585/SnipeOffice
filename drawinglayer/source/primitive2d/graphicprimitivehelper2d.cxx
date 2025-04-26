@@ -477,7 +477,7 @@ namespace drawinglayer::primitive2d
             // and the document is left open for a minute or two without
             // changing any content, this destructor will be called on a
             // non-main thread with the mutex unlocked:
-            //   https://bugs.documentfoundation.org/attachment.cgi?id=46801
+            //   https://bugs.SnipeOffice.org/attachment.cgi?id=46801
             // This hits an assert in VirtualDevice::ReleaseGraphics() so
             // explicitly lock the mutex and explicitly dispose and clear
             // the VirtualDevice instances variables.

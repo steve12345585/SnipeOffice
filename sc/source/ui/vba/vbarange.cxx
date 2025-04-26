@@ -4630,7 +4630,7 @@ ScVbaRange::AutoFilter( const uno::Any& aField, const uno::Any& Criteria1, const
             else // no value specified
                 bAll = true;
             // not sure what the relationship between Criteria1 and Operator is,
-            // e.g. can you have an Operator without a Criteria? In LibreOffice it
+            // e.g. can you have an Operator without a Criteria? in SnipeOffice it
             if ( Operator.hasValue()  && ( Operator >>= nOperator ) )
             {
                 assert(pTabFilts);

@@ -512,7 +512,7 @@ void PDFWriterImpl::playMetafile( const GDIMetaFile& i_rMtf, vcl::PDFExtOutDevDa
                                     // must be inverted a second time. To test
                                     // this code, export the following
                                     // document to PDF:
-                                    //   https://bugs.documentfoundation.org/attachment.cgi?id=188084
+                                    //   https://bugs.SnipeOffice.org/attachment.cgi?id=188084
                                     aAlpha.Invert(); // convert to alpha
                                 }
                                 aAlpha.BlendWith(aPaint.GetAlphaMask());

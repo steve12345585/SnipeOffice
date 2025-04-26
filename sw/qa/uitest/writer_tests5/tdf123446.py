@@ -35,7 +35,7 @@ class tdf123446(UITestCase):
             #- Redo the ToC insertion.
             self.xUITest.executeCommand(".uno:Redo")
             #=> Crash.  Now we verify the text
-            # This second undo crash in Clang build https://bugs.documentfoundation.org/show_bug.cgi?id=123313#c9
+            # This second undo crash in Clang build https://bugs.SnipeOffice.org/show_bug.cgi?id=123313#c9
             self.xUITest.executeCommand(".uno:Undo")
             self.assertEqual(document.Text.String[0:7], "LibreOf")
 
