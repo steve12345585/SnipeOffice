@@ -47,7 +47,7 @@ ScImportOptions::ScImportOptions( std::u16string_view rStr )
     bRemoveSpace = false;
     nSheetToExport = 0;
     bEvaluateFormulas = true;   // true if not present at all, for compatibility
-    bIncludeBOM = false;
+    bIncludeBOM = true;  // Always include BOM for UTF-8 by default
     sal_Int32 nTokenCount = comphelper::string::getTokenCount(rStr, ',');
     if ( nTokenCount < 3 )
         return;
