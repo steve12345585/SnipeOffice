@@ -64,34 +64,16 @@ AboutDialog::AboutDialog(weld::Window *pParent)
       m_pBrandImage(m_xBuilder->weld_image(u"imBrand"_ustr)),
       m_pAboutImage(m_xBuilder->weld_image(u"imAbout"_ustr)),
       m_pVersionLabel(m_xBuilder->weld_label(u"lbVersionString"_ustr)),
-      m_pBuildCaption(m_xBuilder->weld_label(u"lbBuild"_ustr)),
-      m_pBuildLabel(m_xBuilder->weld_link_button(u"lbBuildString"_ustr)),
       m_pEnvLabel(m_xBuilder->weld_label(u"lbEnvString"_ustr)),
       m_pUILabel(m_xBuilder->weld_label(u"lbUIString"_ustr)),
       m_pLocaleLabel(m_xBuilder->weld_label(u"lbLocaleString"_ustr)),
-      m_pMiscLabel(m_xBuilder->weld_label(u"lbMiscString"_ustr)),
       m_pCopyrightLabel(m_xBuilder->weld_label(u"lbCopyright"_ustr)) {
 
   // Labels
   m_pVersionLabel->set_label(GetVersionString());
-
-  OUString sbuildId = GetBuildString();
-  if (IsStringValidGitHash(sbuildId)) {
-    const tools::Long nMaxChar = 25;
-    m_pBuildLabel->set_uri("https://gerrit.libreoffice.org/gitweb?p=core.git;a=log;h="
-                           + sbuildId);
-    m_pBuildLabel->set_label(sbuildId.getLength() > nMaxChar ? sbuildId.replaceAt(
-                                 nMaxChar, sbuildId.getLength() - nMaxChar, u"...")
-                                                             : sbuildId);
-  } else {
-    m_pBuildCaption->hide();
-    m_pBuildLabel->hide();
-  }
-
   m_pEnvLabel->set_label(Application::GetHWOSConfInfo(1));
   m_pUILabel->set_label(Application::GetHWOSConfInfo(2));
   m_pLocaleLabel->set_label(GetLocaleString());
-  m_pMiscLabel->set_label(GetMiscString());
   m_pCopyrightLabel->set_label(GetCopyrightString());
 
   // Images
@@ -157,14 +139,6 @@ OUString AboutDialog::GetVersionString() {
 #endif
 
   return sVersion;
-}
-
-OUString AboutDialog::GetBuildString()
-{
-  OUString sBuildId(utl::Bootstrap::getBuildIdData(u""_ustr));
-  SAL_WARN_IF(sBuildId.isEmpty(), "cui.dialogs", "No BUILDID in bootstrap file");
-
-  return sBuildId;
 }
 
 OUString AboutDialog::GetLocaleString(const bool bLocalized) {
@@ -263,10 +237,8 @@ IMPL_LINK_NOARG(AboutDialog, HandleClick, weld::Button &, void) {
           comphelper::getProcessComponentContext());
 
   OUString sInfo = "Version: " + m_pVersionLabel->get_label() + "\n" // version
-                   "Build ID: " + GetBuildString() + "\n" + // build id
-                   Application::GetHWOSConfInfo(0,false) + "\n" // env+UI
-                   "Locale: " + GetLocaleString(false) + "\n" + // locale
-                   GetMiscString(); // misc
+                   + Application::GetHWOSConfInfo(0,false) + "\n" // env+UI
+                   "Locale: " + GetLocaleString(false); // locale
 
   vcl::unohelper::TextDataObject::CopyStringTo(sInfo, xClipboard);
 }

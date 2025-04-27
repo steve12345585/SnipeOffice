@@ -259,25 +259,6 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkLabel" id="lbBuild">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="hexpand">True</property>
-                    <property name="label" translatable="yes" context="aboutdialog|lbBuild">Build:</property>
-                    <property name="xalign">0</property>
-                    <attributes>
-                      <attribute name="scale" value="0.9"/>
-                    </attributes>
-                    <accessibility>
-                      <relation type="label-for" target="lbBuildString"/>
-                    </accessibility>
-                  </object>
-                  <packing>
-                    <property name="left-attach">0</property>
-                    <property name="top-attach">1</property>
-                  </packing>
-                </child>
-                <child>
                   <object class="GtkLabel" id="lbEnvironment">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
@@ -334,66 +315,6 @@
                   <packing>
                     <property name="left-attach">1</property>
                     <property name="top-attach">2</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkLinkButton" id="lbBuildString">
-                    <property name="label">0815</property>
-                    <property name="visible">True</property>
-                    <property name="can-focus">True</property>
-                    <property name="receives-default">True</property>
-                    <property name="relief">none</property>
-                    <property name="xalign">0</property>
-                    <accessibility>
-                      <relation type="labelled-by" target="lbBuild"/>
-                    </accessibility>
-                    <style>
-                      <class name="small-button"/>
-                    </style>
-                  </object>
-                  <packing>
-                    <property name="left-attach">1</property>
-                    <property name="top-attach">1</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkLabel" id="lbMisc">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="hexpand">True</property>
-                    <property name="label" translatable="yes" context="aboutdialog|lbExtra">Misc:</property>
-                    <property name="xalign">0</property>
-                    <property name="yalign">0</property>
-                    <attributes>
-                      <attribute name="scale" value="0.9"/>
-                    </attributes>
-                    <accessibility>
-                      <relation type="label-for" target="lbMiscString"/>
-                    </accessibility>
-                  </object>
-                  <packing>
-                    <property name="left-attach">0</property>
-                    <property name="top-attach">5</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkLabel" id="lbMiscString">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="label">Calc</property>
-                    <property name="wrap">True</property>
-                    <property name="max-width-chars">40</property>
-                    <property name="xalign">0</property>
-                    <attributes>
-                      <attribute name="scale" value="0.9"/>
-                    </attributes>
-                    <accessibility>
-                      <relation type="labelled-by" target="lbMisc"/>
-                    </accessibility>
-                  </object>
-                  <packing>
-                    <property name="left-attach">1</property>
-                    <property name="top-attach">5</property>
                   </packing>
                 </child>
                 <child>

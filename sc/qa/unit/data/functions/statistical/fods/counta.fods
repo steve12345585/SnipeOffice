@@ -2521,7 +2521,7 @@
       <text:p>Comment</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.libreoffice.org/" xlink:type="simple">www.libreoffice.org</text:a></text:p>
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://snipeoffice.org/" xlink:type="simple">www.libreoffice.org</text:a></text:p>
      </table:table-cell>
      <table:table-cell/>
      <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">

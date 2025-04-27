@@ -42,11 +42,11 @@ cat <<\EOF >"${1?}"org.libreoffice.LibreOffice.appdata.xml
   without worrying about compatibility.</p>
  </description>
  <launchable type="desktop-id">org.libreoffice.LibreOffice.desktop</launchable>
- <url type="homepage">http://www.libreoffice.org/discover/libreoffice/</url>
+ <url type="homepage">http://snipeoffice.org/discover/libreoffice/</url>
  <url type="bugtracker">https://bugs.SnipeOffice.org/</url>
  <url type="donation">https://donate.libreoffice.org/</url>
  <url type="faq">https://wiki.SnipeOffice.org/Faq</url>
- <url type="help">http://www.libreoffice.org/get-help/documentation/</url>
+ <url type="help">http://snipeoffice.org/get-help/documentation/</url>
  <url type="translate">https://wiki.SnipeOffice.org/Translating_LibreOffice</url>
  <screenshots>
   <screenshot type="default">
