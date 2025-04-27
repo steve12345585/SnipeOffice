@@ -134,6 +134,8 @@ void ScImportOptions::SetTextEncoding( rtl_TextEncoding nEnc )
 {
     eCharSet = (nEnc == RTL_TEXTENCODING_DONTKNOW ?
         osl_getThreadTextEncoding() : nEnc);
+    if (eCharSet == RTL_TEXTENCODING_UTF8)
+        bIncludeBOM = true;  // Always include BOM for UTF-8
     aStrFont = ScGlobal::GetCharsetString( nEnc );
 }
 

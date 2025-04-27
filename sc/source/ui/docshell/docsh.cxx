@@ -2047,7 +2047,10 @@ void ScDocShell::AsciiSave( SvStream& rStream, const ScImportOptions& rAsciiOpt,
     {
         // tdf#82254 - check whether to include a byte-order-mark in the output
         if (bIncludeBOM && eCharSet == RTL_TEXTENCODING_UTF8)
-            rStream.WriteUChar(0xEF).WriteUChar(0xBB).WriteUChar(0xBF);
+        {
+            const sal_uInt8 aBOM[] = { 0xEF, 0xBB, 0xBF };
+            rStream.WriteBytes(aBOM, sizeof(aBOM));
+        }
         aStrDelimEncoded = OString(&cStrDelim, 1, eCharSet);
         aDelimEncoded = OString(&cDelim, 1, eCharSet);
         rtl_TextEncodingInfo aInfo;
