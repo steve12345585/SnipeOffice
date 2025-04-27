@@ -1715,7 +1715,7 @@ bool ScDocShell::ConvertFrom( SfxMedium& rMedium )
         Fraction aZoom( 1, 1 );
         double nPPTX = ScGlobal::nScreenPPTX * static_cast<double>(aZoom) / GetOutputFactor(); // Factor is printer display ratio
         double nPPTY = ScGlobal::nScreenPPTY * static_cast<double>(aZoom);
-        ScScopedVclPtrInstance< VirtualDevice > pVirtDev;
+        ScopedVclPtrInstance< VirtualDevice > pVirtDev;
         //  all sheets (for Excel import)
         SCTAB nTabCount = m_pDocument->GetTableCount();
         for (SCTAB nTab=0; nTab<nTabCount; nTab++)
