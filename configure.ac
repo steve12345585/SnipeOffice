@@ -492,12 +492,12 @@ if test -n "$UNITTEST_WSL_PATHFORMAT"; then
 fi
 
 AC_MSG_CHECKING([for product name])
-PRODUCTNAME="AC_PACKAGE_NAME"
+PRODUCTNAME="SnipeOffice"
 if test -n "$with_product_name" -a "$with_product_name" != no; then
     PRODUCTNAME="$with_product_name"
 fi
 if test "$enable_release_build" = "" -o "$enable_release_build" = "no"; then
-    PRODUCTNAME="${PRODUCTNAME}Dev"
+    PRODUCTNAME="${PRODUCTNAME}CC"
 fi
 AC_MSG_RESULT([$PRODUCTNAME])
 AC_SUBST(PRODUCTNAME)
@@ -15072,24 +15072,10 @@ else
 fi
 AC_DEFINE_UNQUOTED([EXTRA_BUILDID], ["$EXTRA_BUILDID"])
 
-OOO_VENDOR=
+OOO_VENDOR="snipesearch.net"
 AC_MSG_CHECKING([for vendor])
-if test -z "$with_vendor" -o "$with_vendor" = "no"; then
-    OOO_VENDOR="$USERNAME"
+AC_MSG_RESULT([$OOO_VENDOR])
 
-    if test -z "$OOO_VENDOR"; then
-        OOO_VENDOR="$USER"
-    fi
-
-    if test -z "$OOO_VENDOR"; then
-        OOO_VENDOR="`id -u -n`"
-    fi
-
-    AC_MSG_RESULT([not set, using $OOO_VENDOR])
-else
-    OOO_VENDOR="$with_vendor"
-    AC_MSG_RESULT([$OOO_VENDOR])
-fi
 AC_DEFINE_UNQUOTED(OOO_VENDOR,"$OOO_VENDOR")
 AC_SUBST(OOO_VENDOR)
 
