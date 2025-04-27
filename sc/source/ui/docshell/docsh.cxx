@@ -1715,7 +1715,7 @@ bool ScDocShell::ConvertFrom( SfxMedium& rMedium )
         Fraction aZoom( 1, 1 );
         double nPPTX = ScGlobal::nScreenPPTX * static_cast<double>(aZoom) / GetOutputFactor(); // Factor is printer display ratio
         double nPPTY = ScGlobal::nScreenPPTY * static_cast<double>(aZoom);
-        ScopedVclPtrInstance< VirtualDevice > pVirtDev;
+        ScScopedVclPtrInstance< VirtualDevice > pVirtDev;
         //  all sheets (for Excel import)
         SCTAB nTabCount = m_pDocument->GetTableCount();
         for (SCTAB nTab=0; nTab<nTabCount; nTab++)
@@ -2534,6 +2534,7 @@ bool ScDocShell::ConvertTo( SfxMedium &rMed )
             //  UTF-8 encoding, comma, double quotes
 
             ScImportOptions aDefOptions(',', '"', RTL_TEXTENCODING_UTF8);
+            aDefOptions.bIncludeBOM = true;  // Always include BOM for UTF-8
             sItStr = aDefOptions.BuildString();
         }
 
